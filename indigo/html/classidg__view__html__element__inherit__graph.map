@@ -1,0 +1,9 @@
+<map id="idg_view_html_element" name="idg_view_html_element">
+<area shape="rect" id="node1" title=" " alt="" coords="305,81,484,108"/>
+<area shape="rect" id="node4" href="$classidg__view__html__container.html" title=" " alt="" coords="532,5,717,32"/>
+<area shape="rect" id="node5" href="$classidg__view__html__item.html" title=" " alt="" coords="547,56,702,83"/>
+<area shape="rect" id="node6" href="$classidg__view__html__part.html" title=" " alt="" coords="549,107,700,133"/>
+<area shape="rect" id="node7" href="$classidg__view__html__renderer.html" title="The parent class of all renderers." alt="" coords="535,157,714,184"/>
+<area shape="rect" id="node2" href="$classidg__tree__node.html" title=" " alt="" coords="143,81,257,108"/>
+<area shape="rect" id="node3" href="$classidg__object.html" title=" " alt="" coords="5,81,95,108"/>
+</map>

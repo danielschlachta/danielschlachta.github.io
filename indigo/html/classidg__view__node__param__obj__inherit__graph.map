@@ -1,0 +1,7 @@
+<map id="idg_view_node_param_obj" name="idg_view_node_param_obj">
+<area shape="rect" id="node1" title=" " alt="" coords="200,78,395,105"/>
+<area shape="rect" id="node3" href="$classidg__view__html__item__image.html" title=" " alt="" coords="443,5,597,47"/>
+<area shape="rect" id="node4" href="$classidg__view__html__part__fixedbar.html" title="A fixed div to the left or right." alt="" coords="445,71,595,112"/>
+<area shape="rect" id="node5" href="$classidg__view__html__part__fixedcontent.html" title="A simple one with the scroll bar always visible." alt="" coords="445,136,595,177"/>
+<area shape="rect" id="node2" href="$classidg__view__node__obj.html" title=" " alt="" coords="5,78,152,105"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classidg__datasource.html" title="The source of all data." alt="" coords="5,56,127,83"/>
+<area shape="rect" id="node2" href="$classidg__datasource__phpscript.html" title=" " alt="" coords="175,5,363,32"/>
+<area shape="rect" id="node3" href="$classidg__datasource__textfile.html" title="Returns the content of a (normally text) file." alt="" coords="181,56,356,83"/>
+<area shape="rect" id="node4" href="$classidg__datasource__tree.html" title=" " alt="" coords="191,107,346,133"/>
+</map>
