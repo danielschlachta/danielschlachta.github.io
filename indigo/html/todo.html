@@ -9,10 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -29,6 +25,7 @@
    <div id="projectname">indigo
    &#160;<span id="projectnumber">1.2</span>
    </div>
+   <div id="projectbrief">class reference</div>
   </td>
  </tr>
  </tbody>
@@ -51,23 +48,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -82,31 +62,45 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 </iframe>
 </div>
 
+</div><!-- top -->
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
 <div class="title">Todo List </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt>Member <a class="el" href="classidg__datasource__declaration.html#a4b2987dc6f360862f0cab47a351895ea">idg_datasource_declaration::get_instance</a>  (&amp;$datasource=null)</dt>
+<dt>Member <a class="el" href="classidg__attribute.html#a28c5f49e21bfda8c1bb19be99cd1a6cf">idg_attribute::add_options</a>  (idg_tree_node|idg_tree_node_instance &amp;$tree_node, string $scope=null)</dt>
+<dd><a class="anchor" id="_todo000004"></a>this is ugly </dd>
+<dt>Member <a class="el" href="classidg__datasource__declaration.html#aa0097c6bed6052259b03637f84628be0">idg_datasource_declaration::create_instance</a>  (&amp;$datasource=null)</dt>
 <dd><a class="anchor" id="_todo000001"></a>: make this an object's functionality  </dd>
-<dt>Member <a class="el" href="classidg__object__type.html#ad6aaf736323ef80579db677181233e98">idg_object_type::__construct</a>  ()</dt>
-<dd><a class="anchor" id="_todo000002"></a>get rid of this  </dd>
+<dt>Class <a class="el" href="classidg__datasource__instance.html">idg_datasource_instance</a>  </dt>
+<dd><a class="anchor" id="_todo000003"></a>Actually make this an iterator. </dd>
+<dt>Member <a class="el" href="classidg__document.html#a4afd3976093de18e8f339c3dee48bed4">idg_document::get_datasource</a>  ($source_name)</dt>
+<dd><a class="anchor" id="_todo000006"></a>Tell where  </dd>
+<dt>Class <a class="el" href="classidg__param__instance.html">idg_param_instance</a>  </dt>
+<dd><a class="anchor" id="_todo000002"></a>rename options to parameters  </dd>
+<dt>Member <a class="el" href="classidg__tree__node.html#ad23ec7ad6347c4620c25eefe9da5200d">idg_tree_node::$idg_xml_translation</a>  </dt>
+<dd><a class="anchor" id="_todo000008"></a>nicer mech. </dd>
+<dt>Member <a class="el" href="classidg__tree__node.html#a7e90f39d4da35ff27b63d8cf1be0a06e">idg_tree_node::check</a>  ()</dt>
+<dd><a class="anchor" id="_todo000009"></a>Currently only checks for the presence of mandatory options. Could use some more thorough probing.  </dd>
+<dt>Member <a class="el" href="classidg__tree__node.html#ac928b8d4a70c19c8a7e04a5c2c893e5e">idg_tree_node::print_debug</a>  ()</dt>
+<dd><a class="anchor" id="_todo000010"></a>This does not currently work. Add support for attributes.  </dd>
 <dt>Member <a class="el" href="classidg__tree__node.html#a005a370d5c26b395fd8b94ea133bc360">idg_tree_node::print_debug_all</a>  (&amp;$dummy, &amp;$depth, &amp;$path)</dt>
-<dd><a class="anchor" id="_todo000003"></a>get rid of this?  </dd>
-<dt>Member <a class="el" href="classidg__view__html.html#ad2ab39b24e4559133a02074eb51ccd8b">idg_view_html::render</a>  (&amp;$document)</dt>
-<dd><a class="anchor" id="_todo000004"></a>this does not work  </dd>
+<dd><a class="anchor" id="_todo000011"></a>get rid of this?  </dd>
+<dt>Class <a class="el" href="classidg__tree__node__instance.html">idg_tree_node_instance</a>  </dt>
+<dd><a class="anchor" id="_todo000007"></a>Is there a general mechanism for this?  </dd>
+<dt>Member <a class="el" href="classidg__view.html#a1ddb1fb570a49b50e820ad45f8e5ee2f">idg_view::stream_append</a>  ($stream_name, $content)</dt>
+<dd><a class="anchor" id="_todo000012"></a>HTML specific stream selection!  </dd>
 <dt>Member <a class="el" href="classidg__view__html__slot.html#ac81c6c0e2e66289d856dbdeb75193ad1">idg_view_html_slot::_render</a>  (&amp;$document, &amp;$view)</dt>
-<dd><a class="anchor" id="_todo000005"></a>css-print? </dd>
+<dd><a class="anchor" id="_todo000015"></a>css-print?  </dd>
+<dt>Class <a class="el" href="classidg__view__html__template__type.html">idg_view_html_template_type</a>  </dt>
+<dd><a class="anchor" id="_todo000013"></a>give this a better name </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
 </body>
 </html>

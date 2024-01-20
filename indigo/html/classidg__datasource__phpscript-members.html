@@ -9,10 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -29,6 +25,7 @@
    <div id="projectname">indigo
    &#160;<span id="projectnumber">1.2</span>
    </div>
+   <div id="projectbrief">class reference</div>
   </td>
  </tr>
  </tbody>
@@ -51,23 +48,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('classidg__datasource__phpscript.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -82,6 +62,7 @@ $(document).ready(function(){initNavTree('classidg__datasource__phpscript.html',
 </iframe>
 </div>
 
+</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">idg_datasource_phpscript Member List</div>  </div>
@@ -90,20 +71,21 @@ $(document).ready(function(){initNavTree('classidg__datasource__phpscript.html',
 
 <p>This is the complete list of members for <a class="el" href="classidg__datasource__phpscript.html">idg_datasource_phpscript</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classidg__datasource.html#a63d307ed33ee60e74354bfe2d2f26393">$act_token</a></td><td class="entry"><a class="el" href="classidg__datasource.html">idg_datasource</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classidg__datasource.html#afcb93738a3a5d716dbb9c27b3cfef657">$parameters</a></td><td class="entry"><a class="el" href="classidg__datasource.html">idg_datasource</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__datasource.html#a7ccecf315513727242e4ad400ce03789">$tokens</a></td><td class="entry"><a class="el" href="classidg__datasource.html">idg_datasource</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classidg__datasource__phpscript.html#a8b14d8e2930c7942ccea314c130e9391">__construct</a>(&amp;$parameters)</td><td class="entry"><a class="el" href="classidg__datasource__phpscript.html">idg_datasource_phpscript</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__datasource.html#a6c75a510cb933d430fc7797cf53880f4">get_parameters</a>($name)</td><td class="entry"><a class="el" href="classidg__datasource.html">idg_datasource</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classidg__datasource.html#a5bf45f43eeb23a34acbdd18ccf491cec">get_token</a>()</td><td class="entry"><a class="el" href="classidg__datasource.html">idg_datasource</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__datasource.html#aef7b63bf9603627229ca33540e6038ac">rewind</a>()</td><td class="entry"><a class="el" href="classidg__datasource.html">idg_datasource</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__datasource__instance.html#a72928c80ab868480bbc89563180eff1e">$current_token</a></td><td class="entry"><a class="el" href="classidg__datasource__instance.html">idg_datasource_instance</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classidg__datasource__instance.html#aed45af93660ffa181bdaf02d1aa9c523">$tokens</a></td><td class="entry"><a class="el" href="classidg__datasource__instance.html">idg_datasource_instance</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__datasource__phpscript.html#a8b14d8e2930c7942ccea314c130e9391">__construct</a>(&amp;$parameters)</td><td class="entry"><a class="el" href="classidg__datasource__phpscript.html">idg_datasource_phpscript</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classidg__param__instance.html#a55994604c0a3219160aec16ce405cf5b">idg_datasource_instance::__construct</a>($parameters=null)</td><td class="entry"><a class="el" href="classidg__param__instance.html">idg_param_instance</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__param__instance.html#a3958f670f1e76b9d55a5d0a73da8bfb5">clear</a>()</td><td class="entry"><a class="el" href="classidg__param__instance.html">idg_param_instance</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classidg__param__instance.html#a9f7bdb3534f0e3a0a5444d7b83f5e09e">get_parameter</a>(string $name, mixed $default=null)</td><td class="entry"><a class="el" href="classidg__param__instance.html">idg_param_instance</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__param__instance.html#ac5970ca58fd151bf57c29adf80778e00">get_parameters</a>()</td><td class="entry"><a class="el" href="classidg__param__instance.html">idg_param_instance</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classidg__datasource__instance.html#aceead64fd0e90e51d12302667ce36a67">get_token</a>()</td><td class="entry"><a class="el" href="classidg__datasource__instance.html">idg_datasource_instance</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__datasource__instance.html#a5049047772f13194a24e80fa064ef345">rewind</a>()</td><td class="entry"><a class="el" href="classidg__datasource__instance.html">idg_datasource_instance</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classidg__param__instance.html#ae71881c1da1d8ba0c45178256da45543">set_parameter</a>($name, $value)</td><td class="entry"><a class="el" href="classidg__param__instance.html">idg_param_instance</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__param__instance.html#a7dc5b99b73fd83174adeb2d17218bd37">set_parameters</a>($options=null)</td><td class="entry"><a class="el" href="classidg__param__instance.html">idg_param_instance</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
 </body>
 </html>

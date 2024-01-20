@@ -81,7 +81,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="classidg__site__element__type.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classidg__site__element__type.html" target="_top" xlink:title="Type class for idg_site_element">
 <polygon fill="white" stroke="black" points="310,-133.5 310,-152.5 438,-152.5 438,-133.5 310,-133.5"/>
 <text text-anchor="middle" x="374" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">idg_site_element_type</text>
 </a>
@@ -231,24 +231,24 @@
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="classidg__view__html__part__type.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="860,-38.5 860,-57.5 1000,-57.5 1000,-38.5 860,-38.5"/>
-<text text-anchor="middle" x="930" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">idg_view_html_part_type</text>
+<g id="a_node16"><a xlink:href="classidg__view__html__renderer__type.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="849.5,-38.5 849.5,-57.5 1010.5,-57.5 1010.5,-38.5 849.5,-38.5"/>
+<text text-anchor="middle" x="930" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">idg_view_html_renderer_type</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node16 -->
 <g id="edge15" class="edge">
 <title>Node13&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M821.5,-58.34C834.34,-57.11 847.38,-55.85 859.74,-54.66"/>
+<path fill="none" stroke="midnightblue" d="M821.32,-58.36C830.64,-57.46 840.06,-56.56 849.26,-55.67"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="820.88,-54.89 811.26,-59.33 821.55,-61.85 820.88,-54.89"/>
 </g>
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
-<g id="a_node17"><a xlink:href="classidg__view__html__renderer__type.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="849.5,-0.5 849.5,-19.5 1010.5,-19.5 1010.5,-0.5 849.5,-0.5"/>
-<text text-anchor="middle" x="930" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">idg_view_html_renderer_type</text>
+<g id="a_node17"><a xlink:href="classidg__view__html__template__type.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="848,-0.5 848,-19.5 1012,-19.5 1012,-0.5 848,-0.5"/>
+<text text-anchor="middle" x="930" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">idg_view_html_template_type</text>
 </a>
 </g>
 </g>

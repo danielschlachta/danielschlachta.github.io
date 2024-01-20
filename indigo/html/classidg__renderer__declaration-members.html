@@ -9,10 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -29,6 +25,7 @@
    <div id="projectname">indigo
    &#160;<span id="projectnumber">1.2</span>
    </div>
+   <div id="projectbrief">class reference</div>
   </td>
  </tr>
  </tbody>
@@ -51,23 +48,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('classidg__renderer__declaration.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -82,6 +62,7 @@ $(document).ready(function(){initNavTree('classidg__renderer__declaration.html',
 </iframe>
 </div>
 
+</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">idg_renderer_declaration Member List</div>  </div>
@@ -90,31 +71,33 @@ $(document).ready(function(){initNavTree('classidg__renderer__declaration.html',
 
 <p>This is the complete list of members for <a class="el" href="classidg__renderer__declaration.html">idg_renderer_declaration</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classidg__tree__node.html#a66ba8c0a13563ff7fc64be57ae9d9e71">$_xml_stack</a></td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classidg__tree__node.html#a76450052794318f73608f7ad1fd76f84">$child_count</a></td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__tree__node.html#a1b6f2dac55bb69085b94c26abc27d1f7">$child_counts</a></td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classidg__tree__node.html#a39f88d78f2040ecf171508d09803aa32">$children</a></td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__object.html#a7ab5cb29b855e99ae32569dab7dcb0a1">$hooks</a></td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classidg__tree__node.html#a0f6645f11b3eb0ea5eace4e478a68233">$idg_translation</a></td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__tree__node.html#a59984e3a1602c1b4585ee2c1b0d48232">$is_leaf</a></td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classidg__tree__node.html#ac9e543fc44bec073568a846bd0723e07">$parent</a></td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__object.html#a9d69d23d1ddc206e42cb5074ff8f3430">$properties</a></td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__tree__node.html#a39f88d78f2040ecf171508d09803aa32">$children</a></td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classidg__tree__node.html#a109f9fad30f7a0c1f9799ed3b1bec637">$idg_xml_indent</a></td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__tree__node.html#ad23ec7ad6347c4620c25eefe9da5200d">$idg_xml_translation</a></td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="classidg__object.html#ae83728e134b0023b32719d351f770ff8">$text</a></td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classidg__object.html#a24029b6f655a31b829d448514441f67b">$type_obj</a></td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="classidg__renderer__declaration.html#a5016fb09dc39752512e1ca67424992e5">__construct</a>()</td><td class="entry"><a class="el" href="classidg__renderer__declaration.html">idg_renderer_declaration</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__object.html#ab7575668c8250d7e67c2f94b199d7695">_check</a>()</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classidg__object.html#a33ff3482311fcf1156473088d89f5fee">_print_debug</a>($indent='')</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__tree__node.html#a43af700a477983aa4965d028008eeb3f">add_child</a>(&amp;$child)</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classidg__renderer__declaration.html#acd121a1c23b97d5f571a1e20f3de6309">add_token</a>(&amp;$tree, &amp;$depth, &amp;$path)</td><td class="entry"><a class="el" href="classidg__renderer__declaration.html">idg_renderer_declaration</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__tree__node.html#a7e90f39d4da35ff27b63d8cf1be0a06e">check</a>()</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__tree__node.html#a436d7f0b269c5e8fd84ca2c0d8ed0345">idg_tree_node::__construct</a>(&amp;$parent=null)</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classidg__object.html#ab7575668c8250d7e67c2f94b199d7695">_check</a>()</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__object.html#a33ff3482311fcf1156473088d89f5fee">_print_debug</a>($indent='')</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classidg__tree__node.html#a43af700a477983aa4965d028008eeb3f">add_child</a>(&amp;$child)</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__renderer__declaration.html#acd121a1c23b97d5f571a1e20f3de6309">add_token</a>(&amp;$tree, &amp;$depth, &amp;$path)</td><td class="entry"><a class="el" href="classidg__renderer__declaration.html">idg_renderer_declaration</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classidg__tree__node.html#a7e90f39d4da35ff27b63d8cf1be0a06e">check</a>()</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__object.html#aef47894584069f54e8abee91ed63a74f">clear</a>()</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classidg__tree__node.html#af541fc16dbea92119b78d6a3ee4d4248">create_attribute</a>($name)</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__renderer__declaration.html#a57b09006d42f1959d7ac91ca327de3d7">create_instance</a>(&amp;$datasource=null)</td><td class="entry"><a class="el" href="classidg__renderer__declaration.html">idg_renderer_declaration</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classidg__object.html#a583e265c2dbc95871ab08eb9820c3ee8">execute</a>($function_name)</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__tree__node.html#a78459bb68b6088d2faf43fcfe098bdf3">get_child_by_key</a>($key_name, $key_value, $child_type=false)</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classidg__tree__node.html#aa2b0c8b3da20c853f324e1986334016c">get_children_by_key</a>($key_name, $key_value, $child_type=false)</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__tree__node.html#a6d119e4b7dc3e041d13719fb6c92eddf">get_attribute</a>($name, $scope=null)</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classidg__tree__node.html#a78459bb68b6088d2faf43fcfe098bdf3">get_child_by_key</a>($key_name, $key_value, $child_type=false)</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__tree__node.html#a03229f508108f742434972ad8f290f92">get_children</a>()</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classidg__tree__node.html#a92a0b6f695e9cb252eb0ae8d71c10500">get_children_by_key</a>($key_name, $key_value, $child_type=null)</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classidg__object.html#a35093e6cb6bcfc815778ed16cbc11e75">get_hook</a>($name)</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classidg__object.html#adf93470e265c48e006b1c573129a4988">get_idg_id</a>()</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classidg__object.html#ad3268b675f8de2b464007f30294c06fc">get_idg_type</a>()</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classidg__renderer__declaration.html#a64d09e81c5f8a7094f52ec0be998d78b">get_instance</a>(&amp;$datasource=null)</td><td class="entry"><a class="el" href="classidg__renderer__declaration.html">idg_renderer_declaration</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__object.html#ac41f30824083065ee9430a74f7301116">idg_tree_node::get_instance</a>()</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classidg__object.html#ac41f30824083065ee9430a74f7301116">get_instance</a>()</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__tree__node.html#a55471661364347b0cf9459acac57fab0">get_parameter</a>(string $name)</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classidg__tree__node.html#a3eb6b6cb90e4636f2083d15d32cd8828">get_parameters</a>()</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__tree__node.html#a46125cb222ce856fc14b1434620a3eb2">get_parent</a>()</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classidg__object.html#a79f6b30d257d77f65301811591874429">get_properties</a>()</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classidg__object.html#ac54f91fd013c01d09e085472d6bdb6e8">get_property</a>($name, $execute_hooks=true)</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classidg__object.html#ab7d008607f7a1d343deae48977d568de">get_property_values</a>(&amp;$prop_array, $execute_hooks=false)</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"></td></tr>
@@ -122,21 +105,20 @@ $(document).ready(function(){initNavTree('classidg__renderer__declaration.html',
   <tr><td class="entry"><a class="el" href="classidg__object.html#a9c99064953fb5ec94398008a99bd9133">get_xml_tag</a>($tag_type, $tag_id='')</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classidg__tree__node.html#ac928b8d4a70c19c8a7e04a5c2c893e5e">print_debug</a>()</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classidg__tree__node.html#a005a370d5c26b395fd8b94ea133bc360">print_debug_all</a>(&amp;$dummy, &amp;$depth, &amp;$path)</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__tree__node.html#aea1a2ab196fd1970b95750233de9442e">read_xml</a>($file_name)</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__tree__node.html#a08f3b15d2826b836def2d2779884f1d0">read_xml</a>($file_name, $parent=null)</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classidg__object.html#ad76781e060238447a7a83913e66375c7">set_hook</a>($name, $function_name)</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classidg__object.html#a47e4cabf65a04eec586e2ab0279dcfbe">set_idg_type</a>($idg_type)</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classidg__tree__node.html#a282d84fca6623fa36e068981a8d71fe7">set_parameter</a>(string $name, mixed $value)</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__tree__node.html#a27cbeb851e275fe1ad7837e3f8e086db">set_parent</a>($parent)</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classidg__object.html#a3c88c9eb5649e9da2d51bb10cefc9b25">set_properties</a>($prop_array)</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classidg__object.html#a45eb1a38df86f20d563bc48f4956380c">set_property</a>($name, $value)</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classidg__object.html#af5daa48c5e9234fdeaffecaa29a840b8">set_text</a>($text)</td><td class="entry"><a class="el" href="classidg__object.html">idg_object</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classidg__tree__node.html#af7f19c48fd0bf55645ec510cb9beb182">traverse</a>(&amp;$param, $start_function, $end_function=false, $depth=0, $path='')</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classidg__tree__node.html#af9f29c902c07cf504d904fc1a84a1bd7">write_xml</a>($file_name)</td><td class="entry"><a class="el" href="classidg__tree__node.html">idg_tree_node</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
 </body>
 </html>

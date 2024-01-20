@@ -1,35 +1,35 @@
 <map id="diag" name="diag">
-<area shape="rect" id="node1" title=" " alt="" coords="777,594,828,621"/>
-<area shape="rect" id="node2" href="$classidg__datasource__textfile.html#af69837f8a21fc0ec499e2df6e15db493" title=" " alt="" coords="541,5,716,47"/>
-<area shape="rect" id="node3" href="$classidg__datasource__phpscript.html#a8b14d8e2930c7942ccea314c130e9391" title=" " alt="" coords="535,71,723,112"/>
-<area shape="rect" id="node4" href="$classidg__object.html#a1de5be36dd2da746ba5e79561f46f55e" title="Constructs an idg object and assigns the corresponding idg type." alt="" coords="545,137,712,163"/>
-<area shape="rect" id="node5" href="$classidg__object.html#ab7575668c8250d7e67c2f94b199d7695" title="Performs consistency checks, dies when an error is encountered." alt="" coords="559,187,698,214"/>
-<area shape="rect" id="node6" href="$classidg__view__html__renderer.html#ae38258ae5fd5ed1b8020e44ce7666c0a" title="See class description." alt="" coords="281,249,460,291"/>
-<area shape="rect" id="node7" href="$classidg__tree__node.html#a43af700a477983aa4965d028008eeb3f" title=" " alt="" coords="539,289,719,315"/>
-<area shape="rect" id="node8" href="$classidg__document.html#a4afd3976093de18e8f339c3dee48bed4" title=" " alt="" coords="261,557,480,583"/>
-<area shape="rect" id="node9" href="$classidg__document.html#a0e01326ce378e5cf31d9c6fb11097b31" title=" " alt="" coords="5,615,213,642"/>
-<area shape="rect" id="node10" href="$classidg__site.html#ac218c7fa75b50a0de32b89b777287283" title=" " alt="" coords="540,441,717,467"/>
-<area shape="rect" id="node11" href="$classidg__datasource__declaration.html#a4b2987dc6f360862f0cab47a351895ea" title=" " alt="" coords="528,492,729,533"/>
-<area shape="rect" id="node12" href="$classidg__renderer__declaration.html#a64d09e81c5f8a7094f52ec0be998d78b" title=" " alt="" coords="537,557,721,599"/>
-<area shape="rect" id="node13" href="$classidg__object.html#ac41f30824083065ee9430a74f7301116" title=" " alt="" coords="541,339,717,366"/>
-<area shape="rect" id="node15" href="$classidg__view__node__param__obj.html#af1cf9be75770b54c3e7780426efb973e" title=" " alt="" coords="545,725,713,767"/>
-<area shape="rect" id="node17" href="$classidg__site__element.html#a06514b8d84f5ba62cf4e821884752c65" title=" " alt="" coords="533,623,724,650"/>
-<area shape="rect" id="node19" href="$classidg__tree__node.html#aea1a2ab196fd1970b95750233de9442e" title=" " alt="" coords="539,791,718,818"/>
-<area shape="rect" id="node20" href="$classidg__view__html__part__fixedbar.html#adab755787366705339e3d309a2be9716" title=" " alt="" coords="553,843,704,884"/>
-<area shape="rect" id="node21" href="$classidg__view__html__part__fixedcontent.html#aface840104117acc29a8835aeb774f7b" title=" " alt="" coords="551,908,706,949"/>
-<area shape="rect" id="node22" href="$classidg__object__type.html#a346c53688eedf770263fc4e85e4cf52e" title=" " alt="" coords="554,973,703,1015"/>
-<area shape="rect" id="node30" href="$classidg__object.html#a3c88c9eb5649e9da2d51bb10cefc9b25" title=" " alt="" coords="535,1039,722,1066"/>
-<area shape="rect" id="node31" href="$classidg__object.html#a45eb1a38df86f20d563bc48f4956380c" title=" " alt="" coords="541,1090,716,1117"/>
-<area shape="rect" id="node32" href="$classidg__view.html#a1ddb1fb570a49b50e820ad45f8e5ee2f" title=" " alt="" coords="536,1141,721,1167"/>
-<area shape="rect" id="node33" href="$classidg__tree__node.html#af9f29c902c07cf504d904fc1a84a1bd7" title=" " alt="" coords="537,1191,720,1218"/>
-<area shape="rect" id="node14" href="$classidg__view__html__element.html#a7cae4f263e28692e70e554d47ea3f412" title=" " alt="" coords="281,332,460,373"/>
-<area shape="rect" id="node16" href="$classidg__view__node__param__obj.html#a786473a8799d1f98f9b7b461788732de" title=" " alt="" coords="287,725,455,767"/>
-<area shape="rect" id="node18" href="$classidg__document.html#a42f2bc2c4324f1e8ff1aecaef5aaa54e" title=" " alt="" coords="271,608,470,649"/>
-<area shape="rect" id="node23" href="$classidg__datasource__declaration__type.html#acf427d15d9f350ace6516710d724302a" title=" " alt="" coords="270,1163,471,1204"/>
-<area shape="rect" id="node24" href="$classidg__renderer__declaration__type.html#af92105f008f328ef15ea2cb36fe45cda" title=" " alt="" coords="279,799,463,840"/>
-<area shape="rect" id="node25" href="$classidg__site__element__type.html#a192a58686c7022f327f205ac88857434" title=" " alt="" coords="285,864,456,905"/>
-<area shape="rect" id="node26" href="$classidg__folder__type.html#a96eb19c506d068c46d54918c04200004" title=" " alt="" coords="270,930,471,957"/>
-<area shape="rect" id="node27" href="$classidg__site__type.html#a7db9f166a582cacf48db2208262763bd" title=" " alt="" coords="277,981,464,1007"/>
-<area shape="rect" id="node28" href="$classidg__view__html__renderer__type.html#afd0da975bd9282b67095b5e5812333aa" title=" " alt="" coords="281,1032,460,1073"/>
-<area shape="rect" id="node29" href="$classidg__view__html__slot__type.html#ab2de0cfdabf53c6d204c02002750c238" title=" " alt="" coords="297,1097,445,1139"/>
+<area shape="rect" id="node1" title=" " alt="" coords="767,638,817,665"/>
+<area shape="rect" id="node2" href="$classidg__datasource__textfile.html#a1510b04a9010bfa60b06e9feade555b2" title="sdf" alt="" coords="536,5,711,47"/>
+<area shape="rect" id="node3" href="$classidg__datasource__sourcefile.html#a4993ee40d3783b9c2cfbf136d1cd5946" title=" " alt="" coords="528,71,719,112"/>
+<area shape="rect" id="node4" href="$classidg__datasource__phpscript.html#a8b14d8e2930c7942ccea314c130e9391" title=" " alt="" coords="529,136,717,177"/>
+<area shape="rect" id="node5" href="$classidg__object.html#a1de5be36dd2da746ba5e79561f46f55e" title="Constructs an idg object and assigns the corresponding idg type." alt="" coords="540,202,707,229"/>
+<area shape="rect" id="node6" href="$classidg__object.html#ab7575668c8250d7e67c2f94b199d7695" title="Performs consistency checks, dies when an error is encountered." alt="" coords="554,253,693,279"/>
+<area shape="rect" id="node7" href="$classidg__view__html__renderer.html#ae38258ae5fd5ed1b8020e44ce7666c0a" title="See class description." alt="" coords="281,401,460,443"/>
+<area shape="rect" id="node8" href="$classidg__tree__node.html#a43af700a477983aa4965d028008eeb3f" title=" " alt="" coords="533,354,713,381"/>
+<area shape="rect" id="node9" href="$classidg__attribute.html#a28c5f49e21bfda8c1bb19be99cd1a6cf" title="Causes the attribute to inherit all instances in and above a given tree node." alt="" coords="529,405,717,431"/>
+<area shape="rect" id="node10" href="$classidg__tree__node.html#af541fc16dbea92119b78d6a3ee4d4248" title=" " alt="" coords="544,456,703,497"/>
+<area shape="rect" id="node11" href="$classidg__renderer__declaration.html#a57b09006d42f1959d7ac91ca327de3d7" title=" " alt="" coords="531,521,715,563"/>
+<area shape="rect" id="node12" href="$classidg__document.html#a4afd3976093de18e8f339c3dee48bed4" title=" " alt="" coords="261,734,480,761"/>
+<area shape="rect" id="node13" href="$classidg__document.html#a0e01326ce378e5cf31d9c6fb11097b31" title=" " alt="" coords="5,687,213,714"/>
+<area shape="rect" id="node14" href="$classidg__site.html#a453c0ebf27c6a8369b64690bf3afdfbf" title=" " alt="" coords="535,689,712,715"/>
+<area shape="rect" id="node15" href="$classidg__object.html#ac41f30824083065ee9430a74f7301116" title=" " alt="" coords="535,587,711,614"/>
+<area shape="rect" id="node17" href="$classidg__site__element.html#a06514b8d84f5ba62cf4e821884752c65" title=" " alt="" coords="528,790,719,817"/>
+<area shape="rect" id="node19" href="$classidg__tree__node.html#a08f3b15d2826b836def2d2779884f1d0" title=" " alt="" coords="534,841,713,867"/>
+<area shape="rect" id="node20" href="$classidg__view__html__template__fixedbar.html#ae11735ae595b782f5d47e80e38834f05" title=" " alt="" coords="532,892,715,933"/>
+<area shape="rect" id="node21" href="$classidg__view__html__template__fixedcontent.html#aab13a71ed141068eb4a7c6f8d7c0bc18" title=" " alt="" coords="532,957,715,999"/>
+<area shape="rect" id="node22" href="$classidg__object__type.html#a346c53688eedf770263fc4e85e4cf52e" title=" " alt="" coords="549,1023,698,1064"/>
+<area shape="rect" id="node30" href="$classidg__object.html#a3c88c9eb5649e9da2d51bb10cefc9b25" title=" " alt="" coords="530,1089,717,1115"/>
+<area shape="rect" id="node31" href="$classidg__object.html#a45eb1a38df86f20d563bc48f4956380c" title=" " alt="" coords="536,1139,711,1166"/>
+<area shape="rect" id="node32" href="$classidg__view.html#a1ddb1fb570a49b50e820ad45f8e5ee2f" title=" " alt="" coords="531,1190,716,1217"/>
+<area shape="rect" id="node33" href="$classidg__tree__node.html#af9f29c902c07cf504d904fc1a84a1bd7" title=" " alt="" coords="532,1241,715,1267"/>
+<area shape="rect" id="node16" href="$classidg__view__html__element.html#a7cae4f263e28692e70e554d47ea3f412" title=" " alt="" coords="281,572,460,613"/>
+<area shape="rect" id="node18" href="$classidg__document.html#a1089da576de6bef7874e9a5fde9cb395" title=" " alt="" coords="275,785,467,827"/>
+<area shape="rect" id="node23" href="$classidg__datasource__declaration__type.html#acf427d15d9f350ace6516710d724302a" title=" " alt="" coords="270,1153,471,1195"/>
+<area shape="rect" id="node24" href="$classidg__renderer__declaration__type.html#af92105f008f328ef15ea2cb36fe45cda" title=" " alt="" coords="279,1219,463,1260"/>
+<area shape="rect" id="node25" href="$classidg__site__element__type.html#a192a58686c7022f327f205ac88857434" title=" " alt="" coords="285,855,456,896"/>
+<area shape="rect" id="node26" href="$classidg__site__type.html#a7db9f166a582cacf48db2208262763bd" title=" " alt="" coords="277,921,464,947"/>
+<area shape="rect" id="node27" href="$classidg__folder__type.html#a96eb19c506d068c46d54918c04200004" title=" " alt="" coords="270,971,471,998"/>
+<area shape="rect" id="node28" href="$classidg__document__type.html#a2deb298a0207d67de704821466270487" title=" " alt="" coords="293,1023,448,1064"/>
+<area shape="rect" id="node29" href="$classidg__view__html__slot__type.html#ab2de0cfdabf53c6d204c02002750c238" title=" " alt="" coords="297,1088,445,1129"/>
 </map>

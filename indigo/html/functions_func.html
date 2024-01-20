@@ -9,10 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -29,6 +25,7 @@
    <div id="projectname">indigo
    &#160;<span id="projectnumber">1.2</span>
    </div>
+   <div id="projectbrief">class reference</div>
   </td>
  </tr>
  </tbody>
@@ -52,22 +49,6 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('functions_func.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -87,28 +68,29 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 
 <h3><a id="index__5F"></a>- _ -</h3><ul>
 <li>__construct()
-: <a class="el" href="classidg__datasource.html#a302218e1ca07059e160ff095fd446942">idg_datasource</a>
+: <a class="el" href="classidg__attribute.html#a9496f0c7e5e14b5d53072f24fbd24c30">idg_attribute</a>
 , <a class="el" href="classidg__datasource__declaration.html#a37c51859bdfc86d73601605fdedc03e9">idg_datasource_declaration</a>
 , <a class="el" href="classidg__datasource__declaration__type.html#acf427d15d9f350ace6516710d724302a">idg_datasource_declaration_type</a>
 , <a class="el" href="classidg__datasource__phpscript.html#a8b14d8e2930c7942ccea314c130e9391">idg_datasource_phpscript</a>
-, <a class="el" href="classidg__datasource__textfile.html#af69837f8a21fc0ec499e2df6e15db493">idg_datasource_textfile</a>
+, <a class="el" href="classidg__datasource__sourcefile.html#a4993ee40d3783b9c2cfbf136d1cd5946">idg_datasource_sourcefile</a>
+, <a class="el" href="classidg__datasource__textfile.html#a1510b04a9010bfa60b06e9feade555b2">idg_datasource_textfile</a>
 , <a class="el" href="classidg__document.html#a9133c3194bcf239db7303b4cf9cd6634">idg_document</a>
 , <a class="el" href="classidg__document__type.html#a2deb298a0207d67de704821466270487">idg_document_type</a>
 , <a class="el" href="classidg__folder.html#ab70576b0e9fe6af00534babec2801fcf">idg_folder</a>
 , <a class="el" href="classidg__folder__type.html#a96eb19c506d068c46d54918c04200004">idg_folder_type</a>
 , <a class="el" href="classidg__object.html#a1de5be36dd2da746ba5e79561f46f55e">idg_object</a>
 , <a class="el" href="classidg__object__type.html#ad6aaf736323ef80579db677181233e98">idg_object_type</a>
+, <a class="el" href="classidg__param__instance.html#a55994604c0a3219160aec16ce405cf5b">idg_param_instance</a>
 , <a class="el" href="classidg__renderer__declaration.html#a5016fb09dc39752512e1ca67424992e5">idg_renderer_declaration</a>
 , <a class="el" href="classidg__renderer__declaration__type.html#af92105f008f328ef15ea2cb36fe45cda">idg_renderer_declaration_type</a>
 , <a class="el" href="classidg__site.html#a7319dbf6edb027e67ef83125e64f3e61">idg_site</a>
 , <a class="el" href="classidg__site__element.html#ad61225b9c03135cc5cad609f45268dfc">idg_site_element</a>
 , <a class="el" href="classidg__site__element__type.html#a192a58686c7022f327f205ac88857434">idg_site_element_type</a>
 , <a class="el" href="classidg__site__type.html#a7db9f166a582cacf48db2208262763bd">idg_site_type</a>
-, <a class="el" href="classidg__token.html#a6804683001b6e09ecca0107758bf850a">idg_token</a>
-, <a class="el" href="classidg__token__tree__node.html#a981242fcb390418fe0cf4cba7b7a96cd">idg_token_tree_node</a>
-, <a class="el" href="classidg__tree__node.html#a5fa4b88a113e71c3dab344f2b6ca7b8a">idg_tree_node</a>
+, <a class="el" href="classidg__tree__node.html#a436d7f0b269c5e8fd84ca2c0d8ed0345">idg_tree_node</a>
+, <a class="el" href="classidg__tree__node__instance.html#a359de5a1b1c770b98b5232924884411a">idg_tree_node_instance</a>
 , <a class="el" href="classidg__tree__node__type.html#a3cfa5bbf73664a2c1e576aac7f1f265f">idg_tree_node_type</a>
-, <a class="el" href="classidg__view.html#aa4e8e7aec3dedb779edaad486e2964bb">idg_view</a>
+, <a class="el" href="classidg__view.html#ae00dccb4695d79c81dff171b3d0e714e">idg_view</a>
 , <a class="el" href="classidg__view__html.html#aff8afda4cfa29671651119f11a6b81d1">idg_view_html</a>
 , <a class="el" href="classidg__view__html__container.html#a4d51cacacd60dfe39278132be384b76a">idg_view_html_container</a>
 , <a class="el" href="classidg__view__html__container__type.html#a4de6e902b43b0591fb8095254781dab1">idg_view_html_container_type</a>
@@ -118,31 +100,28 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 , <a class="el" href="classidg__view__html__item__image.html#aacba076d42d020214da78ac34e37d711">idg_view_html_item_image</a>
 , <a class="el" href="classidg__view__html__item__text.html#aa37583703d6b631938fe71cdcfb1ca3d">idg_view_html_item_text</a>
 , <a class="el" href="classidg__view__html__item__type.html#a020394152261e1e7bb5d3023d8a31172">idg_view_html_item_type</a>
-, <a class="el" href="classidg__view__html__part.html#a228057f62575b1f98ba135005017150d">idg_view_html_part</a>
-, <a class="el" href="classidg__view__html__part__fixedbar.html#a9a61629c7a99cc13a43a802119bea38f">idg_view_html_part_fixedbar</a>
-, <a class="el" href="classidg__view__html__part__fixedcontent.html#aead3f1a2798f70b375ea2ce8fb6d604a">idg_view_html_part_fixedcontent</a>
-, <a class="el" href="classidg__view__html__part__type.html#a16f4aa80ac455648bdc363d176c2fdfd">idg_view_html_part_type</a>
 , <a class="el" href="classidg__view__html__renderer.html#ac65cfec984782a1be6e02d8f732c1496">idg_view_html_renderer</a>
+, <a class="el" href="classidg__view__html__renderer__markdown.html#ae46275c9a6428030fb1a08df3de08c05">idg_view_html_renderer_markdown</a>
 , <a class="el" href="classidg__view__html__renderer__null.html#a032d7a9604b4159cf0b9c70c16196690">idg_view_html_renderer_null</a>
-, <a class="el" href="classidg__view__html__renderer__phpscript.html#adb0aa2da9d6e357d6ec28508ee1c6891">idg_view_html_renderer_phpscript</a>
+, <a class="el" href="classidg__view__html__renderer__phpscript.html#a497b3e14818411580075ee11cd3160fa">idg_view_html_renderer_phpscript</a>
 , <a class="el" href="classidg__view__html__renderer__phpscript__obj.html#a41e2328445c57e10801440e2d90ab024">idg_view_html_renderer_phpscript_obj</a>
+, <a class="el" href="classidg__view__html__renderer__sourcefile.html#a6c641b0ea461f70d012d1f9f79c0a3b1">idg_view_html_renderer_sourcefile</a>
 , <a class="el" href="classidg__view__html__renderer__textfile.html#aea843b452656674e8ac1f92e88bfcceb">idg_view_html_renderer_textfile</a>
 , <a class="el" href="classidg__view__html__renderer__type.html#afd0da975bd9282b67095b5e5812333aa">idg_view_html_renderer_type</a>
 , <a class="el" href="classidg__view__html__slot.html#acd3c3a715b1e7b9d8a84c75608b5f3d7">idg_view_html_slot</a>
 , <a class="el" href="classidg__view__html__slot__type.html#ab2de0cfdabf53c6d204c02002750c238">idg_view_html_slot_type</a>
+, <a class="el" href="classidg__view__html__template.html#a79d65473ed82503a9f82c2418e086149">idg_view_html_template</a>
+, <a class="el" href="classidg__view__html__template__fixedbar.html#ad266c1a7bd3b0e310e2989509dd530bf">idg_view_html_template_fixedbar</a>
+, <a class="el" href="classidg__view__html__template__fixedcontent.html#aa331700db9a52c0da91e43f0db23ee22">idg_view_html_template_fixedcontent</a>
+, <a class="el" href="classidg__view__html__template__type.html#afaf0be7bff7567b69e2118bc12d5a0af">idg_view_html_template_type</a>
 , <a class="el" href="classidg__view__html__type.html#af7fbb5d981b82ad26c46219d6b1f8127">idg_view_html_type</a>
-, <a class="el" href="classidg__view__node__obj.html#a612b797a6cabb8d7f3693ceb6ff86c6b">idg_view_node_obj</a>
-, <a class="el" href="classidg__view__node__param__obj.html#a786473a8799d1f98f9b7b461788732de">idg_view_node_param_obj</a>
 , <a class="el" href="classidg__view__type.html#ad2efac1079cfd83aebc3f86968109d46">idg_view_type</a>
 </li>
 <li>_check()
 : <a class="el" href="classidg__object.html#ab7575668c8250d7e67c2f94b199d7695">idg_object</a>
 </li>
-<li>_get_default_title()
-: <a class="el" href="classidg__document.html#a42f2bc2c4324f1e8ff1aecaef5aaa54e">idg_document</a>
-</li>
-<li>_get_last_change()
-: <a class="el" href="classidg__document.html#adf55f8cb337e223c35efb96f34ed0b4a">idg_document</a>
+<li>_print()
+: <a class="el" href="classidg__view.html#aab7498d0f26a4eed766636fd085331fa">idg_view</a>
 </li>
 <li>_print_debug()
 : <a class="el" href="classidg__object.html#a33ff3482311fcf1156473088d89f5fee">idg_object</a>
@@ -153,15 +132,6 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 , <a class="el" href="classidg__view__html__renderer.html#ae38258ae5fd5ed1b8020e44ce7666c0a">idg_view_html_renderer</a>
 , <a class="el" href="classidg__view__html__slot.html#ac81c6c0e2e66289d856dbdeb75193ad1">idg_view_html_slot</a>
 </li>
-<li>_scan_object()
-: <a class="el" href="classidg__site.html#a6b995bab7ad93f55bc4298d2a7c27624">idg_site</a>
-</li>
-<li>_set_filter()
-: <a class="el" href="classidg__view.html#a1728d5f3b36ac390985594f70d6611b7">idg_view</a>
-</li>
-<li>_unset_filter()
-: <a class="el" href="classidg__view.html#a555fa2ad95cb4ae687ff34b4a7885241">idg_view</a>
-</li>
 </ul>
 
 
@@ -169,8 +139,11 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>add_child()
 : <a class="el" href="classidg__tree__node.html#a43af700a477983aa4965d028008eeb3f">idg_tree_node</a>
 </li>
-<li>add_node()
-: <a class="el" href="classidg__datasource__tree.html#ac336dce6853edbd2e5db601067803df9">idg_datasource_tree</a>
+<li>add_options()
+: <a class="el" href="classidg__attribute.html#a28c5f49e21bfda8c1bb19be99cd1a6cf">idg_attribute</a>
+</li>
+<li>add_to_view()
+: <a class="el" href="classidg__pagemap.html#a7e0ccdb2c2dd6a2579e96e2dd2ded8fc">idg_pagemap</a>
 </li>
 <li>add_token()
 : <a class="el" href="classidg__declaration__type.html#a2fad6edc5c2e0e723eb64c5d93145153">idg_declaration_type</a>
@@ -186,6 +159,18 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>check()
 : <a class="el" href="classidg__tree__node.html#a7e90f39d4da35ff27b63d8cf1be0a06e">idg_tree_node</a>
 </li>
+<li>clear()
+: <a class="el" href="classidg__object.html#aef47894584069f54e8abee91ed63a74f">idg_object</a>
+, <a class="el" href="classidg__param__instance.html#a3958f670f1e76b9d55a5d0a73da8bfb5">idg_param_instance</a>
+, <a class="el" href="classidg__tree__node__instance.html#a54bb8ab934cec8132fb3344f6ce6122a">idg_tree_node_instance</a>
+</li>
+<li>create_attribute()
+: <a class="el" href="classidg__tree__node.html#af541fc16dbea92119b78d6a3ee4d4248">idg_tree_node</a>
+</li>
+<li>create_instance()
+: <a class="el" href="classidg__datasource__declaration.html#aa0097c6bed6052259b03637f84628be0">idg_datasource_declaration</a>
+, <a class="el" href="classidg__renderer__declaration.html#a57b09006d42f1959d7ac91ca327de3d7">idg_renderer_declaration</a>
+</li>
 </ul>
 
 
@@ -197,21 +182,41 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 
 
 <h3><a id="index_g"></a>- g -</h3><ul>
+<li>get_attribute()
+: <a class="el" href="classidg__tree__node.html#a6d119e4b7dc3e041d13719fb6c92eddf">idg_tree_node</a>
+, <a class="el" href="classidg__tree__node__instance.html#aa85824a0771cb5168af4459e598e3061">idg_tree_node_instance</a>
+</li>
+<li>get_child()
+: <a class="el" href="classidg__tree__node__instance.html#a89215ec2899bef35cd55e054d73d6638">idg_tree_node_instance</a>
+</li>
 <li>get_child_by_key()
 : <a class="el" href="classidg__tree__node.html#a78459bb68b6088d2faf43fcfe098bdf3">idg_tree_node</a>
 </li>
-<li>get_children_by_key()
-: <a class="el" href="classidg__tree__node.html#aa2b0c8b3da20c853f324e1986334016c">idg_tree_node</a>
+<li>get_child_count()
+: <a class="el" href="classidg__tree__node__instance.html#aee07c5c32de34d534aee8a10e12548b7">idg_tree_node_instance</a>
 </li>
-<li>get_data()
-: <a class="el" href="classidg__token.html#a3e1c2c9dd8f319604a6e051695f39eb8">idg_token</a>
+<li>get_children()
+: <a class="el" href="classidg__tree__node.html#a03229f508108f742434972ad8f290f92">idg_tree_node</a>
+, <a class="el" href="classidg__tree__node__instance.html#ac9ac4c066670273012b5a4d08649a167">idg_tree_node_instance</a>
+</li>
+<li>get_children_by_key()
+: <a class="el" href="classidg__tree__node.html#a92a0b6f695e9cb252eb0ae8d71c10500">idg_tree_node</a>
+</li>
+<li>get_css()
+: <a class="el" href="classidg__pagemap.html#af5afcf503a3e3995a6af582892c918df">idg_pagemap</a>
 </li>
 <li>get_datasource()
 : <a class="el" href="classidg__document.html#a4afd3976093de18e8f339c3dee48bed4">idg_document</a>
-, <a class="el" href="classidg__site.html#ac218c7fa75b50a0de32b89b777287283">idg_site</a>
+, <a class="el" href="classidg__site.html#a453c0ebf27c6a8369b64690bf3afdfbf">idg_site</a>
+</li>
+<li>get_default_title()
+: <a class="el" href="classidg__document.html#a1089da576de6bef7874e9a5fde9cb395">idg_document</a>
 </li>
 <li>get_document()
 : <a class="el" href="classidg__site.html#a3446705c00bb5320e4b629d11aa4d1c3">idg_site</a>
+</li>
+<li>get_folder()
+: <a class="el" href="classidg__document.html#a8501d78f30b122d32b93ce517a3ee972">idg_document</a>
 </li>
 <li>get_header_lines()
 : <a class="el" href="classgoogle__font__api.html#aa9169965e70465e938c3bdb6c839802a">google_font_api</a>
@@ -220,23 +225,36 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 : <a class="el" href="classidg__object.html#a35093e6cb6bcfc815778ed16cbc11e75">idg_object</a>
 , <a class="el" href="classidg__object__type.html#a28a243b131cba3085e4c07994239f83c">idg_object_type</a>
 </li>
+<li>get_html_body()
+: <a class="el" href="classidg__pagemap.html#aa8269bdeceec177c587c6e99e2add5bc">idg_pagemap</a>
+</li>
 <li>get_idg_id()
 : <a class="el" href="classidg__object.html#adf93470e265c48e006b1c573129a4988">idg_object</a>
+, <a class="el" href="classidg__tree__node__instance.html#a15274630ffaabd3f91a8a1d16044f822">idg_tree_node_instance</a>
 </li>
 <li>get_idg_type()
 : <a class="el" href="classidg__object.html#ad3268b675f8de2b464007f30294c06fc">idg_object</a>
 </li>
 <li>get_instance()
-: <a class="el" href="classidg__datasource__declaration.html#a4b2987dc6f360862f0cab47a351895ea">idg_datasource_declaration</a>
-, <a class="el" href="classidg__object.html#ac41f30824083065ee9430a74f7301116">idg_object</a>
-, <a class="el" href="classidg__renderer__declaration.html#a64d09e81c5f8a7094f52ec0be998d78b">idg_renderer_declaration</a>
+: <a class="el" href="classidg__object.html#ac41f30824083065ee9430a74f7301116">idg_object</a>
 </li>
 <li>get_known()
 : <a class="el" href="classidg__object__type.html#ad6d9657de15ecb6d7e0497e66698699b">idg_object_type</a>
 </li>
+<li>get_last_change()
+: <a class="el" href="classidg__document.html#a62bdd811a202ad6ac6e5e7d2e76cb4f9">idg_document</a>
+</li>
+<li>get_parameter()
+: <a class="el" href="classidg__param__instance.html#a9f7bdb3534f0e3a0a5444d7b83f5e09e">idg_param_instance</a>
+, <a class="el" href="classidg__tree__node.html#a55471661364347b0cf9459acac57fab0">idg_tree_node</a>
+</li>
 <li>get_parameters()
-: <a class="el" href="classidg__datasource.html#a6c75a510cb933d430fc7797cf53880f4">idg_datasource</a>
-, <a class="el" href="classidg__view__node__param__obj.html#af1cf9be75770b54c3e7780426efb973e">idg_view_node_param_obj</a>
+: <a class="el" href="classidg__param__instance.html#ac5970ca58fd151bf57c29adf80778e00">idg_param_instance</a>
+, <a class="el" href="classidg__tree__node.html#a3eb6b6cb90e4636f2083d15d32cd8828">idg_tree_node</a>
+</li>
+<li>get_parent()
+: <a class="el" href="classidg__tree__node.html#a46125cb222ce856fc14b1434620a3eb2">idg_tree_node</a>
+, <a class="el" href="classidg__tree__node__instance.html#a8093f70e1fd97960783ca8429ecf4ff8">idg_tree_node_instance</a>
 </li>
 <li>get_path()
 : <a class="el" href="classidg__document.html#a4554297770548415a0edf16831c41255">idg_document</a>
@@ -244,11 +262,10 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>get_properties()
 : <a class="el" href="classidg__object.html#a79f6b30d257d77f65301811591874429">idg_object</a>
 , <a class="el" href="classidg__object__type.html#abf3917552d304c7c686ec700d04546e0">idg_object_type</a>
-, <a class="el" href="classidg__token.html#a6cd55ef567d41b159ad4fa5951b7e941">idg_token</a>
 </li>
 <li>get_property()
 : <a class="el" href="classidg__object.html#ac54f91fd013c01d09e085472d6bdb6e8">idg_object</a>
-, <a class="el" href="classidg__token.html#a776200ede202af18f2e15444907a5231">idg_token</a>
+, <a class="el" href="classidg__tree__node__instance.html#abf5f963e67716b4447d1062ddc5e9dc2">idg_tree_node_instance</a>
 </li>
 <li>get_property_values()
 : <a class="el" href="classidg__object.html#ab7d008607f7a1d343deae48977d568de">idg_object</a>
@@ -256,27 +273,34 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>get_renderers()
 : <a class="el" href="classidg__document.html#a0e01326ce378e5cf31d9c6fb11097b31">idg_document</a>
 </li>
+<li>get_scope()
+: <a class="el" href="classidg__attribute.html#a00faafd2d60a55cd33fade66ae826da3">idg_attribute</a>
+</li>
 <li>get_site()
 : <a class="el" href="classidg__site__element.html#a06514b8d84f5ba62cf4e821884752c65">idg_site_element</a>
 </li>
 <li>get_site_url()
-: <a class="el" href="classidg__site.html#a037c51ffe9c0f90d422de4c437d4acea">idg_site</a>
+: <a class="el" href="classidg__site.html#a0d900910ddef09179b8f9de4d32b1c2f">idg_site</a>
 </li>
 <li>get_sitemap()
 : <a class="el" href="classidg__site.html#a0062637198c3d9db42af836ac1fa1b10">idg_site</a>
 </li>
 <li>get_text()
 : <a class="el" href="classidg__object.html#ac2905493a606c1a2995372c44ba4a799">idg_object</a>
+, <a class="el" href="classidg__tree__node__instance.html#a1aeebb53cda22dc91dd7ace475ec04fa">idg_tree_node_instance</a>
 </li>
 <li>get_token()
-: <a class="el" href="classidg__datasource.html#a5bf45f43eeb23a34acbdd18ccf491cec">idg_datasource</a>
+: <a class="el" href="classidg__datasource__instance.html#aceead64fd0e90e51d12302667ce36a67">idg_datasource_instance</a>
 </li>
-<li>get_uri()
-: <a class="el" href="classidg__document.html#afdb00cf2e04ec161121bebf88229c912">idg_document</a>
+<li>get_url()
+: <a class="el" href="classidg__document.html#aed4be589596f2e466b8c79d352bd62d9">idg_document</a>
 </li>
 <li>get_variable()
 : <a class="el" href="classidg__document.html#a802e9f58ca82bc5555cd5ef42057789e">idg_document</a>
 , <a class="el" href="classidg__view__html__renderer__phpscript__obj.html#a7d28544a64e77cc35c3bcffdd430821b">idg_view_html_renderer_phpscript_obj</a>
+</li>
+<li>get_xml()
+: <a class="el" href="classidg__attribute.html#a7d63db50bf51838211cfd503f6243b66">idg_attribute</a>
 </li>
 <li>get_xml_tag()
 : <a class="el" href="classidg__object.html#a9c99064953fb5ec94398008a99bd9133">idg_object</a>
@@ -290,27 +314,26 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 </li>
 <li>is_valid()
 : <a class="el" href="classidg__view__html__renderer__phpscript__obj.html#ab1d02934479dc1b7ee8c69d815ec9752">idg_view_html_renderer_phpscript_obj</a>
-, <a class="el" href="classUUID.html#a0976e2ecf033c742f014ccf352c1d3ab">UUID</a>
 </li>
 </ul>
 
 
 <h3><a id="index_p"></a>- p -</h3><ul>
+<li>print()
+: <a class="el" href="classidg__view.html#a0b30aad771e55d4c11f29512fd3d8de4">idg_view</a>
+</li>
 <li>print_debug()
 : <a class="el" href="classidg__tree__node.html#ac928b8d4a70c19c8a7e04a5c2c893e5e">idg_tree_node</a>
 </li>
 <li>print_debug_all()
 : <a class="el" href="classidg__tree__node.html#a005a370d5c26b395fd8b94ea133bc360">idg_tree_node</a>
 </li>
-<li>printout()
-: <a class="el" href="classidg__view.html#a56a7b7e7338edef54a32cd42bd598691">idg_view</a>
-</li>
 </ul>
 
 
 <h3><a id="index_r"></a>- r -</h3><ul>
 <li>read_xml()
-: <a class="el" href="classidg__tree__node.html#aea1a2ab196fd1970b95750233de9442e">idg_tree_node</a>
+: <a class="el" href="classidg__tree__node.html#a08f3b15d2826b836def2d2779884f1d0">idg_tree_node</a>
 </li>
 <li>register_font()
 : <a class="el" href="classgoogle__font__api.html#a7d8797bafd205f2c23fac36e681e4f05">google_font_api</a>
@@ -319,20 +342,25 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 : <a class="el" href="classidg__view__html.html#ad2ab39b24e4559133a02074eb51ccd8b">idg_view_html</a>
 , <a class="el" href="classidg__view__html__item__image.html#ae53e0d18e7400c9b1d01f74bc8a84536">idg_view_html_item_image</a>
 , <a class="el" href="classidg__view__html__item__text.html#a723147371558095783bc6fbd4ff71158">idg_view_html_item_text</a>
-, <a class="el" href="classidg__view__html__part__fixedbar.html#adab755787366705339e3d309a2be9716">idg_view_html_part_fixedbar</a>
-, <a class="el" href="classidg__view__html__part__fixedcontent.html#aface840104117acc29a8835aeb774f7b">idg_view_html_part_fixedcontent</a>
+, <a class="el" href="classidg__view__html__renderer__markdown.html#a95bdcbbff9a79dc64d4f74a06aecf357">idg_view_html_renderer_markdown</a>
 , <a class="el" href="classidg__view__html__renderer__null.html#a777bbdbeb12864b16ed9f2873e80bcdd">idg_view_html_renderer_null</a>
 , <a class="el" href="classidg__view__html__renderer__phpscript.html#a1b7529fcacaa0e283a2f8e8ecbfb10e6">idg_view_html_renderer_phpscript</a>
 , <a class="el" href="classidg__view__html__renderer__phpscript__obj.html#a964212b562ef6ce340fd1ecf550eb3ee">idg_view_html_renderer_phpscript_obj</a>
+, <a class="el" href="classidg__view__html__renderer__sourcefile.html#a35e9b997eac3c169d71481c5f80aba3f">idg_view_html_renderer_sourcefile</a>
 , <a class="el" href="classidg__view__html__renderer__textfile.html#a6b97c59cce1515abd54e32ff40e9d472">idg_view_html_renderer_textfile</a>
+, <a class="el" href="classidg__view__html__template__fixedbar.html#ae11735ae595b782f5d47e80e38834f05">idg_view_html_template_fixedbar</a>
+, <a class="el" href="classidg__view__html__template__fixedcontent.html#aab13a71ed141068eb4a7c6f8d7c0bc18">idg_view_html_template_fixedcontent</a>
 </li>
 <li>rewind()
-: <a class="el" href="classidg__datasource.html#aef7b63bf9603627229ca33540e6038ac">idg_datasource</a>
+: <a class="el" href="classidg__datasource__instance.html#a5049047772f13194a24e80fa064ef345">idg_datasource_instance</a>
 </li>
 </ul>
 
 
 <h3><a id="index_s"></a>- s -</h3><ul>
+<li>set_filter()
+: <a class="el" href="classidg__view.html#af7192afdf4e376b041d14a8af50900ab">idg_view</a>
+</li>
 <li>set_hook()
 : <a class="el" href="classidg__object.html#ad76781e060238447a7a83913e66375c7">idg_object</a>
 , <a class="el" href="classidg__object__type.html#ae0b2e2e2d97ba15b459ce1f7d39ac509">idg_object_type</a>
@@ -355,15 +383,21 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>set_mandatory()
 : <a class="el" href="classidg__object__type.html#a346c53688eedf770263fc4e85e4cf52e">idg_object_type</a>
 </li>
+<li>set_parameter()
+: <a class="el" href="classidg__param__instance.html#ae71881c1da1d8ba0c45178256da45543">idg_param_instance</a>
+, <a class="el" href="classidg__tree__node.html#a282d84fca6623fa36e068981a8d71fe7">idg_tree_node</a>
+</li>
+<li>set_parameters()
+: <a class="el" href="classidg__param__instance.html#a7dc5b99b73fd83174adeb2d17218bd37">idg_param_instance</a>
+</li>
+<li>set_parent()
+: <a class="el" href="classidg__tree__node.html#a27cbeb851e275fe1ad7837e3f8e086db">idg_tree_node</a>
+</li>
 <li>set_properties()
 : <a class="el" href="classidg__object.html#a3c88c9eb5649e9da2d51bb10cefc9b25">idg_object</a>
-, <a class="el" href="classidg__token.html#ada77281df11bfda4d479a37c5ac420f8">idg_token</a>
 </li>
 <li>set_property()
 : <a class="el" href="classidg__object.html#a45eb1a38df86f20d563bc48f4956380c">idg_object</a>
-</li>
-<li>set_streams()
-: <a class="el" href="classidg__view.html#aff1964d6eef68d05a799b06a59f820c7">idg_view</a>
 </li>
 <li>set_text()
 : <a class="el" href="classidg__object.html#af5daa48c5e9234fdeaffecaa29a840b8">idg_object</a>
@@ -385,15 +419,12 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 </ul>
 
 
-<h3><a id="index_v"></a>- v -</h3><ul>
-<li>v3()
-: <a class="el" href="classUUID.html#ad98ab157eb4b773d04a3d435e337e0e6">UUID</a>
+<h3><a id="index_u"></a>- u -</h3><ul>
+<li>unset_filter()
+: <a class="el" href="classidg__view.html#a665c7f790e21d2fe8395fdbff4ae90da">idg_view</a>
 </li>
-<li>v4()
-: <a class="el" href="classUUID.html#ac29daa3e5132d33790efe43f57ed4b06">UUID</a>
-</li>
-<li>v5()
-: <a class="el" href="classUUID.html#adf4ce07b034304aae91b48fbb9978024">UUID</a>
+<li>uuid_v4()
+: <a class="el" href="classidg__view__html.html#afa39f37f96b158e9f62e05976981b206">idg_view_html</a>
 </li>
 </ul>
 
@@ -404,12 +435,9 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 </li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
 </body>
 </html>

@@ -9,10 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -29,6 +25,7 @@
    <div id="projectname">indigo
    &#160;<span id="projectnumber">1.2</span>
    </div>
+   <div id="projectbrief">class reference</div>
   </td>
  </tr>
  </tbody>
@@ -51,23 +48,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('classidg__view__html__renderer__phpscript__obj.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -82,6 +62,7 @@ $(document).ready(function(){initNavTree('classidg__view__html__renderer__phpscr
 </iframe>
 </div>
 
+</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">idg_view_html_renderer_phpscript_obj Member List</div>  </div>
@@ -97,24 +78,16 @@ $(document).ready(function(){initNavTree('classidg__view__html__renderer__phpscr
   <tr class="even"><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html#ae1cd968cdb28c844c2ac65dbc416db43">$parent</a></td><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html">idg_view_html_renderer_phpscript_obj</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html#adf4a674274f80c3bc0ff2d60cfe9d9d1">$variables</a></td><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html">idg_view_html_renderer_phpscript_obj</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html#a41e2328445c57e10801440e2d90ab024">__construct</a>($parent, $variables=false)</td><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html">idg_view_html_renderer_phpscript_obj</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classidg__token.html#a6804683001b6e09ecca0107758bf850a">idg_token::__construct</a>(&amp;$data)</td><td class="entry"><a class="el" href="classidg__token.html">idg_token</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__token.html#a3e1c2c9dd8f319604a6e051695f39eb8">get_data</a>()</td><td class="entry"><a class="el" href="classidg__token.html">idg_token</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classidg__token.html#a6cd55ef567d41b159ad4fa5951b7e941">get_properties</a>()</td><td class="entry"><a class="el" href="classidg__token.html">idg_token</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__token.html#a776200ede202af18f2e15444907a5231">get_property</a>($name)</td><td class="entry"><a class="el" href="classidg__token.html">idg_token</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html#a7d28544a64e77cc35c3bcffdd430821b">get_variable</a>($name)</td><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html">idg_view_html_renderer_phpscript_obj</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html#ab1d02934479dc1b7ee8c69d815ec9752">is_valid</a>($name=false)</td><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html">idg_view_html_renderer_phpscript_obj</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html#a964212b562ef6ce340fd1ecf550eb3ee">render</a>(&amp;$document, &amp;$view)</td><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html">idg_view_html_renderer_phpscript_obj</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html#a0326f74cd1f1838ca34e120c84188569">set_invalid</a>($name)</td><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html">idg_view_html_renderer_phpscript_obj</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html#a7379dd1098638843faed2bb3000456ee">set_invalid_if_empty</a>($name)</td><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html">idg_view_html_renderer_phpscript_obj</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__token.html#ada77281df11bfda4d479a37c5ac420f8">set_properties</a>(&amp;$prop)</td><td class="entry"><a class="el" href="classidg__token.html">idg_token</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html#af7b8cd400530abe5529c6d19f53fa049">set_variable</a>($name, $value=false)</td><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html">idg_view_html_renderer_phpscript_obj</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html#af7b8cd400530abe5529c6d19f53fa049">set_variable</a>($name, $value=false)</td><td class="entry"><a class="el" href="classidg__view__html__renderer__phpscript__obj.html">idg_view_html_renderer_phpscript_obj</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
 </body>
 </html>

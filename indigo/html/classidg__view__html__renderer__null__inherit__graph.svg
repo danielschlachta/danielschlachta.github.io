@@ -21,9 +21,9 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classidg__view__node__obj.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="24,-56.5 24,-75.5 134,-75.5 134,-56.5 24,-56.5"/>
-<text text-anchor="middle" x="79" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">idg_view_node_obj</text>
+<g id="a_node2"><a xlink:href="classidg__tree__node__instance.html" target="_top" xlink:title="Base class for idg entities that are attached to a tree node and behave like one.">
+<polygon fill="white" stroke="black" points="13,-56.5 13,-75.5 145,-75.5 145,-56.5 13,-56.5"/>
+<text text-anchor="middle" x="79" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">idg_tree_node_instance</text>
 </a>
 </g>
 </g>

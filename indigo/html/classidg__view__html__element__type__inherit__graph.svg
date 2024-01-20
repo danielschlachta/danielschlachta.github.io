@@ -51,24 +51,24 @@
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="classidg__view__html__part__type.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="763,-38.5 763,-57.5 903,-57.5 903,-38.5 763,-38.5"/>
-<text text-anchor="middle" x="833" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">idg_view_html_part_type</text>
+<g id="a_node8"><a xlink:href="classidg__view__html__renderer__type.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="752.5,-38.5 752.5,-57.5 913.5,-57.5 913.5,-38.5 752.5,-38.5"/>
+<text text-anchor="middle" x="833" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">idg_view_html_renderer_type</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M724.5,-58.34C737.34,-57.11 750.38,-55.85 762.74,-54.66"/>
+<path fill="none" stroke="midnightblue" d="M724.32,-58.36C733.64,-57.46 743.06,-56.56 752.26,-55.67"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="723.88,-54.89 714.26,-59.33 724.55,-61.85 723.88,-54.89"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="classidg__view__html__renderer__type.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="752.5,-0.5 752.5,-19.5 913.5,-19.5 913.5,-0.5 752.5,-0.5"/>
-<text text-anchor="middle" x="833" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">idg_view_html_renderer_type</text>
+<g id="a_node9"><a xlink:href="classidg__view__html__template__type.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="751,-0.5 751,-19.5 915,-19.5 915,-0.5 751,-0.5"/>
+<text text-anchor="middle" x="833" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">idg_view_html_template_type</text>
 </a>
 </g>
 </g>

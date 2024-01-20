@@ -1,6 +1,7 @@
 <map id="idg_document\get_datasource" name="idg_document\get_datasource">
-<area shape="rect" id="node1" title=" " alt="" coords="5,35,224,62"/>
-<area shape="rect" id="node2" href="$diagnostics_8php.html#ab33364bd97c64c5f346adb6581e200b2" title=" " alt="" coords="511,35,561,62"/>
-<area shape="rect" id="node3" href="$classidg__tree__node.html#a78459bb68b6088d2faf43fcfe098bdf3" title="Finds a child whose property $key_name is set to $key_value." alt="" coords="279,28,456,69"/>
-<area shape="rect" id="node4" href="$classidg__site__element.html#a06514b8d84f5ba62cf4e821884752c65" title=" " alt="" coords="272,94,463,120"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,75,224,102"/>
+<area shape="rect" id="node2" href="$diagnostics_8php.html#ab33364bd97c64c5f346adb6581e200b2" title=" " alt="" coords="541,71,592,98"/>
+<area shape="rect" id="node3" href="$classidg__tree__node.html#a78459bb68b6088d2faf43fcfe098bdf3" title="Finds a child whose property $key_name is set to $key_value." alt="" coords="294,38,471,80"/>
+<area shape="rect" id="node4" href="$classidg__tree__node.html#a3eb6b6cb90e4636f2083d15d32cd8828" title=" " alt="" coords="272,104,493,131"/>
+<area shape="rect" id="node5" href="$classidg__site__element.html#a06514b8d84f5ba62cf4e821884752c65" title=" " alt="" coords="287,155,478,182"/>
 </map>
