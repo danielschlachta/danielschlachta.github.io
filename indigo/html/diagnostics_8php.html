@@ -5,10 +5,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>indigo: indigo/diagnostics.php File Reference</title>
+<title>indigo: indigo/library/diagnostics.php File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -23,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">indigo
-   &#160;<span id="projectnumber">1.2</span>
+   &#160;<span id="projectnumber">1.4</span>
    </div>
    <div id="projectbrief">class reference</div>
   </td>
@@ -48,6 +52,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('diagnostics_8php.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -62,11 +83,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_5c13725a2d7745dbf9188b3fb9c7af60.html">indigo</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
@@ -77,22 +93,24 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab33364bd97c64c5f346adb6581e200b2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diagnostics_8php.html#ab33364bd97c64c5f346adb6581e200b2">diag</a> ($obj, $msg)</td></tr>
-<tr class="separator:ab33364bd97c64c5f346adb6581e200b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec38e6f029ef50ff156c7f865beeb7cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diagnostics_8php.html#aec38e6f029ef50ff156c7f865beeb7cf">complain_version</a> ()</td></tr>
-<tr class="separator:aec38e6f029ef50ff156c7f865beeb7cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9da3330300ccb9c91d5dac0839d55516"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diagnostics_8php.html#a9da3330300ccb9c91d5dac0839d55516">complain_module</a> ($name, $file, $repo)</td></tr>
-<tr class="separator:a9da3330300ccb9c91d5dac0839d55516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb7dcc2469f04d5090cd68dc99cc5061"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diagnostics_8php.html#adb7dcc2469f04d5090cd68dc99cc5061">idg_diag</a> (object $object, string $message, $xml_parser=null)</td></tr>
+<tr class="memdesc:adb7dcc2469f04d5090cd68dc99cc5061"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints as much information as possible and then terminates execution calling die().  <a href="diagnostics_8php.html#adb7dcc2469f04d5090cd68dc99cc5061">More...</a><br /></td></tr>
+<tr class="separator:adb7dcc2469f04d5090cd68dc99cc5061"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a011252606e3e00bea6b9fd41192a8f7e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diagnostics_8php.html#a011252606e3e00bea6b9fd41192a8f7e">idg_complain_version</a> ()</td></tr>
+<tr class="memdesc:a011252606e3e00bea6b9fd41192a8f7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Todo: make this a more general thingy.  <a href="diagnostics_8php.html#a011252606e3e00bea6b9fd41192a8f7e">More...</a><br /></td></tr>
+<tr class="separator:a011252606e3e00bea6b9fd41192a8f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5701cc5985f59100a1f9322108e82830"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diagnostics_8php.html#a5701cc5985f59100a1f9322108e82830">idg_complain_module</a> ($name, $file, $repo)</td></tr>
+<tr class="separator:a5701cc5985f59100a1f9322108e82830"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a9da3330300ccb9c91d5dac0839d55516"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9da3330300ccb9c91d5dac0839d55516">&#9670;&nbsp;</a></span>complain_module()</h2>
+<a id="a5701cc5985f59100a1f9322108e82830"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5701cc5985f59100a1f9322108e82830">&#9670;&nbsp;</a></span>idg_complain_module()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">complain_module </td>
+          <td class="memname">idg_complain_module </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$name</em>, </td>
@@ -119,14 +137,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aec38e6f029ef50ff156c7f865beeb7cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec38e6f029ef50ff156c7f865beeb7cf">&#9670;&nbsp;</a></span>complain_version()</h2>
+<a id="a011252606e3e00bea6b9fd41192a8f7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a011252606e3e00bea6b9fd41192a8f7e">&#9670;&nbsp;</a></span>idg_complain_version()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">complain_version </td>
+          <td class="memname">idg_complain_version </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -134,25 +152,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Todo: make this a more general thingy. </p>
+
 </div>
 </div>
-<a id="ab33364bd97c64c5f346adb6581e200b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab33364bd97c64c5f346adb6581e200b2">&#9670;&nbsp;</a></span>diag()</h2>
+<a id="adb7dcc2469f04d5090cd68dc99cc5061"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb7dcc2469f04d5090cd68dc99cc5061">&#9670;&nbsp;</a></span>idg_diag()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">diag </td>
+          <td class="memname">idg_diag </td>
           <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$obj</em>, </td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>$object</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$message</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$msg</em>&#160;</td>
+          <td class="paramname"><em>$xml_parser</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -161,18 +187,35 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Prints as much information as possible and then terminates execution calling die(). </p>
+<p>This is used only if it really does not make any sense to continue. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Log this to a file, present some friendly message to the user. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>idg_log </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">object</td><td class="paramname">$object</td><td>The calling object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$message</td><td>An error message </td></tr>
+    <tr><td class="paramtype"></td><td class="paramname">$xml_parser|null</td><td>An <code>xml</code> parser, to include line and column info if applicable. The actual error is <b>not</b> reproduced, expecting the error message to be more specific. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="diagnostics_8php_ab33364bd97c64c5f346adb6581e200b2_icgraph.svg" width="823" height="1274"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="diagnostics_8php_adb7dcc2469f04d5090cd68dc99cc5061_icgraph.svg" width="342" height="620"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_5c13725a2d7745dbf9188b3fb9c7af60.html">indigo</a></li><li class="navelem"><a class="el" href="dir_a0fd9fb92d5f4b15aca82454e2f5c596.html">library</a></li><li class="navelem"><a class="el" href="diagnostics_8php.html">diagnostics.php</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
 </body>
 </html>

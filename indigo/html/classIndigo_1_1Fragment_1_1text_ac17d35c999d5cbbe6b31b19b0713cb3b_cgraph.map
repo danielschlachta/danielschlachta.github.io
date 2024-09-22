@@ -1,0 +1,7 @@
+<map id="Indigo\Fragment\text\_render" name="Indigo\Fragment\text\_render">
+<area shape="rect" id="node1" title=" " alt="" coords="5,89,164,131"/>
+<area shape="rect" id="node2" href="$classidg__object__implementation.html#a25dcf4d975a2fd21f429a72c288eb098" title="Returns the parent of the object, as it was declared." alt="" coords="212,5,412,47"/>
+<area shape="rect" id="node3" href="$classidg__object.html#a79f6b30d257d77f65301811591874429" title="Returns an array of all properties without executing any hooks." alt="" coords="219,71,405,98"/>
+<area shape="rect" id="node4" href="$classidg__view.html#a488d9b33faf73b4d62cedab667777d3d" title="Emits css style information according to the properties of an object." alt="" coords="235,122,389,149"/>
+<area shape="rect" id="node5" href="$classidg__view.html#ad55847cece039cda45daac1c6c4b3c2c" title="Write some content to a stream." alt="" coords="219,173,405,199"/>
+</map>

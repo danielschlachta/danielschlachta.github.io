@@ -1,0 +1,5 @@
+<map id="Indigo\Fragment\text" name="Indigo\Fragment\text">
+<area shape="rect" id="node1" title="Inserts the character data into a &lt;span&gt;, supports all styles." alt="" coords="36,155,195,181"/>
+<area shape="rect" id="node2" href="$classidg__fragment__implementation.html" title="An object instance of a fragment." alt="" coords="5,80,225,107"/>
+<area shape="rect" id="node3" href="$classidg__object__implementation.html" title="Base class for ancillary objects that have no associated type information." alt="" coords="15,5,215,32"/>
+</map>

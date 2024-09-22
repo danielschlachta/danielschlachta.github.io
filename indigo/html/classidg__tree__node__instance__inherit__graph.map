@@ -1,0 +1,12 @@
+<map id="idg_tree_node_instance" name="idg_tree_node_instance">
+<area shape="rect" id="node1" title="Base class for idg entities that are attached to a tree node and behave like one." alt="" coords="5,247,181,274"/>
+<area shape="rect" id="node2" href="$classidg__view__html__item__image.html" title=" " alt="" coords="257,5,412,47"/>
+<area shape="rect" id="node3" href="$classidg__view__html__item__text.html" title=" " alt="" coords="241,71,428,98"/>
+<area shape="rect" id="node4" href="$classidg__view__html__renderer__markdown.html" title=" " alt="" coords="245,123,424,164"/>
+<area shape="rect" id="node5" href="$classidg__view__html__renderer__null.html" title=" " alt="" coords="229,189,440,215"/>
+<area shape="rect" id="node6" href="$classidg__view__html__renderer__phpscript.html" title=" " alt="" coords="245,240,424,281"/>
+<area shape="rect" id="node7" href="$classidg__view__html__renderer__sourcefile.html" title=" " alt="" coords="245,305,424,347"/>
+<area shape="rect" id="node8" href="$classidg__view__html__renderer__textfile.html" title=" " alt="" coords="245,371,424,412"/>
+<area shape="rect" id="node9" href="$classidg__view__html__template__fixedbar.html" title="A fixed div to the left or right." alt="" coords="243,436,426,477"/>
+<area shape="rect" id="node10" href="$classidg__view__html__template__fixedcontent.html" title="A simple one with the scroll bar always visible." alt="" coords="243,501,426,543"/>
+</map>

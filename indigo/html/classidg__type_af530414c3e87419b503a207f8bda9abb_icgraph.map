@@ -1,0 +1,16 @@
+<map id="idg_type\register_property" name="idg_type\register_property">
+<area shape="rect" id="node1" title="Adds a name to the list of known properties." alt="" coords="255,363,449,389"/>
+<area shape="rect" id="node2" href="$classidg__type.html#abbe8da080faf45cf268b43413776c7e7" title="The constructor." alt="" coords="28,5,184,32"/>
+<area shape="rect" id="node3" href="$classidg__container__type.html#af8f9f6fa6796d1bb0b523e2f27df31d9" title="The constructor." alt="" coords="33,57,179,98"/>
+<area shape="rect" id="node4" href="$classidg__datasource__type.html#afd3c8a6ba5f9cf7936f95da92d71e469" title="The constructor." alt="" coords="27,122,185,163"/>
+<area shape="rect" id="node5" href="$classidg__document__type.html#a2deb298a0207d67de704821466270487" title="The constructor." alt="" coords="29,187,183,229"/>
+<area shape="rect" id="node6" href="$classidg__filter__type.html#a5bcd2051e1c26282e35059a5cd3cb139" title="The constructor." alt="" coords="9,253,203,280"/>
+<area shape="rect" id="node7" href="$classidg__folder__type.html#a96eb19c506d068c46d54918c04200004" title="The constructor." alt="" coords="5,304,207,331"/>
+<area shape="rect" id="node8" href="$classidg__fragment__type.html#ace52a725a7d30b151604985fd3dc239d" title="The constructor." alt="" coords="31,355,181,397"/>
+<area shape="rect" id="node9" href="$classidg__renderer__type.html#a72bd03233fb88598b53dedbc0fd197bf" title="The constructor." alt="" coords="34,421,178,462"/>
+<area shape="rect" id="node10" href="$classidg__site__type.html#a7db9f166a582cacf48db2208262763bd" title="The constructor." alt="" coords="13,487,199,513"/>
+<area shape="rect" id="node11" href="$classidg__site__element__type.html#a192a58686c7022f327f205ac88857434" title="The constructor." alt="" coords="21,538,191,579"/>
+<area shape="rect" id="node12" href="$classidg__treenode__type.html#a3fadc1d08646d151b38c693b819242ee" title="The constructor." alt="" coords="33,603,179,645"/>
+<area shape="rect" id="node13" href="$classidg__view__element__type.html#adfa98046c0809434a0e7fc5f5818d0ec" title="The constructor." alt="" coords="17,669,195,710"/>
+<area shape="rect" id="node14" href="$classidg__view__type.html#ad2efac1079cfd83aebc3f86968109d46" title="The constructor." alt="" coords="9,735,203,761"/>
+</map>

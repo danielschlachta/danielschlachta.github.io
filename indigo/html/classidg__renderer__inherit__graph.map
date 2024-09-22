@@ -1,0 +1,5 @@
+<map id="idg_renderer" name="idg_renderer">
+<area shape="rect" id="node1" title="A renderer." alt="" coords="7,155,111,181"/>
+<area shape="rect" id="node2" href="$classidg__leafnode.html" title="Base class for objects organized in a tree structure." alt="" coords="5,80,112,107"/>
+<area shape="rect" id="node3" href="$classidg__object.html" title="Base class for all objects." alt="" coords="14,5,103,32"/>
+</map>

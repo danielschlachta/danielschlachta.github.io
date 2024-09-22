@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['print_319',['print',['../classidg__view.html#a0b30aad771e55d4c11f29512fd3d8de4',1,'idg_view']]],
-  ['print_5fdebug_320',['print_debug',['../classidg__tree__node.html#ac928b8d4a70c19c8a7e04a5c2c893e5e',1,'idg_tree_node']]],
-  ['print_5fdebug_5fall_321',['print_debug_all',['../classidg__tree__node.html#a005a370d5c26b395fd8b94ea133bc360',1,'idg_tree_node']]]
+  ['idg_5fcomplain_5fmodule_349',['idg_complain_module',['../diagnostics_8php.html#a5701cc5985f59100a1f9322108e82830',1,'diagnostics.php']]],
+  ['idg_5fcomplain_5fversion_350',['idg_complain_version',['../diagnostics_8php.html#a011252606e3e00bea6b9fd41192a8f7e',1,'diagnostics.php']]],
+  ['idg_5fdiag_351',['idg_diag',['../diagnostics_8php.html#adb7dcc2469f04d5090cd68dc99cc5061',1,'diagnostics.php']]],
+  ['idg_5finit_352',['idg_init',['../startup_8php.html#a65b6163711baf9f23eca02d669b3f982',1,'startup.php']]]
 ];

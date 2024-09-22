@@ -1,0 +1,7 @@
+<map id="idg_slot" name="idg_slot">
+<area shape="rect" id="node1" title="A slot is where the output produced by a renderer has its place inside the view." alt="" coords="39,304,113,331"/>
+<area shape="rect" id="node2" href="$classidg__view__element.html" title="The parent class for idg_view and every sibling thereof." alt="" coords="5,229,147,256"/>
+<area shape="rect" id="node3" href="$classidg__treenode.html" title="Base class for all tree nodes which are not leaf nodes." alt="" coords="23,155,129,181"/>
+<area shape="rect" id="node4" href="$classidg__leafnode.html" title="Base class for objects organized in a tree structure." alt="" coords="23,80,129,107"/>
+<area shape="rect" id="node5" href="$classidg__object.html" title="Base class for all objects." alt="" coords="31,5,121,32"/>
+</map>

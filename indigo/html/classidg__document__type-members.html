@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -23,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">indigo
-   &#160;<span id="projectnumber">1.2</span>
+   &#160;<span id="projectnumber">1.4</span>
    </div>
    <div id="projectbrief">class reference</div>
   </td>
@@ -48,6 +52,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('classidg__document__type.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -62,7 +83,6 @@ $(function() {
 </iframe>
 </div>
 
-</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">idg_document_type Member List</div>  </div>
@@ -71,21 +91,23 @@ $(function() {
 
 <p>This is the complete list of members for <a class="el" href="classidg__document__type.html">idg_document_type</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classidg__site__element__type.html#a54bf0baa3938104b20d3512849932ddb">$child_types</a></td><td class="entry"><a class="el" href="classidg__site__element__type.html">idg_site_element_type</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classidg__object__type.html#aab6cb493059b5dfb62d385f9eb2de013">$hooks</a></td><td class="entry"><a class="el" href="classidg__object__type.html">idg_object_type</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__object__type.html#a3589698d98200a7bb150bd90f2ba90f7">$properties</a></td><td class="entry"><a class="el" href="classidg__object__type.html">idg_object_type</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__treenode__type.html#aa081b733f7c85614693b5302c1ee6b9d">$child_types</a></td><td class="entry"><a class="el" href="classidg__treenode__type.html">idg_treenode_type</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="classidg__document__type.html#a2deb298a0207d67de704821466270487">__construct</a>()</td><td class="entry"><a class="el" href="classidg__document__type.html">idg_document_type</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__object__type.html#a28a243b131cba3085e4c07994239f83c">get_hook</a>($name)</td><td class="entry"><a class="el" href="classidg__object__type.html">idg_object_type</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classidg__object__type.html#ad6d9657de15ecb6d7e0497e66698699b">get_known</a>($name)</td><td class="entry"><a class="el" href="classidg__object__type.html">idg_object_type</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__object__type.html#abf3917552d304c7c686ec700d04546e0">get_properties</a>()</td><td class="entry"><a class="el" href="classidg__object__type.html">idg_object_type</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classidg__object__type.html#a1f1a53a16788a404967e3943260860b9">is_mandatory</a>($name)</td><td class="entry"><a class="el" href="classidg__object__type.html">idg_object_type</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__object__type.html#ae0b2e2e2d97ba15b459ce1f7d39ac509">set_hook</a>($name, $function_name)</td><td class="entry"><a class="el" href="classidg__object__type.html">idg_object_type</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classidg__object__type.html#a0ad8c29d00d0adff82797e35d6fe5f39">set_known</a>($name)</td><td class="entry"><a class="el" href="classidg__object__type.html">idg_object_type</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classidg__object__type.html#a346c53688eedf770263fc4e85e4cf52e">set_mandatory</a>($name, $is_mandatory=true)</td><td class="entry"><a class="el" href="classidg__object__type.html">idg_object_type</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__treenode__type.html#a9ee66466f2f915a07b65f67a9ed93eaa">accepts_child</a>($child_type)</td><td class="entry"><a class="el" href="classidg__treenode__type.html">idg_treenode_type</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classidg__type.html#ae8ba31123afbe05c55ae8601e47852f3">get_properties</a>()</td><td class="entry"><a class="el" href="classidg__type.html">idg_type</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__type.html#afb3c7244d4a8ff86e8220e9912f35647">get_property_hook</a>(string $name)</td><td class="entry"><a class="el" href="classidg__type.html">idg_type</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classidg__type.html#acbceb237b8893eb68e7dca15ad34817b">has_property</a>(string $name)</td><td class="entry"><a class="el" href="classidg__type.html">idg_type</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__type.html#ab8ff802169f7ce39d14d61f5d27a6cc5">property_is_mandatory</a>(string $name)</td><td class="entry"><a class="el" href="classidg__type.html">idg_type</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classidg__type.html#af530414c3e87419b503a207f8bda9abb">register_property</a>(string $name)</td><td class="entry"><a class="el" href="classidg__type.html">idg_type</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classidg__type.html#aa8ed11a49629c5dc74064400265460d1">set_property_hook</a>(string $name, string $function)</td><td class="entry"><a class="el" href="classidg__type.html">idg_type</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classidg__type.html#ab5d4ce497e00d120b942acb9372c214f">set_property_mandatory</a>(string $name, bool $is_mandatory=true)</td><td class="entry"><a class="el" href="classidg__type.html">idg_type</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
 </table></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
 </body>
 </html>

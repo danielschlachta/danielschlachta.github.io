@@ -1,18 +1,17 @@
 <map id="idg_object" name="idg_object">
-<area shape="rect" id="node1" title=" " alt="" coords="5,132,95,159"/>
-<area shape="rect" id="node2" href="$classidg__tree__node.html" title=" " alt="" coords="143,132,257,159"/>
-<area shape="rect" id="node3" href="$classidg__datasource__declaration.html" title=" " alt="" coords="305,5,507,32"/>
-<area shape="rect" id="node4" href="$classidg__renderer__declaration.html" title=" " alt="" coords="314,56,498,83"/>
-<area shape="rect" id="node5" href="$classidg__site__element.html" title="Base class for elements of a site definition." alt="" coords="339,107,473,133"/>
-<area shape="rect" id="node9" href="$classidg__view.html" title=" " alt="" coords="366,157,446,184"/>
-<area shape="rect" id="node11" href="$classidg__view__html__element.html" title=" " alt="" coords="317,233,495,260"/>
-<area shape="rect" id="node16" href="$classidg__view__html__slot.html" title=" " alt="" coords="332,284,480,311"/>
-<area shape="rect" id="node6" href="$classidg__document.html" title=" " alt="" coords="590,5,705,32"/>
-<area shape="rect" id="node7" href="$classidg__folder.html" title=" " alt="" coords="604,56,691,83"/>
-<area shape="rect" id="node8" href="$classidg__site.html" title=" " alt="" coords="611,107,684,133"/>
-<area shape="rect" id="node10" href="$classidg__view__html.html" title=" " alt="" coords="589,157,706,184"/>
-<area shape="rect" id="node12" href="$classidg__view__html__container.html" title=" " alt="" coords="555,208,740,235"/>
-<area shape="rect" id="node13" href="$classidg__view__html__item.html" title=" " alt="" coords="570,259,725,285"/>
-<area shape="rect" id="node14" href="$classidg__view__html__renderer.html" title="The parent class of all renderers." alt="" coords="558,309,737,336"/>
-<area shape="rect" id="node15" href="$classidg__view__html__template.html" title=" " alt="" coords="556,360,739,387"/>
+<area shape="rect" id="node1" title="Base class for all objects." alt="" coords="159,5,248,32"/>
+<area shape="rect" id="node2" href="$classidg__leafnode.html" title="Base class for objects organized in a tree structure." alt="" coords="150,80,257,107"/>
+<area shape="rect" id="node3" href="$classidg__datasource.html" title="A data source." alt="" coords="5,155,127,181"/>
+<area shape="rect" id="node4" href="$classidg__renderer.html" title="A renderer." alt="" coords="151,155,255,181"/>
+<area shape="rect" id="node5" href="$classidg__treenode.html" title="Base class for all tree nodes which are not leaf nodes." alt="" coords="279,155,386,181"/>
+<area shape="rect" id="node6" href="$classidg__filter.html" title="A filter." alt="" coords="163,229,241,256"/>
+<area shape="rect" id="node7" href="$classidg__site__element.html" title="Base class for elements of a site definition." alt="" coords="265,229,400,256"/>
+<area shape="rect" id="node11" href="$classidg__view__element.html" title="The parent class for idg_view and every sibling thereof." alt="" coords="565,229,706,256"/>
+<area shape="rect" id="node8" href="$classidg__document.html" title="A document." alt="" coords="98,304,213,331"/>
+<area shape="rect" id="node9" href="$classidg__folder.html" title="A folder." alt="" coords="237,304,324,331"/>
+<area shape="rect" id="node10" href="$classidg__site.html" title="The object that defines a whole site, i.e." alt="" coords="348,304,421,331"/>
+<area shape="rect" id="node12" href="$classidg__container.html" title="A container can contain containers as well as other elements." alt="" coords="445,304,556,331"/>
+<area shape="rect" id="node13" href="$classidg__fragment.html" title="A fragment produces output, has access to attributes and can also have a data source." alt="" coords="581,304,690,331"/>
+<area shape="rect" id="node14" href="$classidg__slot.html" title="A slot is where the output produced by a renderer has its place inside the view." alt="" coords="715,304,788,331"/>
+<area shape="rect" id="node15" href="$classidg__view.html" title="A view." alt="" coords="813,304,893,331"/>
 </map>

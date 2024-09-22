@@ -1,5 +1,4 @@
 <map id="idg_object\get_properties" name="idg_object\get_properties">
-<area shape="rect" id="node1" title=" " alt="" coords="239,31,425,57"/>
-<area shape="rect" id="node2" href="$classidg__folder.html#a4af249bd7ed66f69d960b75cbfba64e4" title=" " alt="" coords="19,5,177,32"/>
-<area shape="rect" id="node3" href="$classidg__document.html#a9ff98fd927f8ce36998139615667f573" title=" " alt="" coords="5,56,191,83"/>
+<area shape="rect" id="node1" title="Returns an array of all properties without executing any hooks." alt="" coords="212,13,399,39"/>
+<area shape="rect" id="node2" href="$classIndigo_1_1Fragment_1_1text.html#ac17d35c999d5cbbe6b31b19b0713cb3b" title=" " alt="" coords="5,5,164,47"/>
 </map>

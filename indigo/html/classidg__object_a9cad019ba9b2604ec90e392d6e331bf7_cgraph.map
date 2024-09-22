@@ -1,0 +1,4 @@
+<map id="idg_object\execute" name="idg_object\execute">
+<area shape="rect" id="node1" title="Executes a function which can be global or a a member of this object, if $function_name starts with $..." alt="" coords="5,5,149,32"/>
+<area shape="rect" id="node2" href="$diagnostics_8php.html#adb7dcc2469f04d5090cd68dc99cc5061" title="Prints as much information as possible and then terminates execution calling die()." alt="" coords="197,5,275,32"/>
+</map>

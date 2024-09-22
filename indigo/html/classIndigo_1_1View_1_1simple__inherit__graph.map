@@ -1,0 +1,5 @@
+<map id="Indigo\View\simple" name="Indigo\View\simple">
+<area shape="rect" id="node1" title="A simple one with the scroll bar always visible." alt="" coords="32,155,179,181"/>
+<area shape="rect" id="node2" href="$classidg__view__implementation.html" title="An object instance of a view." alt="" coords="10,80,201,107"/>
+<area shape="rect" id="node3" href="$classidg__object__implementation.html" title="Base class for ancillary objects that have no associated type information." alt="" coords="5,5,205,32"/>
+</map>

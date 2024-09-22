@@ -1,8 +1,9 @@
 <map id="idg_site_element" name="idg_site_element">
-<area shape="rect" id="node1" title="Base class for elements of a site definition." alt="" coords="121,155,255,181"/>
-<area shape="rect" id="node4" href="$classidg__document.html" title=" " alt="" coords="5,229,120,256"/>
-<area shape="rect" id="node5" href="$classidg__folder.html" title=" " alt="" coords="145,229,231,256"/>
-<area shape="rect" id="node6" href="$classidg__site.html" title=" " alt="" coords="255,229,329,256"/>
-<area shape="rect" id="node2" href="$classidg__tree__node.html" title=" " alt="" coords="131,80,245,107"/>
-<area shape="rect" id="node3" href="$classidg__object.html" title=" " alt="" coords="143,5,233,32"/>
+<area shape="rect" id="node1" title="Base class for elements of a site definition." alt="" coords="121,229,255,256"/>
+<area shape="rect" id="node5" href="$classidg__document.html" title="A document." alt="" coords="5,304,120,331"/>
+<area shape="rect" id="node6" href="$classidg__folder.html" title="A folder." alt="" coords="145,304,231,331"/>
+<area shape="rect" id="node7" href="$classidg__site.html" title="The object that defines a whole site, i.e." alt="" coords="255,304,329,331"/>
+<area shape="rect" id="node2" href="$classidg__treenode.html" title="Base class for all tree nodes which are not leaf nodes." alt="" coords="135,155,241,181"/>
+<area shape="rect" id="node3" href="$classidg__leafnode.html" title="Base class for objects organized in a tree structure." alt="" coords="135,80,241,107"/>
+<area shape="rect" id="node4" href="$classidg__object.html" title="Base class for all objects." alt="" coords="143,5,233,32"/>
 </map>

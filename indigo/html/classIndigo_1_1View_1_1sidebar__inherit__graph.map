@@ -1,0 +1,5 @@
+<map id="Indigo\View\sidebar" name="Indigo\View\sidebar">
+<area shape="rect" id="node1" title="A fixed div to the left or right." alt="" coords="30,155,181,181"/>
+<area shape="rect" id="node2" href="$classidg__view__implementation.html" title="An object instance of a view." alt="" coords="10,80,201,107"/>
+<area shape="rect" id="node3" href="$classidg__object__implementation.html" title="Base class for ancillary objects that have no associated type information." alt="" coords="5,5,205,32"/>
+</map>

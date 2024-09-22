@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -23,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">indigo
-   &#160;<span id="projectnumber">1.2</span>
+   &#160;<span id="projectnumber">1.4</span>
    </div>
    <div id="projectbrief">class reference</div>
   </td>
@@ -48,6 +52,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('classidg__site__element.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -62,10 +83,10 @@ $(function() {
 </iframe>
 </div>
 
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classidg__site__element-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">idg_site_element Class Reference</div>  </div>
@@ -77,122 +98,131 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for idg_site_element:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__site__element__inherit__graph.svg" width="335" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__site__element__inherit__graph.svg" width="335" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad61225b9c03135cc5cad609f45268dfc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__site__element.html#ad61225b9c03135cc5cad609f45268dfc">__construct</a> ()</td></tr>
-<tr class="memdesc:ad61225b9c03135cc5cad609f45268dfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an idg object and assigns the corresponding idg type.  <a href="classidg__site__element.html#ad61225b9c03135cc5cad609f45268dfc">More...</a><br /></td></tr>
-<tr class="separator:ad61225b9c03135cc5cad609f45268dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca0ad3494103f00325c676f26539ff36"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__site__element.html#aca0ad3494103f00325c676f26539ff36">__construct</a> (string $element_name)</td></tr>
+<tr class="memdesc:aca0ad3494103f00325c676f26539ff36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a node object with no children.  <a href="classidg__site__element.html#aca0ad3494103f00325c676f26539ff36">More...</a><br /></td></tr>
+<tr class="separator:aca0ad3494103f00325c676f26539ff36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06514b8d84f5ba62cf4e821884752c65"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__site__element.html#a06514b8d84f5ba62cf4e821884752c65">get_site</a> ()</td></tr>
 <tr class="separator:a06514b8d84f5ba62cf4e821884752c65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classidg__tree__node"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classidg__tree__node')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classidg__tree__node.html">idg_tree_node</a></td></tr>
-<tr class="memitem:a436d7f0b269c5e8fd84ca2c0d8ed0345 inherit pub_methods_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#a436d7f0b269c5e8fd84ca2c0d8ed0345">__construct</a> (&amp;$parent=null)</td></tr>
-<tr class="separator:a436d7f0b269c5e8fd84ca2c0d8ed0345 inherit pub_methods_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46125cb222ce856fc14b1434620a3eb2 inherit pub_methods_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#a46125cb222ce856fc14b1434620a3eb2">get_parent</a> ()</td></tr>
-<tr class="separator:a46125cb222ce856fc14b1434620a3eb2 inherit pub_methods_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af541fc16dbea92119b78d6a3ee4d4248 inherit pub_methods_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#af541fc16dbea92119b78d6a3ee4d4248">create_attribute</a> ($name)</td></tr>
-<tr class="separator:af541fc16dbea92119b78d6a3ee4d4248 inherit pub_methods_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d119e4b7dc3e041d13719fb6c92eddf inherit pub_methods_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#a6d119e4b7dc3e041d13719fb6c92eddf">get_attribute</a> ($name, $scope=null)</td></tr>
-<tr class="separator:a6d119e4b7dc3e041d13719fb6c92eddf inherit pub_methods_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27cbeb851e275fe1ad7837e3f8e086db inherit pub_methods_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#a27cbeb851e275fe1ad7837e3f8e086db">set_parent</a> ($parent)</td></tr>
-<tr class="memdesc:a27cbeb851e275fe1ad7837e3f8e086db inherit pub_methods_classidg__tree__node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the parent object manually.  <a href="classidg__tree__node.html#a27cbeb851e275fe1ad7837e3f8e086db">More...</a><br /></td></tr>
-<tr class="separator:a27cbeb851e275fe1ad7837e3f8e086db inherit pub_methods_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03229f508108f742434972ad8f290f92 inherit pub_methods_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#a03229f508108f742434972ad8f290f92">get_children</a> ()</td></tr>
-<tr class="separator:a03229f508108f742434972ad8f290f92 inherit pub_methods_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78459bb68b6088d2faf43fcfe098bdf3 inherit pub_methods_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#a78459bb68b6088d2faf43fcfe098bdf3">get_child_by_key</a> ($key_name, $key_value, $child_type=false)</td></tr>
-<tr class="memdesc:a78459bb68b6088d2faf43fcfe098bdf3 inherit pub_methods_classidg__tree__node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds a child whose property <code>$key_name</code> is set to <code>$key_value</code>.  <a href="classidg__tree__node.html#a78459bb68b6088d2faf43fcfe098bdf3">More...</a><br /></td></tr>
-<tr class="separator:a78459bb68b6088d2faf43fcfe098bdf3 inherit pub_methods_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92a0b6f695e9cb252eb0ae8d71c10500 inherit pub_methods_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#a92a0b6f695e9cb252eb0ae8d71c10500">get_children_by_key</a> ($key_name, $key_value, $child_type=null)</td></tr>
-<tr class="memdesc:a92a0b6f695e9cb252eb0ae8d71c10500 inherit pub_methods_classidg__tree__node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an array of all children whose property <code>$key_name</code> is set to <code>$key_value</code> and have type <code>$child_type</code> if specified.  <a href="classidg__tree__node.html#a92a0b6f695e9cb252eb0ae8d71c10500">More...</a><br /></td></tr>
-<tr class="separator:a92a0b6f695e9cb252eb0ae8d71c10500 inherit pub_methods_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43af700a477983aa4965d028008eeb3f inherit pub_methods_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#a43af700a477983aa4965d028008eeb3f">add_child</a> (&amp;$child)</td></tr>
-<tr class="separator:a43af700a477983aa4965d028008eeb3f inherit pub_methods_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55471661364347b0cf9459acac57fab0 inherit pub_methods_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#a55471661364347b0cf9459acac57fab0">get_parameter</a> (string $name)</td></tr>
-<tr class="separator:a55471661364347b0cf9459acac57fab0 inherit pub_methods_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a282d84fca6623fa36e068981a8d71fe7 inherit pub_methods_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#a282d84fca6623fa36e068981a8d71fe7">set_parameter</a> (string $name, mixed $value)</td></tr>
-<tr class="separator:a282d84fca6623fa36e068981a8d71fe7 inherit pub_methods_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3eb6b6cb90e4636f2083d15d32cd8828 inherit pub_methods_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#a3eb6b6cb90e4636f2083d15d32cd8828">get_parameters</a> ()</td></tr>
-<tr class="separator:a3eb6b6cb90e4636f2083d15d32cd8828 inherit pub_methods_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e90f39d4da35ff27b63d8cf1be0a06e inherit pub_methods_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#a7e90f39d4da35ff27b63d8cf1be0a06e">check</a> ()</td></tr>
-<tr class="memdesc:a7e90f39d4da35ff27b63d8cf1be0a06e inherit pub_methods_classidg__tree__node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks the whole subtree.  <a href="classidg__tree__node.html#a7e90f39d4da35ff27b63d8cf1be0a06e">More...</a><br /></td></tr>
-<tr class="separator:a7e90f39d4da35ff27b63d8cf1be0a06e inherit pub_methods_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac928b8d4a70c19c8a7e04a5c2c893e5e inherit pub_methods_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#ac928b8d4a70c19c8a7e04a5c2c893e5e">print_debug</a> ()</td></tr>
-<tr class="memdesc:ac928b8d4a70c19c8a7e04a5c2c893e5e inherit pub_methods_classidg__tree__node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints an ASCII representation of a subtree.  <a href="classidg__tree__node.html#ac928b8d4a70c19c8a7e04a5c2c893e5e">More...</a><br /></td></tr>
-<tr class="separator:ac928b8d4a70c19c8a7e04a5c2c893e5e inherit pub_methods_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7f19c48fd0bf55645ec510cb9beb182 inherit pub_methods_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#af7f19c48fd0bf55645ec510cb9beb182">traverse</a> (&amp;$param, $start_function, $end_function=false, $depth=0, $path='')</td></tr>
-<tr class="separator:af7f19c48fd0bf55645ec510cb9beb182 inherit pub_methods_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9f29c902c07cf504d904fc1a84a1bd7 inherit pub_methods_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#af9f29c902c07cf504d904fc1a84a1bd7">write_xml</a> ($file_name)</td></tr>
-<tr class="separator:af9f29c902c07cf504d904fc1a84a1bd7 inherit pub_methods_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08f3b15d2826b836def2d2779884f1d0 inherit pub_methods_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#a08f3b15d2826b836def2d2779884f1d0">read_xml</a> ($file_name, $parent=null)</td></tr>
-<tr class="separator:a08f3b15d2826b836def2d2779884f1d0 inherit pub_methods_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3d901621c520f26af90bc739de5c945 inherit pub_methods_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#ab3d901621c520f26af90bc739de5c945">add_token</a> (&amp;$tree, &amp;$depth, &amp;$path)</td></tr>
-<tr class="separator:ab3d901621c520f26af90bc739de5c945 inherit pub_methods_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a005a370d5c26b395fd8b94ea133bc360 inherit pub_methods_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#a005a370d5c26b395fd8b94ea133bc360">print_debug_all</a> (&amp;$dummy, &amp;$depth, &amp;$path)</td></tr>
-<tr class="separator:a005a370d5c26b395fd8b94ea133bc360 inherit pub_methods_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classidg__treenode"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classidg__treenode')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classidg__treenode.html">idg_treenode</a></td></tr>
+<tr class="memitem:a8c8c06661848fd3d8d0bdcf0d3badc34 inherit pub_methods_classidg__treenode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__treenode.html#a8c8c06661848fd3d8d0bdcf0d3badc34">clear</a> ()</td></tr>
+<tr class="memdesc:a8c8c06661848fd3d8d0bdcf0d3badc34 inherit pub_methods_classidg__treenode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unlinks the object from the tree, mainly to avoid recursion in diagnostic output.  <a href="classidg__treenode.html#a8c8c06661848fd3d8d0bdcf0d3badc34">More...</a><br /></td></tr>
+<tr class="separator:a8c8c06661848fd3d8d0bdcf0d3badc34 inherit pub_methods_classidg__treenode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a446f17c5cb29dfd8f3d830c1a7307c5e inherit pub_methods_classidg__treenode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__treenode.html#a446f17c5cb29dfd8f3d830c1a7307c5e">get_children</a> ()</td></tr>
+<tr class="memdesc:a446f17c5cb29dfd8f3d830c1a7307c5e inherit pub_methods_classidg__treenode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the children of the node if there are any.  <a href="classidg__treenode.html#a446f17c5cb29dfd8f3d830c1a7307c5e">More...</a><br /></td></tr>
+<tr class="separator:a446f17c5cb29dfd8f3d830c1a7307c5e inherit pub_methods_classidg__treenode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b419d2fab86a5a9f771669cfd7a94c2 inherit pub_methods_classidg__treenode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__treenode.html#a5b419d2fab86a5a9f771669cfd7a94c2">get_child_by_key</a> (string $property, string $value, string $class_name=null)</td></tr>
+<tr class="memdesc:a5b419d2fab86a5a9f771669cfd7a94c2 inherit pub_methods_classidg__treenode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recursively looks for a tree node with property <code>$property</code> set to <code>$value</code>, optionally limiting the search to members of class <code>$class</code>, and returns the first one found.  <a href="classidg__treenode.html#a5b419d2fab86a5a9f771669cfd7a94c2">More...</a><br /></td></tr>
+<tr class="separator:a5b419d2fab86a5a9f771669cfd7a94c2 inherit pub_methods_classidg__treenode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02ff9721f48021983ada1a220c92b719 inherit pub_methods_classidg__treenode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__treenode.html#a02ff9721f48021983ada1a220c92b719">get_children_by_key</a> (string $property, string $value, string $class_name=null)</td></tr>
+<tr class="memdesc:a02ff9721f48021983ada1a220c92b719 inherit pub_methods_classidg__treenode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an array containing all immediate children with property <code>$property</code> set to <code>$value</code>, optionally limited to members of class <code>$class</code> </p><blockquote class="doxtable">
+<p>Note: This function is not recursive. </p>
+</blockquote>
+ <a href="classidg__treenode.html#a02ff9721f48021983ada1a220c92b719">More...</a><br /></td></tr>
+<tr class="separator:a02ff9721f48021983ada1a220c92b719 inherit pub_methods_classidg__treenode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a617cb2062aee5fdcd2b093ccaa47672e inherit pub_methods_classidg__treenode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__treenode.html#a617cb2062aee5fdcd2b093ccaa47672e">add_child</a> (<a class="el" href="classidg__leafnode.html">idg_leafnode</a> $child)</td></tr>
+<tr class="memdesc:a617cb2062aee5fdcd2b093ccaa47672e inherit pub_methods_classidg__treenode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a child to the node.  <a href="classidg__treenode.html#a617cb2062aee5fdcd2b093ccaa47672e">More...</a><br /></td></tr>
+<tr class="separator:a617cb2062aee5fdcd2b093ccaa47672e inherit pub_methods_classidg__treenode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa42a634a687150cea07ee618b996bcf inherit pub_methods_classidg__treenode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__treenode.html#afa42a634a687150cea07ee618b996bcf">check</a> ()</td></tr>
+<tr class="memdesc:afa42a634a687150cea07ee618b996bcf inherit pub_methods_classidg__treenode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recursively traverses the subtree and calls <code><a class="el" href="classidg__object.html#a435f7d43bd2b82d47e4a2b84a7fb4b68" title="Performs a basic consistency check.">_check()</a></code> on all children.  <a href="classidg__treenode.html#afa42a634a687150cea07ee618b996bcf">More...</a><br /></td></tr>
+<tr class="separator:afa42a634a687150cea07ee618b996bcf inherit pub_methods_classidg__treenode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30d2dc1275fc6202065e656770ae8842 inherit pub_methods_classidg__treenode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__treenode.html#a30d2dc1275fc6202065e656770ae8842">traverse</a> (&amp;$param, string $start_function=null, string $end_function=null)</td></tr>
+<tr class="memdesc:a30d2dc1275fc6202065e656770ae8842 inherit pub_methods_classidg__treenode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recursively traverses a subtree calling <code><a class="el" href="classidg__object.html#a9cad019ba9b2604ec90e392d6e331bf7" title="Executes a function which can be global or a a member of this object, if $function_name starts with $...">execute()</a></code> for the specified function(s) on each node.  <a href="classidg__treenode.html#a30d2dc1275fc6202065e656770ae8842">More...</a><br /></td></tr>
+<tr class="separator:a30d2dc1275fc6202065e656770ae8842 inherit pub_methods_classidg__treenode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad12622e3b2094e0c6a1b8982605de158 inherit pub_methods_classidg__treenode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__treenode.html#ad12622e3b2094e0c6a1b8982605de158">write_xml</a> (string $file_name)</td></tr>
+<tr class="memdesc:ad12622e3b2094e0c6a1b8982605de158 inherit pub_methods_classidg__treenode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes an <code>xml</code> representation of the subtree to a file.  <a href="classidg__treenode.html#ad12622e3b2094e0c6a1b8982605de158">More...</a><br /></td></tr>
+<tr class="separator:ad12622e3b2094e0c6a1b8982605de158 inherit pub_methods_classidg__treenode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0298971d798e8cdc80e22bfcd1e1a521 inherit pub_methods_classidg__treenode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__treenode.html#a0298971d798e8cdc80e22bfcd1e1a521">read_xml</a> (string $file_name, <a class="el" href="classidg__treenode.html">idg_treenode</a> $parent=null)</td></tr>
+<tr class="memdesc:a0298971d798e8cdc80e22bfcd1e1a521 inherit pub_methods_classidg__treenode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads an <code>xml</code> representation from a file and constructs the corresponding subtree.  <a href="classidg__treenode.html#a0298971d798e8cdc80e22bfcd1e1a521">More...</a><br /></td></tr>
+<tr class="separator:a0298971d798e8cdc80e22bfcd1e1a521 inherit pub_methods_classidg__treenode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classidg__leafnode"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classidg__leafnode')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classidg__leafnode.html">idg_leafnode</a></td></tr>
+<tr class="memitem:a69bead9c67af8414bc072edfe30d52e2 inherit pub_methods_classidg__leafnode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__leafnode.html#a69bead9c67af8414bc072edfe30d52e2">set_parent</a> (<a class="el" href="classidg__treenode.html">idg_treenode</a> $parent)</td></tr>
+<tr class="memdesc:a69bead9c67af8414bc072edfe30d52e2 inherit pub_methods_classidg__leafnode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the parent object.  <a href="classidg__leafnode.html#a69bead9c67af8414bc072edfe30d52e2">More...</a><br /></td></tr>
+<tr class="separator:a69bead9c67af8414bc072edfe30d52e2 inherit pub_methods_classidg__leafnode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbf530ce8939dba13d2c3587532ca163 inherit pub_methods_classidg__leafnode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__leafnode.html#abbf530ce8939dba13d2c3587532ca163">get_parent</a> ()</td></tr>
+<tr class="memdesc:abbf530ce8939dba13d2c3587532ca163 inherit pub_methods_classidg__leafnode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the parent of a tree node.  <a href="classidg__leafnode.html#abbf530ce8939dba13d2c3587532ca163">More...</a><br /></td></tr>
+<tr class="separator:abbf530ce8939dba13d2c3587532ca163 inherit pub_methods_classidg__leafnode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea28450d3a6d4b072ab8606531e1ba71 inherit pub_methods_classidg__leafnode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__leafnode.html#aea28450d3a6d4b072ab8606531e1ba71">get_element_name</a> ()</td></tr>
+<tr class="memdesc:aea28450d3a6d4b072ab8606531e1ba71 inherit pub_methods_classidg__leafnode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the element name of the node.  <a href="classidg__leafnode.html#aea28450d3a6d4b072ab8606531e1ba71">More...</a><br /></td></tr>
+<tr class="separator:aea28450d3a6d4b072ab8606531e1ba71 inherit pub_methods_classidg__leafnode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd51d75616a8843ef289d02a7fc67120 inherit pub_methods_classidg__leafnode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__leafnode.html#acd51d75616a8843ef289d02a7fc67120">set_text</a> (string $text)</td></tr>
+<tr class="memdesc:acd51d75616a8843ef289d02a7fc67120 inherit pub_methods_classidg__leafnode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores free-format text, also referred to as <em>character data</em> because in the <code>xml</code> representation, that's what it is.  <a href="classidg__leafnode.html#acd51d75616a8843ef289d02a7fc67120">More...</a><br /></td></tr>
+<tr class="separator:acd51d75616a8843ef289d02a7fc67120 inherit pub_methods_classidg__leafnode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a338e94af10e83f8a4fa1b5a28bba0131 inherit pub_methods_classidg__leafnode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__leafnode.html#a338e94af10e83f8a4fa1b5a28bba0131">get_text</a> ()</td></tr>
+<tr class="memdesc:a338e94af10e83f8a4fa1b5a28bba0131 inherit pub_methods_classidg__leafnode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the text previously set with <code><a class="el" href="classidg__leafnode.html#acd51d75616a8843ef289d02a7fc67120" title="Stores free-format text, also referred to as character data because in the xml representation,...">set_text()</a></code>.  <a href="classidg__leafnode.html#a338e94af10e83f8a4fa1b5a28bba0131">More...</a><br /></td></tr>
+<tr class="separator:a338e94af10e83f8a4fa1b5a28bba0131 inherit pub_methods_classidg__leafnode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe1ea9adb1708f52a3ddf1bc496e6bd4 inherit pub_methods_classidg__leafnode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__leafnode.html#abe1ea9adb1708f52a3ddf1bc496e6bd4">create_attribute</a> (string $name)</td></tr>
+<tr class="memdesc:abe1ea9adb1708f52a3ddf1bc496e6bd4 inherit pub_methods_classidg__leafnode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classidg__attribute.html" title="Base class for idg entities with parameters.">idg_attribute</a> with the given name and returns it.  <a href="classidg__leafnode.html#abe1ea9adb1708f52a3ddf1bc496e6bd4">More...</a><br /></td></tr>
+<tr class="separator:abe1ea9adb1708f52a3ddf1bc496e6bd4 inherit pub_methods_classidg__leafnode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26bc6c683a59774b208f5d7231f9a455 inherit pub_methods_classidg__leafnode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__leafnode.html#a26bc6c683a59774b208f5d7231f9a455">get_or_create_attribute</a> (string $name)</td></tr>
+<tr class="memdesc:a26bc6c683a59774b208f5d7231f9a455 inherit pub_methods_classidg__leafnode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the attribute with the given name if it exists or creates a new one.  <a href="classidg__leafnode.html#a26bc6c683a59774b208f5d7231f9a455">More...</a><br /></td></tr>
+<tr class="separator:a26bc6c683a59774b208f5d7231f9a455 inherit pub_methods_classidg__leafnode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0b957de2cfe9969dce16aa5f796ea10 inherit pub_methods_classidg__leafnode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__leafnode.html#af0b957de2cfe9969dce16aa5f796ea10">get_attributes</a> ()</td></tr>
+<tr class="memdesc:af0b957de2cfe9969dce16aa5f796ea10 inherit pub_methods_classidg__leafnode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current attributes (including scope) as name/value pairs.  <a href="classidg__leafnode.html#af0b957de2cfe9969dce16aa5f796ea10">More...</a><br /></td></tr>
+<tr class="separator:af0b957de2cfe9969dce16aa5f796ea10 inherit pub_methods_classidg__leafnode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeede79fe6a857dd55ce1306be47a0fd3 inherit pub_methods_classidg__leafnode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__leafnode.html#aeede79fe6a857dd55ce1306be47a0fd3">create_instance</a> ()</td></tr>
+<tr class="memdesc:aeede79fe6a857dd55ce1306be47a0fd3 inherit pub_methods_classidg__leafnode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an instance of what is set in the objects <code>class&lt;/property&gt; with <code>this</code> as the parent. </code> <a href="classidg__leafnode.html#aeede79fe6a857dd55ce1306be47a0fd3">More...</a><br /></td></tr>
+<tr class="separator:aeede79fe6a857dd55ce1306be47a0fd3 inherit pub_methods_classidg__leafnode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classidg__object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classidg__object')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classidg__object.html">idg_object</a></td></tr>
-<tr class="memitem:aef47894584069f54e8abee91ed63a74f inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#aef47894584069f54e8abee91ed63a74f">clear</a> ()</td></tr>
-<tr class="separator:aef47894584069f54e8abee91ed63a74f inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1de5be36dd2da746ba5e79561f46f55e inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a1de5be36dd2da746ba5e79561f46f55e">__construct</a> ()</td></tr>
+<tr class="separator:a1de5be36dd2da746ba5e79561f46f55e inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf93470e265c48e006b1c573129a4988 inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#adf93470e265c48e006b1c573129a4988">get_idg_id</a> ()</td></tr>
+<tr class="memdesc:adf93470e265c48e006b1c573129a4988 inherit pub_methods_classidg__object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a unique readable identifier for the object, based on the type and the number of the object instance.  <a href="classidg__object.html#adf93470e265c48e006b1c573129a4988">More...</a><br /></td></tr>
 <tr class="separator:adf93470e265c48e006b1c573129a4988 inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2905493a606c1a2995372c44ba4a799 inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#ac2905493a606c1a2995372c44ba4a799">get_text</a> ()</td></tr>
-<tr class="separator:ac2905493a606c1a2995372c44ba4a799 inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5daa48c5e9234fdeaffecaa29a840b8 inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#af5daa48c5e9234fdeaffecaa29a840b8">set_text</a> ($text)</td></tr>
-<tr class="separator:af5daa48c5e9234fdeaffecaa29a840b8 inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3268b675f8de2b464007f30294c06fc inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#ad3268b675f8de2b464007f30294c06fc">get_idg_type</a> ()</td></tr>
-<tr class="separator:ad3268b675f8de2b464007f30294c06fc inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac54f91fd013c01d09e085472d6bdb6e8 inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#ac54f91fd013c01d09e085472d6bdb6e8">get_property</a> ($name, $execute_hooks=true)</td></tr>
-<tr class="separator:ac54f91fd013c01d09e085472d6bdb6e8 inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b6e078b8213be497949ec6dac1fbbe4 inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a2b6e078b8213be497949ec6dac1fbbe4">get_type_name</a> ()</td></tr>
+<tr class="memdesc:a2b6e078b8213be497949ec6dac1fbbe4 inherit pub_methods_classidg__object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of the corresponding type object.  <a href="classidg__object.html#a2b6e078b8213be497949ec6dac1fbbe4">More...</a><br /></td></tr>
+<tr class="separator:a2b6e078b8213be497949ec6dac1fbbe4 inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2f929050f76dd8c0745fd58b8ec2282 inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#aa2f929050f76dd8c0745fd58b8ec2282">get_type</a> ()</td></tr>
+<tr class="memdesc:aa2f929050f76dd8c0745fd58b8ec2282 inherit pub_methods_classidg__object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an instance of the corresponding type object.  <a href="classidg__object.html#aa2f929050f76dd8c0745fd58b8ec2282">More...</a><br /></td></tr>
+<tr class="separator:aa2f929050f76dd8c0745fd58b8ec2282 inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc33fb720897df890e1f86282c4e9e9c inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#abc33fb720897df890e1f86282c4e9e9c">get_property</a> (string $name, $execute_hooks=true)</td></tr>
+<tr class="memdesc:abc33fb720897df890e1f86282c4e9e9c inherit pub_methods_classidg__object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of a property, possibly generated by a hook function if it is not explicitly set, or <code>null</code>.  <a href="classidg__object.html#abc33fb720897df890e1f86282c4e9e9c">More...</a><br /></td></tr>
+<tr class="separator:abc33fb720897df890e1f86282c4e9e9c inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79f6b30d257d77f65301811591874429 inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a79f6b30d257d77f65301811591874429">get_properties</a> ()</td></tr>
+<tr class="memdesc:a79f6b30d257d77f65301811591874429 inherit pub_methods_classidg__object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an array of all properties without executing any hooks.  <a href="classidg__object.html#a79f6b30d257d77f65301811591874429">More...</a><br /></td></tr>
 <tr class="separator:a79f6b30d257d77f65301811591874429 inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7d008607f7a1d343deae48977d568de inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#ab7d008607f7a1d343deae48977d568de">get_property_values</a> (&amp;$prop_array, $execute_hooks=false)</td></tr>
-<tr class="separator:ab7d008607f7a1d343deae48977d568de inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45eb1a38df86f20d563bc48f4956380c inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a45eb1a38df86f20d563bc48f4956380c">set_property</a> ($name, $value)</td></tr>
-<tr class="separator:a45eb1a38df86f20d563bc48f4956380c inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c88c9eb5649e9da2d51bb10cefc9b25 inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a3c88c9eb5649e9da2d51bb10cefc9b25">set_properties</a> ($prop_array)</td></tr>
-<tr class="separator:a3c88c9eb5649e9da2d51bb10cefc9b25 inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35093e6cb6bcfc815778ed16cbc11e75 inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a35093e6cb6bcfc815778ed16cbc11e75">get_hook</a> ($name)</td></tr>
-<tr class="separator:a35093e6cb6bcfc815778ed16cbc11e75 inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad76781e060238447a7a83913e66375c7 inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#ad76781e060238447a7a83913e66375c7">set_hook</a> ($name, $function_name)</td></tr>
-<tr class="separator:ad76781e060238447a7a83913e66375c7 inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a583e265c2dbc95871ab08eb9820c3ee8 inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a583e265c2dbc95871ab08eb9820c3ee8">execute</a> ($function_name)</td></tr>
-<tr class="memdesc:a583e265c2dbc95871ab08eb9820c3ee8 inherit pub_methods_classidg__object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes members of this object and global functions.  <a href="classidg__object.html#a583e265c2dbc95871ab08eb9820c3ee8">More...</a><br /></td></tr>
-<tr class="separator:a583e265c2dbc95871ab08eb9820c3ee8 inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac41f30824083065ee9430a74f7301116 inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#ac41f30824083065ee9430a74f7301116">get_instance</a> ()</td></tr>
-<tr class="separator:ac41f30824083065ee9430a74f7301116 inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a663ed34313e192696eabda363b6043e1 inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a663ed34313e192696eabda363b6043e1">set_property</a> (string $name, string $value)</td></tr>
+<tr class="memdesc:a663ed34313e192696eabda363b6043e1 inherit pub_methods_classidg__object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the property <code>$name</code> to <code>$value</code>.  <a href="classidg__object.html#a663ed34313e192696eabda363b6043e1">More...</a><br /></td></tr>
+<tr class="separator:a663ed34313e192696eabda363b6043e1 inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abee1247181aa19887ed6c77452db9d89 inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#abee1247181aa19887ed6c77452db9d89">set_properties</a> (array $properties)</td></tr>
+<tr class="memdesc:abee1247181aa19887ed6c77452db9d89 inherit pub_methods_classidg__object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets properties based on the key/value pairs in an array.  <a href="classidg__object.html#abee1247181aa19887ed6c77452db9d89">More...</a><br /></td></tr>
+<tr class="separator:abee1247181aa19887ed6c77452db9d89 inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cad019ba9b2604ec90e392d6e331bf7 inherit pub_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a9cad019ba9b2604ec90e392d6e331bf7">execute</a> (string $function_name, &amp;$param_1, $param_2)</td></tr>
+<tr class="memdesc:a9cad019ba9b2604ec90e392d6e331bf7 inherit pub_methods_classidg__object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a function which can be global or a a member of this object, if <code>$function_name</code> starts with <code>$this-&gt;</code>.  <a href="classidg__object.html#a9cad019ba9b2604ec90e392d6e331bf7">More...</a><br /></td></tr>
+<tr class="separator:a9cad019ba9b2604ec90e392d6e331bf7 inherit pub_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_static_attribs_classidg__tree__node"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classidg__tree__node')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="classidg__tree__node.html">idg_tree_node</a></td></tr>
-<tr class="memitem:a109f9fad30f7a0c1f9799ed3b1bec637 inherit pub_static_attribs_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#a109f9fad30f7a0c1f9799ed3b1bec637">$idg_xml_indent</a> = ' '</td></tr>
-<tr class="separator:a109f9fad30f7a0c1f9799ed3b1bec637 inherit pub_static_attribs_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:afc704e30e111dfaab8411e8cea7d0e6a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__site__element.html#afc704e30e111dfaab8411e8cea7d0e6a">_get_token</a> (array &amp;$token)</td></tr>
+<tr class="memdesc:afc704e30e111dfaab8411e8cea7d0e6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads up a token for the site's built-in datasource.  <a href="classidg__site__element.html#afc704e30e111dfaab8411e8cea7d0e6a">More...</a><br /></td></tr>
+<tr class="separator:afc704e30e111dfaab8411e8cea7d0e6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8de76dcc7f9d0a905750fbca589398a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__site__element.html#a8de76dcc7f9d0a905750fbca589398a8">_add_token</a> (<a class="el" href="classidg__datasource__implementation.html">idg_datasource_implementation</a> $datasource)</td></tr>
+<tr class="memdesc:a8de76dcc7f9d0a905750fbca589398a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Produces a token meant for the site's built-in datasource.  <a href="classidg__site__element.html#a8de76dcc7f9d0a905750fbca589398a8">More...</a><br /></td></tr>
+<tr class="separator:a8de76dcc7f9d0a905750fbca589398a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classidg__treenode"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classidg__treenode')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classidg__treenode.html">idg_treenode</a></td></tr>
+<tr class="memitem:ab094ccca5354b9677b9fd50c137dce7e inherit pro_methods_classidg__treenode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__treenode.html#ab094ccca5354b9677b9fd50c137dce7e">_xml_write_start</a> (&amp;$param, $depth)</td></tr>
+<tr class="separator:ab094ccca5354b9677b9fd50c137dce7e inherit pro_methods_classidg__treenode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1021d98d4f5316cdd97549efa23923bd inherit pro_methods_classidg__treenode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__treenode.html#a1021d98d4f5316cdd97549efa23923bd">_xml_write_end</a> (&amp;$param, $depth)</td></tr>
+<tr class="separator:a1021d98d4f5316cdd97549efa23923bd inherit pro_methods_classidg__treenode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classidg__leafnode"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classidg__leafnode')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classidg__leafnode.html">idg_leafnode</a></td></tr>
+<tr class="memitem:a2b1364d41671dff70bf16d0968397f78 inherit pro_methods_classidg__leafnode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__leafnode.html#a2b1364d41671dff70bf16d0968397f78">get_xml_tag</a> (string $tag_type, int $indentation)</td></tr>
+<tr class="memdesc:a2b1364d41671dff70bf16d0968397f78 inherit pro_methods_classidg__leafnode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns (part of) an <code>xml</code> element representing the object.  <a href="classidg__leafnode.html#a2b1364d41671dff70bf16d0968397f78">More...</a><br /></td></tr>
+<tr class="separator:a2b1364d41671dff70bf16d0968397f78 inherit pro_methods_classidg__leafnode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classidg__object"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classidg__object')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classidg__object.html">idg_object</a></td></tr>
-<tr class="memitem:a47e4cabf65a04eec586e2ab0279dcfbe inherit pro_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a47e4cabf65a04eec586e2ab0279dcfbe">set_idg_type</a> ($idg_type)</td></tr>
-<tr class="separator:a47e4cabf65a04eec586e2ab0279dcfbe inherit pro_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7575668c8250d7e67c2f94b199d7695 inherit pro_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#ab7575668c8250d7e67c2f94b199d7695">_check</a> ()</td></tr>
-<tr class="memdesc:ab7575668c8250d7e67c2f94b199d7695 inherit pro_methods_classidg__object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs consistency checks, dies when an error is encountered.  <a href="classidg__object.html#ab7575668c8250d7e67c2f94b199d7695">More...</a><br /></td></tr>
-<tr class="separator:ab7575668c8250d7e67c2f94b199d7695 inherit pro_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33ff3482311fcf1156473088d89f5fee inherit pro_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a33ff3482311fcf1156473088d89f5fee">_print_debug</a> ($indent='')</td></tr>
-<tr class="separator:a33ff3482311fcf1156473088d89f5fee inherit pro_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c99064953fb5ec94398008a99bd9133 inherit pro_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a9c99064953fb5ec94398008a99bd9133">get_xml_tag</a> ($tag_type, $tag_id='')</td></tr>
-<tr class="separator:a9c99064953fb5ec94398008a99bd9133 inherit pro_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classidg__tree__node"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classidg__tree__node')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classidg__tree__node.html">idg_tree_node</a></td></tr>
-<tr class="memitem:a39f88d78f2040ecf171508d09803aa32 inherit pro_attribs_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#a39f88d78f2040ecf171508d09803aa32">$children</a></td></tr>
-<tr class="separator:a39f88d78f2040ecf171508d09803aa32 inherit pro_attribs_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad23ec7ad6347c4620c25eefe9da5200d inherit pro_attribs_classidg__tree__node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__tree__node.html#ad23ec7ad6347c4620c25eefe9da5200d">$idg_xml_translation</a></td></tr>
-<tr class="separator:ad23ec7ad6347c4620c25eefe9da5200d inherit pro_attribs_classidg__tree__node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classidg__object"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classidg__object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classidg__object.html">idg_object</a></td></tr>
-<tr class="memitem:a24029b6f655a31b829d448514441f67b inherit pro_attribs_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a24029b6f655a31b829d448514441f67b">$type_obj</a></td></tr>
-<tr class="separator:a24029b6f655a31b829d448514441f67b inherit pro_attribs_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae83728e134b0023b32719d351f770ff8 inherit pro_attribs_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#ae83728e134b0023b32719d351f770ff8">$text</a></td></tr>
-<tr class="separator:ae83728e134b0023b32719d351f770ff8 inherit pro_attribs_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a435f7d43bd2b82d47e4a2b84a7fb4b68 inherit pro_methods_classidg__object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a435f7d43bd2b82d47e4a2b84a7fb4b68">_check</a> (&amp;$parameter, $dummy)</td></tr>
+<tr class="memdesc:a435f7d43bd2b82d47e4a2b84a7fb4b68 inherit pro_methods_classidg__object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a basic consistency check.  <a href="classidg__object.html#a435f7d43bd2b82d47e4a2b84a7fb4b68">More...</a><br /></td></tr>
+<tr class="separator:a435f7d43bd2b82d47e4a2b84a7fb4b68 inherit pro_methods_classidg__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class for elements of a site definition. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad61225b9c03135cc5cad609f45268dfc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad61225b9c03135cc5cad609f45268dfc">&#9670;&nbsp;</a></span>__construct()</h2>
+<a id="aca0ad3494103f00325c676f26539ff36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca0ad3494103f00325c676f26539ff36">&#9670;&nbsp;</a></span>__construct()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -200,23 +230,103 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">idg_site_element::__construct </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$element_name</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructs an idg object and assigns the corresponding idg type. </p>
-<p>The <a class="el" href="classidg__object__type.html">idg_object_type</a> is created if necessary, otherwise taken from a list.</p>
-<p>$idg_id is assigned a unique id based on the (php) object type and the number of objects constructed so far. </p>
+<p>Constructs a node object with no children. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$element_name</td><td>The <code>xml</code> compatible name of the thing. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://www.w3schools.com/xml/xml_elements.asp#:~:text=XML%20Naming%20Rules">https://www.w3schools.com/xml/xml_elements.asp#:~:text=XML%20Naming%20Rules</a> </dd></dl>
 
-<p>Reimplemented from <a class="el" href="classidg__object.html#a1de5be36dd2da746ba5e79561f46f55e">idg_object</a>.</p>
-
-<p>Reimplemented in <a class="el" href="classidg__document.html#a9133c3194bcf239db7303b4cf9cd6634">idg_document</a>, <a class="el" href="classidg__folder.html#ab70576b0e9fe6af00534babec2801fcf">idg_folder</a>, and <a class="el" href="classidg__site.html#a7319dbf6edb027e67ef83125e64f3e61">idg_site</a>.</p>
+<p>Reimplemented from <a class="el" href="classidg__leafnode.html#a4c3360c543b23ddfcabdb5b67fa6c7e5">idg_leafnode</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8de76dcc7f9d0a905750fbca589398a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8de76dcc7f9d0a905750fbca589398a8">&#9670;&nbsp;</a></span>_add_token()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">idg_site_element::_add_token </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classidg__datasource__implementation.html">idg_datasource_implementation</a>&#160;</td>
+          <td class="paramname"><em>$datasource</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Produces a token meant for the site's built-in datasource. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype"><a class="el" href="classidg__datasource.html" title="A data source.">idg_datasource</a></td><td class="paramname">$datasource</td><td>An arbitrary datasource </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afc704e30e111dfaab8411e8cea7d0e6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc704e30e111dfaab8411e8cea7d0e6a">&#9670;&nbsp;</a></span>_get_token()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">idg_site_element::_get_token </td>
+          <td>(</td>
+          <td class="paramtype">array &amp;&#160;</td>
+          <td class="paramname"><em>$token</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Loads up a token for the site's built-in datasource. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">array</td><td class="paramname">$token</td><td>The token </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="classidg__document.html#ad6852b983d29abac2ff9b5e65bdf371d">idg_document</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__site__element_afc704e30e111dfaab8411e8cea7d0e6a_cgraph.svg" width="462" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="a06514b8d84f5ba62cf4e821884752c65"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a06514b8d84f5ba62cf4e821884752c65">&#9670;&nbsp;</a></span>get_site()</h2>
 
@@ -234,23 +344,23 @@ Additional Inherited Members</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__site__element_a06514b8d84f5ba62cf4e821884752c65_cgraph.svg" width="300" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__site__element_a06514b8d84f5ba62cf4e821884752c65_cgraph.svg" width="327" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__site__element_a06514b8d84f5ba62cf4e821884752c65_icgraph.svg" width="724" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>indigo/lib/<a class="el" href="site_8php.html">site.php</a></li>
+<li>indigo/library/<a class="el" href="site_8php.html">site.php</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="classidg__site__element.html">idg_site_element</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
 </body>
 </html>

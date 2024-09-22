@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['view_2ephp_189',['view.php',['../view_8php.html',1,'']]],
-  ['view_5fhtml_2ephp_190',['view_html.php',['../view__html_8php.html',1,'']]]
+  ['qualify_151',['qualify',['../classidg__core.html#a33500bdc1b3a31f487311c69f7a3a830',1,'idg_core']]]
 ];

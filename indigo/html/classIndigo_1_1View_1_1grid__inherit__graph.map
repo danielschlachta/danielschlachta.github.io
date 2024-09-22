@@ -1,0 +1,5 @@
+<map id="Indigo\View\grid" name="Indigo\View\grid">
+<area shape="rect" id="node1" title="A view using grid." alt="" coords="42,155,169,181"/>
+<area shape="rect" id="node2" href="$classidg__view__implementation.html" title="An object instance of a view." alt="" coords="10,80,201,107"/>
+<area shape="rect" id="node3" href="$classidg__object__implementation.html" title="Base class for ancillary objects that have no associated type information." alt="" coords="5,5,205,32"/>
+</map>

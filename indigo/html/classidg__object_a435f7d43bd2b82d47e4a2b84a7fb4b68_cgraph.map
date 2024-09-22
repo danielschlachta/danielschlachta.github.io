@@ -1,0 +1,4 @@
+<map id="idg_object\_check" name="idg_object\_check">
+<area shape="rect" id="node1" title="Performs a basic consistency check." alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node2" href="$diagnostics_8php.html#adb7dcc2469f04d5090cd68dc99cc5061" title="Prints as much information as possible and then terminates execution calling die()." alt="" coords="192,5,269,32"/>
+</map>

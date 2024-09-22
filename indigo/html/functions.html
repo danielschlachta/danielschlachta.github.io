@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -23,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">indigo
-   &#160;<span id="projectnumber">1.2</span>
+   &#160;<span id="projectnumber">1.4</span>
    </div>
    <div id="projectbrief">class reference</div>
   </td>
@@ -49,6 +53,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -68,86 +88,7 @@ $(function() {
 
 <h3><a id="index__24"></a>- $ -</h3><ul>
 <li>$child_types
-: <a class="el" href="classidg__site__element__type.html#a54bf0baa3938104b20d3512849932ddb">idg_site_element_type</a>
-, <a class="el" href="classidg__tree__node__type.html#a49c0fa91aeb00c6d7df89e775dcaae54">idg_tree_node_type</a>
-, <a class="el" href="classidg__view__html__container__type.html#a07b019b4a49636a2e5e9b111dc52ea14">idg_view_html_container_type</a>
-, <a class="el" href="classidg__view__html__item__type.html#aec6f4cf38d6f139e777c97bab910289c">idg_view_html_item_type</a>
-, <a class="el" href="classidg__view__html__renderer__type.html#a04174bfaada1931737dc588dc4744ea3">idg_view_html_renderer_type</a>
-, <a class="el" href="classidg__view__html__slot__type.html#a2b295fcbb869ebf1a8f66fdf77d3600f">idg_view_html_slot_type</a>
-, <a class="el" href="classidg__view__html__template__type.html#a87f5632c499db9071227932a9fd4d1b5">idg_view_html_template_type</a>
-, <a class="el" href="classidg__view__html__type.html#a3ec72befc5c602960d0532f5779820e1">idg_view_html_type</a>
-</li>
-<li>$children
-: <a class="el" href="classidg__tree__node.html#a39f88d78f2040ecf171508d09803aa32">idg_tree_node</a>
-</li>
-<li>$current_token
-: <a class="el" href="classidg__datasource__instance.html#a72928c80ab868480bbc89563180eff1e">idg_datasource_instance</a>
-</li>
-<li>$datasource
-: <a class="el" href="classidg__view__html__renderer.html#a982eb20f91158ff420b17d23132bd4e2">idg_view_html_renderer</a>
-, <a class="el" href="classidg__view__html__renderer__phpscript__obj.html#aa2a711522ef8697f7f5b26b9f2265664">idg_view_html_renderer_phpscript_obj</a>
-</li>
-<li>$filters
-: <a class="el" href="classidg__view.html#a99cd3bfdbb4d91f847944be029a821af">idg_view</a>
-</li>
-<li>$fonts
-: <a class="el" href="classgoogle__font__api.html#a656a6238defe9cb1491af3c279523afa">google_font_api</a>
-</li>
-<li>$hooks
-: <a class="el" href="classidg__object__type.html#aab6cb493059b5dfb62d385f9eb2de013">idg_object_type</a>
-</li>
-<li>$idg_id
-: <a class="el" href="classidg__view__html__renderer__phpscript__obj.html#a76e1a864c1cff27e5f38564e015a416f">idg_view_html_renderer_phpscript_obj</a>
-</li>
-<li>$idg_xml_indent
-: <a class="el" href="classidg__tree__node.html#a109f9fad30f7a0c1f9799ed3b1bec637">idg_tree_node</a>
-</li>
-<li>$idg_xml_translation
-: <a class="el" href="classidg__site.html#ae4cebe9dbb44ab6799627d936fcf27f6">idg_site</a>
-, <a class="el" href="classidg__tree__node.html#ad23ec7ad6347c4620c25eefe9da5200d">idg_tree_node</a>
-, <a class="el" href="classidg__view__html.html#a9098061186a8124bc9679a75dba35f6b">idg_view_html</a>
-</li>
-<li>$is_invalid
-: <a class="el" href="classidg__view__html__renderer__phpscript__obj.html#a3a35ec2d2d8ac82ed3619b8e7eb0b00c">idg_view_html_renderer_phpscript_obj</a>
-</li>
-<li>$is_valid
-: <a class="el" href="classidg__view__html__renderer__phpscript__obj.html#abc9b323e906ce5ec5655f2acf7d3303c">idg_view_html_renderer_phpscript_obj</a>
-</li>
-<li>$last_change
-: <a class="el" href="classidg__document.html#a1d88a84182914bc5245caeceb7bb2f04">idg_document</a>
-</li>
-<li>$object
-: <a class="el" href="classidg__view__html__element.html#af6d657e98d1181e9a687aec9ea316e66">idg_view_html_element</a>
-</li>
-<li>$params
-: <a class="el" href="classidg__document.html#a97d4fcf8b1b15d7faa1a54f7b3a99206">idg_document</a>
-</li>
-<li>$parent
-: <a class="el" href="classidg__tree__node__instance.html#ad38ebe61e68ff9d70bb82abc0d681658">idg_tree_node_instance</a>
-, <a class="el" href="classidg__view__html__renderer__phpscript__obj.html#ae1cd968cdb28c844c2ac65dbc416db43">idg_view_html_renderer_phpscript_obj</a>
-</li>
-<li>$printout
-: <a class="el" href="classidg__view.html#ab28278d57e371a9446f4a6000b1e4d55">idg_view</a>
-</li>
-<li>$properties
-: <a class="el" href="classidg__object__type.html#a3589698d98200a7bb150bd90f2ba90f7">idg_object_type</a>
-</li>
-<li>$streams
-: <a class="el" href="classidg__view.html#a339f56b065bafe7dd0dcc66ca8951a56">idg_view</a>
-, <a class="el" href="classidg__view__html.html#a641f6ba00b258a0b55831ca6b75d0559">idg_view_html</a>
-</li>
-<li>$text
-: <a class="el" href="classidg__object.html#ae83728e134b0023b32719d351f770ff8">idg_object</a>
-</li>
-<li>$tokens
-: <a class="el" href="classidg__datasource__instance.html#aed45af93660ffa181bdaf02d1aa9c523">idg_datasource_instance</a>
-</li>
-<li>$type_obj
-: <a class="el" href="classidg__object.html#a24029b6f655a31b829d448514441f67b">idg_object</a>
-</li>
-<li>$variables
-: <a class="el" href="classidg__document.html#afe91a7de85ad118261ea7197bcf6090d">idg_document</a>
-, <a class="el" href="classidg__view__html__renderer__phpscript__obj.html#adf4a674274f80c3bc0ff2d60cfe9d9d1">idg_view_html_renderer_phpscript_obj</a>
+: <a class="el" href="classidg__treenode__type.html#aa081b733f7c85614693b5302c1ee6b9d">idg_treenode_type</a>
 </li>
 </ul>
 
@@ -155,375 +96,419 @@ $(function() {
 <h3><a id="index__5F"></a>- _ -</h3><ul>
 <li>__construct()
 : <a class="el" href="classidg__attribute.html#a9496f0c7e5e14b5d53072f24fbd24c30">idg_attribute</a>
-, <a class="el" href="classidg__datasource__declaration.html#a37c51859bdfc86d73601605fdedc03e9">idg_datasource_declaration</a>
-, <a class="el" href="classidg__datasource__declaration__type.html#acf427d15d9f350ace6516710d724302a">idg_datasource_declaration_type</a>
-, <a class="el" href="classidg__datasource__phpscript.html#a8b14d8e2930c7942ccea314c130e9391">idg_datasource_phpscript</a>
-, <a class="el" href="classidg__datasource__sourcefile.html#a4993ee40d3783b9c2cfbf136d1cd5946">idg_datasource_sourcefile</a>
-, <a class="el" href="classidg__datasource__textfile.html#a1510b04a9010bfa60b06e9feade555b2">idg_datasource_textfile</a>
+, <a class="el" href="classidg__container.html#a653af803e1310280904bb93ebe09cb5f">idg_container</a>
+, <a class="el" href="classidg__container__type.html#af8f9f6fa6796d1bb0b523e2f27df31d9">idg_container_type</a>
+, <a class="el" href="classidg__core.html#ad8507ee09f816fb235aed1824d6a5fa9">idg_core</a>
+, <a class="el" href="classidg__datasource.html#a7a26d92264d38ad6eb54fcd603f926b9">idg_datasource</a>
+, <a class="el" href="classidg__datasource__implementation.html#a4a7f19d9f87bc06ade441419e02bcdf8">idg_datasource_implementation</a>
+, <a class="el" href="classidg__datasource__type.html#afd3c8a6ba5f9cf7936f95da92d71e469">idg_datasource_type</a>
 , <a class="el" href="classidg__document.html#a9133c3194bcf239db7303b4cf9cd6634">idg_document</a>
 , <a class="el" href="classidg__document__type.html#a2deb298a0207d67de704821466270487">idg_document_type</a>
+, <a class="el" href="classidg__filter.html#a280aa6539c9df4ffb6268a76ec959aea">idg_filter</a>
+, <a class="el" href="classidg__filter__type.html#a5bcd2051e1c26282e35059a5cd3cb139">idg_filter_type</a>
 , <a class="el" href="classidg__folder.html#ab70576b0e9fe6af00534babec2801fcf">idg_folder</a>
 , <a class="el" href="classidg__folder__type.html#a96eb19c506d068c46d54918c04200004">idg_folder_type</a>
+, <a class="el" href="classidg__fragment.html#ae666a22c02c8c479681735b320089404">idg_fragment</a>
+, <a class="el" href="classidg__fragment__implementation.html#abbf3c31e53b118deb3a125622059f076">idg_fragment_implementation</a>
+, <a class="el" href="classidg__fragment__type.html#ace52a725a7d30b151604985fd3dc239d">idg_fragment_type</a>
+, <a class="el" href="classidg__leafnode.html#a4c3360c543b23ddfcabdb5b67fa6c7e5">idg_leafnode</a>
 , <a class="el" href="classidg__object.html#a1de5be36dd2da746ba5e79561f46f55e">idg_object</a>
-, <a class="el" href="classidg__object__type.html#ad6aaf736323ef80579db677181233e98">idg_object_type</a>
-, <a class="el" href="classidg__param__instance.html#a55994604c0a3219160aec16ce405cf5b">idg_param_instance</a>
-, <a class="el" href="classidg__renderer__declaration.html#a5016fb09dc39752512e1ca67424992e5">idg_renderer_declaration</a>
-, <a class="el" href="classidg__renderer__declaration__type.html#af92105f008f328ef15ea2cb36fe45cda">idg_renderer_declaration_type</a>
+, <a class="el" href="classidg__object__implementation.html#aac031ddf98f218b0eee7f565f69d3a34">idg_object_implementation</a>
+, <a class="el" href="classidg__renderer.html#a7c2937522b8bb9178208e10f341f5a99">idg_renderer</a>
+, <a class="el" href="classidg__renderer__implementation.html#a18c50973b61eee7c60cfd91b09202d53">idg_renderer_implementation</a>
+, <a class="el" href="classidg__renderer__type.html#a72bd03233fb88598b53dedbc0fd197bf">idg_renderer_type</a>
 , <a class="el" href="classidg__site.html#a7319dbf6edb027e67ef83125e64f3e61">idg_site</a>
-, <a class="el" href="classidg__site__element.html#ad61225b9c03135cc5cad609f45268dfc">idg_site_element</a>
+, <a class="el" href="classidg__site__element.html#aca0ad3494103f00325c676f26539ff36">idg_site_element</a>
 , <a class="el" href="classidg__site__element__type.html#a192a58686c7022f327f205ac88857434">idg_site_element_type</a>
 , <a class="el" href="classidg__site__type.html#a7db9f166a582cacf48db2208262763bd">idg_site_type</a>
-, <a class="el" href="classidg__tree__node.html#a436d7f0b269c5e8fd84ca2c0d8ed0345">idg_tree_node</a>
-, <a class="el" href="classidg__tree__node__instance.html#a359de5a1b1c770b98b5232924884411a">idg_tree_node_instance</a>
-, <a class="el" href="classidg__tree__node__type.html#a3cfa5bbf73664a2c1e576aac7f1f265f">idg_tree_node_type</a>
-, <a class="el" href="classidg__view.html#ae00dccb4695d79c81dff171b3d0e714e">idg_view</a>
-, <a class="el" href="classidg__view__html.html#aff8afda4cfa29671651119f11a6b81d1">idg_view_html</a>
-, <a class="el" href="classidg__view__html__container.html#a4d51cacacd60dfe39278132be384b76a">idg_view_html_container</a>
-, <a class="el" href="classidg__view__html__container__type.html#a4de6e902b43b0591fb8095254781dab1">idg_view_html_container_type</a>
-, <a class="el" href="classidg__view__html__element.html#aacfe62926cb9a0d0ffcaefd23cd7b1bf">idg_view_html_element</a>
-, <a class="el" href="classidg__view__html__element__type.html#ad602ad717abd8c243e5e1f200930768b">idg_view_html_element_type</a>
-, <a class="el" href="classidg__view__html__item.html#ae60e4fc6f140dbd5bef92434905c4f82">idg_view_html_item</a>
-, <a class="el" href="classidg__view__html__item__image.html#aacba076d42d020214da78ac34e37d711">idg_view_html_item_image</a>
-, <a class="el" href="classidg__view__html__item__text.html#aa37583703d6b631938fe71cdcfb1ca3d">idg_view_html_item_text</a>
-, <a class="el" href="classidg__view__html__item__type.html#a020394152261e1e7bb5d3023d8a31172">idg_view_html_item_type</a>
-, <a class="el" href="classidg__view__html__renderer.html#ac65cfec984782a1be6e02d8f732c1496">idg_view_html_renderer</a>
-, <a class="el" href="classidg__view__html__renderer__markdown.html#ae46275c9a6428030fb1a08df3de08c05">idg_view_html_renderer_markdown</a>
-, <a class="el" href="classidg__view__html__renderer__null.html#a032d7a9604b4159cf0b9c70c16196690">idg_view_html_renderer_null</a>
-, <a class="el" href="classidg__view__html__renderer__phpscript.html#a497b3e14818411580075ee11cd3160fa">idg_view_html_renderer_phpscript</a>
-, <a class="el" href="classidg__view__html__renderer__phpscript__obj.html#a41e2328445c57e10801440e2d90ab024">idg_view_html_renderer_phpscript_obj</a>
-, <a class="el" href="classidg__view__html__renderer__sourcefile.html#a6c641b0ea461f70d012d1f9f79c0a3b1">idg_view_html_renderer_sourcefile</a>
-, <a class="el" href="classidg__view__html__renderer__textfile.html#aea843b452656674e8ac1f92e88bfcceb">idg_view_html_renderer_textfile</a>
-, <a class="el" href="classidg__view__html__renderer__type.html#afd0da975bd9282b67095b5e5812333aa">idg_view_html_renderer_type</a>
-, <a class="el" href="classidg__view__html__slot.html#acd3c3a715b1e7b9d8a84c75608b5f3d7">idg_view_html_slot</a>
-, <a class="el" href="classidg__view__html__slot__type.html#ab2de0cfdabf53c6d204c02002750c238">idg_view_html_slot_type</a>
-, <a class="el" href="classidg__view__html__template.html#a79d65473ed82503a9f82c2418e086149">idg_view_html_template</a>
-, <a class="el" href="classidg__view__html__template__fixedbar.html#ad266c1a7bd3b0e310e2989509dd530bf">idg_view_html_template_fixedbar</a>
-, <a class="el" href="classidg__view__html__template__fixedcontent.html#aa331700db9a52c0da91e43f0db23ee22">idg_view_html_template_fixedcontent</a>
-, <a class="el" href="classidg__view__html__template__type.html#afaf0be7bff7567b69e2118bc12d5a0af">idg_view_html_template_type</a>
-, <a class="el" href="classidg__view__html__type.html#af7fbb5d981b82ad26c46219d6b1f8127">idg_view_html_type</a>
+, <a class="el" href="classidg__slot.html#a9f10e1f734a729666f3702d0dfa90584">idg_slot</a>
+, <a class="el" href="classidg__slot__type.html#aaa71ff7cc37d1f1b38200ea892b96d9b">idg_slot_type</a>
+, <a class="el" href="classidg__treenode__type.html#a3fadc1d08646d151b38c693b819242ee">idg_treenode_type</a>
+, <a class="el" href="classidg__type.html#abbe8da080faf45cf268b43413776c7e7">idg_type</a>
+, <a class="el" href="classidg__view.html#a0f4f1a574b07ef424b0abd7f8e345a7e">idg_view</a>
+, <a class="el" href="classidg__view__element__type.html#adfa98046c0809434a0e7fc5f5818d0ec">idg_view_element_type</a>
 , <a class="el" href="classidg__view__type.html#ad2efac1079cfd83aebc3f86968109d46">idg_view_type</a>
+, <a class="el" href="classIndigo_1_1Datasource_1_1php.html#a0488e18140adaa6027d467ef5d7dcc71">Indigo\Datasource\php</a>
+, <a class="el" href="classIndigo_1_1Datasource_1_1rss.html#ad21a26a3d6304325903cb61aa2f9b154">Indigo\Datasource\rss</a>
+, <a class="el" href="classIndigo_1_1Datasource_1_1scanlinks.html#a0b175571586483f1ec5c1804fcfa8105">Indigo\Datasource\scanlinks</a>
+, <a class="el" href="classIndigo_1_1Datasource_1_1text.html#aa90e0e4aa4cab28702f3096fae2ff780">Indigo\Datasource\text</a>
+, <a class="el" href="classIndigo_1_1Datasource_1_1textfile.html#a650a4e3a582d22822ee99f7de5c6c358">Indigo\Datasource\textfile</a>
+, <a class="el" href="classIndigo_1_1Module_1_1Sourcefile_1_1datasource.html#ab9169bfa5e5bb1c8d4326dbef4a231c4">Indigo\Module\Sourcefile\datasource</a>
+</li>
+<li>_add_token()
+: <a class="el" href="classidg__datasource.html#a07c1ba34bcebe53dc75d5f696c3998f0">idg_datasource</a>
+, <a class="el" href="classidg__renderer.html#ad7f6a90910cc5fecc3837442cfb5fb3e">idg_renderer</a>
+, <a class="el" href="classidg__site__element.html#a8de76dcc7f9d0a905750fbca589398a8">idg_site_element</a>
 </li>
 <li>_check()
-: <a class="el" href="classidg__object.html#ab7575668c8250d7e67c2f94b199d7695">idg_object</a>
+: <a class="el" href="classidg__object.html#a435f7d43bd2b82d47e4a2b84a7fb4b68">idg_object</a>
 </li>
-<li>_print()
-: <a class="el" href="classidg__view.html#aab7498d0f26a4eed766636fd085331fa">idg_view</a>
-</li>
-<li>_print_debug()
-: <a class="el" href="classidg__object.html#a33ff3482311fcf1156473088d89f5fee">idg_object</a>
+<li>_get_token()
+: <a class="el" href="classidg__document.html#ad6852b983d29abac2ff9b5e65bdf371d">idg_document</a>
+, <a class="el" href="classidg__site__element.html#afc704e30e111dfaab8411e8cea7d0e6a">idg_site_element</a>
 </li>
 <li>_render()
-: <a class="el" href="classidg__view__html__container.html#a26eab2df981893738a1e9d859b79ffda">idg_view_html_container</a>
-, <a class="el" href="classidg__view__html__element.html#a7cae4f263e28692e70e554d47ea3f412">idg_view_html_element</a>
-, <a class="el" href="classidg__view__html__renderer.html#ae38258ae5fd5ed1b8020e44ce7666c0a">idg_view_html_renderer</a>
-, <a class="el" href="classidg__view__html__slot.html#ac81c6c0e2e66289d856dbdeb75193ad1">idg_view_html_slot</a>
+: <a class="el" href="classidg__container.html#ae388d3104973011d42d4e730132ff9c2">idg_container</a>
+, <a class="el" href="classidg__fragment.html#adbd115041ff66b8d8b084bc4ca2a8566">idg_fragment</a>
+, <a class="el" href="classidg__slot.html#aecc315fcaa11eedee484810de4c51b7c">idg_slot</a>
+, <a class="el" href="classidg__view.html#ab1d29127720e348094f7bce71c562f76">idg_view</a>
+, <a class="el" href="classidg__view__element.html#af9b780072c09ddf186d1b41902a169f7">idg_view_element</a>
+, <a class="el" href="classidg__view__implementation.html#a7a63ecb074903bc1f143d5822e9b9b63">idg_view_implementation</a>
+, <a class="el" href="classIndigo_1_1Fragment_1_1image.html#aed8214abc57c39d733268d3710539a54">Indigo\Fragment\image</a>
+, <a class="el" href="classIndigo_1_1Fragment_1_1text.html#ac17d35c999d5cbbe6b31b19b0713cb3b">Indigo\Fragment\text</a>
+, <a class="el" href="classIndigo_1_1Module_1_1Markdown_1_1renderer.html#a92858de9f2eb9a249be61811182c2557">Indigo\Module\Markdown\renderer</a>
+, <a class="el" href="classIndigo_1_1Module_1_1Sourcefile_1_1renderer.html#ac963388c11f64b6e73c1d2bbb8625a3c">Indigo\Module\Sourcefile\renderer</a>
+, <a class="el" href="classIndigo_1_1Renderer_1_1textfile.html#a841cd70938e7ad89e468d8a8bdd350d1">Indigo\Renderer\textfile</a>
+, <a class="el" href="classIndigo_1_1View_1_1grid.html#ac50f60c0bb170cfa5f06e44fb65947a0">Indigo\View\grid</a>
+, <a class="el" href="classIndigo_1_1View_1_1sidebar.html#a8b2e1eaa679b37b61926d3871f10fbe0">Indigo\View\sidebar</a>
+, <a class="el" href="classIndigo_1_1View_1_1simple.html#a96799cab79df250cd822f068b5ac67c0">Indigo\View\simple</a>
+</li>
+<li>_xml_read_end()
+: <a class="el" href="classIndigo_1_1Datasource_1_1rss.html#abe33683ddf83648473d35bf4eb9284c9">Indigo\Datasource\rss</a>
+</li>
+<li>_xml_read_start()
+: <a class="el" href="classIndigo_1_1Datasource_1_1rss.html#afc5774c847e7557497cc388eabfb9d58">Indigo\Datasource\rss</a>
+</li>
+<li>_xml_write_end()
+: <a class="el" href="classidg__leafnode.html#a713651681da63b62ab171f0471446b3c">idg_leafnode</a>
+, <a class="el" href="classidg__treenode.html#a1021d98d4f5316cdd97549efa23923bd">idg_treenode</a>
+</li>
+<li>_xml_write_start()
+: <a class="el" href="classidg__leafnode.html#a5172eaaf1163091abbe906e20a3e3580">idg_leafnode</a>
+, <a class="el" href="classidg__treenode.html#ab094ccca5354b9677b9fd50c137dce7e">idg_treenode</a>
 </li>
 </ul>
 
 
 <h3><a id="index_a"></a>- a -</h3><ul>
+<li>accepts_child()
+: <a class="el" href="classidg__treenode__type.html#a9ee66466f2f915a07b65f67a9ed93eaa">idg_treenode_type</a>
+</li>
 <li>add_child()
-: <a class="el" href="classidg__tree__node.html#a43af700a477983aa4965d028008eeb3f">idg_tree_node</a>
+: <a class="el" href="classidg__treenode.html#a617cb2062aee5fdcd2b093ccaa47672e">idg_treenode</a>
+</li>
+<li>add_filter()
+: <a class="el" href="classidg__view.html#a9f75ffcec032677bebe1a7aef85c112c">idg_view</a>
 </li>
 <li>add_options()
-: <a class="el" href="classidg__attribute.html#a28c5f49e21bfda8c1bb19be99cd1a6cf">idg_attribute</a>
-</li>
-<li>add_to_view()
-: <a class="el" href="classidg__pagemap.html#a7e0ccdb2c2dd6a2579e96e2dd2ded8fc">idg_pagemap</a>
+: <a class="el" href="classidg__attribute.html#a08134cff771be04d4b53b6a0a48be17e">idg_attribute</a>
 </li>
 <li>add_token()
-: <a class="el" href="classidg__declaration__type.html#a2fad6edc5c2e0e723eb64c5d93145153">idg_declaration_type</a>
-, <a class="el" href="classidg__document.html#a9ff98fd927f8ce36998139615667f573">idg_document</a>
-, <a class="el" href="classidg__folder.html#a4af249bd7ed66f69d960b75cbfba64e4">idg_folder</a>
-, <a class="el" href="classidg__renderer__declaration.html#acd121a1c23b97d5f571a1e20f3de6309">idg_renderer_declaration</a>
-, <a class="el" href="classidg__tree__node.html#ab3d901621c520f26af90bc739de5c945">idg_tree_node</a>
+: <a class="el" href="classidg__datasource__implementation.html#a1357a683acf9ea8f9d3a966943c28db0">idg_datasource_implementation</a>
+</li>
+<li>apply_filter()
+: <a class="el" href="classidg__filter.html#a75d3bce3e3a07138e6f6531693c35bc6">idg_filter</a>
 </li>
 </ul>
 
 
 <h3><a id="index_c"></a>- c -</h3><ul>
 <li>check()
-: <a class="el" href="classidg__tree__node.html#a7e90f39d4da35ff27b63d8cf1be0a06e">idg_tree_node</a>
+: <a class="el" href="classidg__treenode.html#afa42a634a687150cea07ee618b996bcf">idg_treenode</a>
 </li>
 <li>clear()
-: <a class="el" href="classidg__object.html#aef47894584069f54e8abee91ed63a74f">idg_object</a>
-, <a class="el" href="classidg__param__instance.html#a3958f670f1e76b9d55a5d0a73da8bfb5">idg_param_instance</a>
-, <a class="el" href="classidg__tree__node__instance.html#a54bb8ab934cec8132fb3344f6ce6122a">idg_tree_node_instance</a>
+: <a class="el" href="classidg__leafnode.html#a20a33cff83242e03c4e891e095316db3">idg_leafnode</a>
+, <a class="el" href="classidg__treenode.html#a8c8c06661848fd3d8d0bdcf0d3badc34">idg_treenode</a>
+</li>
+<li>core()
+: <a class="el" href="classidg__view.html#a3973100ebc09a596ec0f9f88aebf90f5">idg_view</a>
 </li>
 <li>create_attribute()
-: <a class="el" href="classidg__tree__node.html#af541fc16dbea92119b78d6a3ee4d4248">idg_tree_node</a>
+: <a class="el" href="classidg__leafnode.html#abe1ea9adb1708f52a3ddf1bc496e6bd4">idg_leafnode</a>
 </li>
 <li>create_instance()
-: <a class="el" href="classidg__datasource__declaration.html#aa0097c6bed6052259b03637f84628be0">idg_datasource_declaration</a>
-, <a class="el" href="classidg__renderer__declaration.html#a57b09006d42f1959d7ac91ca327de3d7">idg_renderer_declaration</a>
+: <a class="el" href="classidg__leafnode.html#aeede79fe6a857dd55ce1306be47a0fd3">idg_leafnode</a>
+, <a class="el" href="classidg__renderer.html#a4795cc75acd8106ecb56fe46ad58d88a">idg_renderer</a>
+</li>
+<li>CSS_PROPERTIES
+: <a class="el" href="classidg__view.html#a34393fe88c1d8d3f914a5f35e88c9185">idg_view</a>
+</li>
+<li>current()
+: <a class="el" href="classidg__datasource__implementation.html#ae7daf9867892164e560d2f34eb4a970f">idg_datasource_implementation</a>
 </li>
 </ul>
 
 
 <h3><a id="index_e"></a>- e -</h3><ul>
+<li>emit()
+: <a class="el" href="classidg__view.html#af7d4b0eb74f07b095b97c5ea0d3da0b9">idg_view</a>
+</li>
 <li>execute()
-: <a class="el" href="classidg__object.html#a583e265c2dbc95871ab08eb9820c3ee8">idg_object</a>
+: <a class="el" href="classidg__object.html#a9cad019ba9b2604ec90e392d6e331bf7">idg_object</a>
+</li>
+</ul>
+
+
+<h3><a id="index_f"></a>- f -</h3><ul>
+<li>fetch_attribute()
+: <a class="el" href="classidg__fragment__implementation.html#a6d4926dcdf9e3a921248eb9a6c15ad76">idg_fragment_implementation</a>
 </li>
 </ul>
 
 
 <h3><a id="index_g"></a>- g -</h3><ul>
-<li>get_attribute()
-: <a class="el" href="classidg__tree__node.html#a6d119e4b7dc3e041d13719fb6c92eddf">idg_tree_node</a>
-, <a class="el" href="classidg__tree__node__instance.html#aa85824a0771cb5168af4459e598e3061">idg_tree_node_instance</a>
+<li>get_anchor()
+: <a class="el" href="classidg__renderer__implementation.html#a57e1b8d1fd6e1e62f8ddafce7f62c07d">idg_renderer_implementation</a>
 </li>
-<li>get_child()
-: <a class="el" href="classidg__tree__node__instance.html#a89215ec2899bef35cd55e054d73d6638">idg_tree_node_instance</a>
+<li>get_attributes()
+: <a class="el" href="classidg__leafnode.html#af0b957de2cfe9969dce16aa5f796ea10">idg_leafnode</a>
 </li>
 <li>get_child_by_key()
-: <a class="el" href="classidg__tree__node.html#a78459bb68b6088d2faf43fcfe098bdf3">idg_tree_node</a>
-</li>
-<li>get_child_count()
-: <a class="el" href="classidg__tree__node__instance.html#aee07c5c32de34d534aee8a10e12548b7">idg_tree_node_instance</a>
+: <a class="el" href="classidg__treenode.html#a5b419d2fab86a5a9f771669cfd7a94c2">idg_treenode</a>
 </li>
 <li>get_children()
-: <a class="el" href="classidg__tree__node.html#a03229f508108f742434972ad8f290f92">idg_tree_node</a>
-, <a class="el" href="classidg__tree__node__instance.html#ac9ac4c066670273012b5a4d08649a167">idg_tree_node_instance</a>
+: <a class="el" href="classidg__treenode.html#a446f17c5cb29dfd8f3d830c1a7307c5e">idg_treenode</a>
+, <a class="el" href="classidg__view__implementation.html#a7b0437960b99943cf90e1996007a7830">idg_view_implementation</a>
 </li>
 <li>get_children_by_key()
-: <a class="el" href="classidg__tree__node.html#a92a0b6f695e9cb252eb0ae8d71c10500">idg_tree_node</a>
-</li>
-<li>get_css()
-: <a class="el" href="classidg__pagemap.html#af5afcf503a3e3995a6af582892c918df">idg_pagemap</a>
+: <a class="el" href="classidg__treenode.html#a02ff9721f48021983ada1a220c92b719">idg_treenode</a>
 </li>
 <li>get_datasource()
-: <a class="el" href="classidg__document.html#a4afd3976093de18e8f339c3dee48bed4">idg_document</a>
-, <a class="el" href="classidg__site.html#a453c0ebf27c6a8369b64690bf3afdfbf">idg_site</a>
+: <a class="el" href="classidg__document.html#a1c0c75f8579a62e0e85124873a3d8785">idg_document</a>
+, <a class="el" href="classidg__fragment__implementation.html#a3568a95496a11586225ba1052d890448">idg_fragment_implementation</a>
+, <a class="el" href="classidg__renderer__implementation.html#a0e05067c7abd70005790ab18b3477593">idg_renderer_implementation</a>
+, <a class="el" href="classidg__site.html#ac218c7fa75b50a0de32b89b777287283">idg_site</a>
+</li>
+<li>get_declaration()
+: <a class="el" href="classidg__object__implementation.html#a25dcf4d975a2fd21f429a72c288eb098">idg_object_implementation</a>
 </li>
 <li>get_default_title()
 : <a class="el" href="classidg__document.html#a1089da576de6bef7874e9a5fde9cb395">idg_document</a>
 </li>
 <li>get_document()
-: <a class="el" href="classidg__site.html#a3446705c00bb5320e4b629d11aa4d1c3">idg_site</a>
+: <a class="el" href="classidg__site.html#a51f0d55c03145b85ca3e9c312af3b0d2">idg_site</a>
 </li>
-<li>get_folder()
-: <a class="el" href="classidg__document.html#a8501d78f30b122d32b93ce517a3ee972">idg_document</a>
+<li>get_element_name()
+: <a class="el" href="classidg__leafnode.html#aea28450d3a6d4b072ab8606531e1ba71">idg_leafnode</a>
 </li>
-<li>get_header_lines()
-: <a class="el" href="classgoogle__font__api.html#aa9169965e70465e938c3bdb6c839802a">google_font_api</a>
-</li>
-<li>get_hook()
-: <a class="el" href="classidg__object.html#a35093e6cb6bcfc815778ed16cbc11e75">idg_object</a>
-, <a class="el" href="classidg__object__type.html#a28a243b131cba3085e4c07994239f83c">idg_object_type</a>
-</li>
-<li>get_html_body()
-: <a class="el" href="classidg__pagemap.html#aa8269bdeceec177c587c6e99e2add5bc">idg_pagemap</a>
+<li>get_full_uri()
+: <a class="el" href="classidg__core.html#a3aedf6d208a4d477cd742fec2b1e5c80">idg_core</a>
 </li>
 <li>get_idg_id()
 : <a class="el" href="classidg__object.html#adf93470e265c48e006b1c573129a4988">idg_object</a>
-, <a class="el" href="classidg__tree__node__instance.html#a15274630ffaabd3f91a8a1d16044f822">idg_tree_node_instance</a>
-</li>
-<li>get_idg_type()
-: <a class="el" href="classidg__object.html#ad3268b675f8de2b464007f30294c06fc">idg_object</a>
-</li>
-<li>get_instance()
-: <a class="el" href="classidg__object.html#ac41f30824083065ee9430a74f7301116">idg_object</a>
-</li>
-<li>get_known()
-: <a class="el" href="classidg__object__type.html#ad6d9657de15ecb6d7e0497e66698699b">idg_object_type</a>
+, <a class="el" href="classidg__object__implementation.html#aa4f7cdab064551936664e98dad737285">idg_object_implementation</a>
 </li>
 <li>get_last_change()
 : <a class="el" href="classidg__document.html#a62bdd811a202ad6ac6e5e7d2e76cb4f9">idg_document</a>
 </li>
+<li>get_name_part()
+: <a class="el" href="classidg__attribute.html#afaad9cca9eccddfe4c902d42f2d86350">idg_attribute</a>
+</li>
+<li>get_namespace()
+: <a class="el" href="classidg__core.html#a80acc5fa2513afded4b61babc917b6cf">idg_core</a>
+</li>
+<li>get_or_create_attribute()
+: <a class="el" href="classidg__leafnode.html#a26bc6c683a59774b208f5d7231f9a455">idg_leafnode</a>
+</li>
 <li>get_parameter()
-: <a class="el" href="classidg__param__instance.html#a9f7bdb3534f0e3a0a5444d7b83f5e09e">idg_param_instance</a>
-, <a class="el" href="classidg__tree__node.html#a55471661364347b0cf9459acac57fab0">idg_tree_node</a>
+: <a class="el" href="classidg__fragment__implementation.html#abc699728edbb99dc6c12dd327742c155">idg_fragment_implementation</a>
+, <a class="el" href="interfaceidg__parameterized.html#a7b69d8e7fb475ede1ffbbc1502bc3c37">idg_parameterized</a>
 </li>
 <li>get_parameters()
-: <a class="el" href="classidg__param__instance.html#ac5970ca58fd151bf57c29adf80778e00">idg_param_instance</a>
-, <a class="el" href="classidg__tree__node.html#a3eb6b6cb90e4636f2083d15d32cd8828">idg_tree_node</a>
+: <a class="el" href="interfaceidg__parameterized.html#aeaf7485443796029b102318252e5f5c4">idg_parameterized</a>
 </li>
 <li>get_parent()
-: <a class="el" href="classidg__tree__node.html#a46125cb222ce856fc14b1434620a3eb2">idg_tree_node</a>
-, <a class="el" href="classidg__tree__node__instance.html#a8093f70e1fd97960783ca8429ecf4ff8">idg_tree_node_instance</a>
+: <a class="el" href="classidg__leafnode.html#abbf530ce8939dba13d2c3587532ca163">idg_leafnode</a>
 </li>
 <li>get_path()
 : <a class="el" href="classidg__document.html#a4554297770548415a0edf16831c41255">idg_document</a>
 </li>
 <li>get_properties()
 : <a class="el" href="classidg__object.html#a79f6b30d257d77f65301811591874429">idg_object</a>
-, <a class="el" href="classidg__object__type.html#abf3917552d304c7c686ec700d04546e0">idg_object_type</a>
+, <a class="el" href="classidg__type.html#ae8ba31123afbe05c55ae8601e47852f3">idg_type</a>
 </li>
 <li>get_property()
-: <a class="el" href="classidg__object.html#ac54f91fd013c01d09e085472d6bdb6e8">idg_object</a>
-, <a class="el" href="classidg__tree__node__instance.html#abf5f963e67716b4447d1062ddc5e9dc2">idg_tree_node_instance</a>
+: <a class="el" href="classidg__object.html#abc33fb720897df890e1f86282c4e9e9c">idg_object</a>
+, <a class="el" href="classidg__object__implementation.html#a6a21a88b0ee0cc804533de1d7604974d">idg_object_implementation</a>
 </li>
-<li>get_property_values()
-: <a class="el" href="classidg__object.html#ab7d008607f7a1d343deae48977d568de">idg_object</a>
+<li>get_property_hook()
+: <a class="el" href="classidg__type.html#afb3c7244d4a8ff86e8220e9912f35647">idg_type</a>
 </li>
 <li>get_renderers()
 : <a class="el" href="classidg__document.html#a0e01326ce378e5cf31d9c6fb11097b31">idg_document</a>
 </li>
-<li>get_scope()
-: <a class="el" href="classidg__attribute.html#a00faafd2d60a55cd33fade66ae826da3">idg_attribute</a>
+<li>get_request_document()
+: <a class="el" href="classidg__core.html#a4e371e138db9c933cb0723237e5dd6d7">idg_core</a>
+</li>
+<li>get_scope_part()
+: <a class="el" href="classidg__attribute.html#a0405cd8986d763d702c1c2f9304e5a7c">idg_attribute</a>
 </li>
 <li>get_site()
 : <a class="el" href="classidg__site__element.html#a06514b8d84f5ba62cf4e821884752c65">idg_site_element</a>
 </li>
-<li>get_site_url()
-: <a class="el" href="classidg__site.html#a0d900910ddef09179b8f9de4d32b1c2f">idg_site</a>
+<li>get_stream()
+: <a class="el" href="classidg__view.html#ac3544674f12793792be6c438a26b4046">idg_view</a>
 </li>
-<li>get_sitemap()
-: <a class="el" href="classidg__site.html#a0062637198c3d9db42af836ac1fa1b10">idg_site</a>
+<li>get_template_path()
+: <a class="el" href="classidg__core.html#a1a7b9cb7bce28f96bf16eba7072cdff7">idg_core</a>
+</li>
+<li>get_template_uri()
+: <a class="el" href="classidg__core.html#a407c764f1db05c0e8c9e3b1729ac92fd">idg_core</a>
 </li>
 <li>get_text()
-: <a class="el" href="classidg__object.html#ac2905493a606c1a2995372c44ba4a799">idg_object</a>
-, <a class="el" href="classidg__tree__node__instance.html#a1aeebb53cda22dc91dd7ace475ec04fa">idg_tree_node_instance</a>
+: <a class="el" href="classidg__leafnode.html#a338e94af10e83f8a4fa1b5a28bba0131">idg_leafnode</a>
 </li>
-<li>get_token()
-: <a class="el" href="classidg__datasource__instance.html#aceead64fd0e90e51d12302667ce36a67">idg_datasource_instance</a>
+<li>get_type()
+: <a class="el" href="classidg__object.html#aa2f929050f76dd8c0745fd58b8ec2282">idg_object</a>
 </li>
-<li>get_url()
-: <a class="el" href="classidg__document.html#aed4be589596f2e466b8c79d352bd62d9">idg_document</a>
-</li>
-<li>get_variable()
-: <a class="el" href="classidg__document.html#a802e9f58ca82bc5555cd5ef42057789e">idg_document</a>
-, <a class="el" href="classidg__view__html__renderer__phpscript__obj.html#a7d28544a64e77cc35c3bcffdd430821b">idg_view_html_renderer_phpscript_obj</a>
+<li>get_type_name()
+: <a class="el" href="classidg__object.html#a2b6e078b8213be497949ec6dac1fbbe4">idg_object</a>
 </li>
 <li>get_xml()
-: <a class="el" href="classidg__attribute.html#a7d63db50bf51838211cfd503f6243b66">idg_attribute</a>
+: <a class="el" href="classidg__attribute.html#a6041dda410a94184065857bb7264389c">idg_attribute</a>
 </li>
 <li>get_xml_tag()
-: <a class="el" href="classidg__object.html#a9c99064953fb5ec94398008a99bd9133">idg_object</a>
+: <a class="el" href="classidg__leafnode.html#a2b1364d41671dff70bf16d0968397f78">idg_leafnode</a>
 </li>
 </ul>
 
 
-<h3><a id="index_i"></a>- i -</h3><ul>
-<li>is_mandatory()
-: <a class="el" href="classidg__object__type.html#a1f1a53a16788a404967e3943260860b9">idg_object_type</a>
+<h3><a id="index_h"></a>- h -</h3><ul>
+<li>has_property()
+: <a class="el" href="classidg__type.html#acbceb237b8893eb68e7dca15ad34817b">idg_type</a>
 </li>
-<li>is_valid()
-: <a class="el" href="classidg__view__html__renderer__phpscript__obj.html#ab1d02934479dc1b7ee8c69d815ec9752">idg_view_html_renderer_phpscript_obj</a>
+</ul>
+
+
+<h3><a id="index_k"></a>- k -</h3><ul>
+<li>key()
+: <a class="el" href="classidg__datasource__implementation.html#ae66195db24d517e1a5620d22e2ca7a3b">idg_datasource_implementation</a>
+</li>
+</ul>
+
+
+<h3><a id="index_l"></a>- l -</h3><ul>
+<li>load()
+: <a class="el" href="classidg__filter.html#a42785103874c197acab6ed24765cf88f">idg_filter</a>
+</li>
+</ul>
+
+
+<h3><a id="index_n"></a>- n -</h3><ul>
+<li>next()
+: <a class="el" href="classidg__datasource__implementation.html#a09fe89984988c36927885f623ba7c360">idg_datasource_implementation</a>
 </li>
 </ul>
 
 
 <h3><a id="index_p"></a>- p -</h3><ul>
-<li>print()
-: <a class="el" href="classidg__view.html#a0b30aad771e55d4c11f29512fd3d8de4">idg_view</a>
+<li>property_is_mandatory()
+: <a class="el" href="classidg__type.html#ab8ff802169f7ce39d14d61f5d27a6cc5">idg_type</a>
 </li>
-<li>print_debug()
-: <a class="el" href="classidg__tree__node.html#ac928b8d4a70c19c8a7e04a5c2c893e5e">idg_tree_node</a>
-</li>
-<li>print_debug_all()
-: <a class="el" href="classidg__tree__node.html#a005a370d5c26b395fd8b94ea133bc360">idg_tree_node</a>
+</ul>
+
+
+<h3><a id="index_q"></a>- q -</h3><ul>
+<li>qualify()
+: <a class="el" href="classidg__core.html#a33500bdc1b3a31f487311c69f7a3a830">idg_core</a>
 </li>
 </ul>
 
 
 <h3><a id="index_r"></a>- r -</h3><ul>
 <li>read_xml()
-: <a class="el" href="classidg__tree__node.html#a08f3b15d2826b836def2d2779884f1d0">idg_tree_node</a>
+: <a class="el" href="classidg__treenode.html#a0298971d798e8cdc80e22bfcd1e1a521">idg_treenode</a>
 </li>
-<li>register_font()
-: <a class="el" href="classgoogle__font__api.html#a7d8797bafd205f2c23fac36e681e4f05">google_font_api</a>
+<li>register_property()
+: <a class="el" href="classidg__type.html#af530414c3e87419b503a207f8bda9abb">idg_type</a>
+</li>
+<li>RELOAD_ALWAYS
+: <a class="el" href="classidg__reload__policy.html#a13692b477004a60aceaf876a4ac1be16">idg_reload_policy</a>
+</li>
+<li>RELOAD_LASTCHANGE
+: <a class="el" href="classidg__reload__policy.html#ac79d372d4f6494d15200d6eeafe6bec2">idg_reload_policy</a>
+</li>
+<li>RELOAD_LASTCHANGE_DEFAULT_NOW
+: <a class="el" href="classidg__reload__policy.html#a83d5c72922427b387794f68b3896c5d4">idg_reload_policy</a>
+</li>
+<li>RELOAD_NOHEADER
+: <a class="el" href="classidg__reload__policy.html#a5218d37444b9f7d58a48a3cff2c5d13b">idg_reload_policy</a>
+</li>
+<li>remove_filter()
+: <a class="el" href="classidg__view.html#a4df91510fadd2f14a52f675793e3414d">idg_view</a>
 </li>
 <li>render()
-: <a class="el" href="classidg__view__html.html#ad2ab39b24e4559133a02074eb51ccd8b">idg_view_html</a>
-, <a class="el" href="classidg__view__html__item__image.html#ae53e0d18e7400c9b1d01f74bc8a84536">idg_view_html_item_image</a>
-, <a class="el" href="classidg__view__html__item__text.html#a723147371558095783bc6fbd4ff71158">idg_view_html_item_text</a>
-, <a class="el" href="classidg__view__html__renderer__markdown.html#a95bdcbbff9a79dc64d4f74a06aecf357">idg_view_html_renderer_markdown</a>
-, <a class="el" href="classidg__view__html__renderer__null.html#a777bbdbeb12864b16ed9f2873e80bcdd">idg_view_html_renderer_null</a>
-, <a class="el" href="classidg__view__html__renderer__phpscript.html#a1b7529fcacaa0e283a2f8e8ecbfb10e6">idg_view_html_renderer_phpscript</a>
-, <a class="el" href="classidg__view__html__renderer__phpscript__obj.html#a964212b562ef6ce340fd1ecf550eb3ee">idg_view_html_renderer_phpscript_obj</a>
-, <a class="el" href="classidg__view__html__renderer__sourcefile.html#a35e9b997eac3c169d71481c5f80aba3f">idg_view_html_renderer_sourcefile</a>
-, <a class="el" href="classidg__view__html__renderer__textfile.html#a6b97c59cce1515abd54e32ff40e9d472">idg_view_html_renderer_textfile</a>
-, <a class="el" href="classidg__view__html__template__fixedbar.html#ae11735ae595b782f5d47e80e38834f05">idg_view_html_template_fixedbar</a>
-, <a class="el" href="classidg__view__html__template__fixedcontent.html#aab13a71ed141068eb4a7c6f8d7c0bc18">idg_view_html_template_fixedcontent</a>
+: <a class="el" href="classidg__view.html#a53eaef366f6309da0754faccc247feda">idg_view</a>
+</li>
+<li>render_css()
+: <a class="el" href="classidg__view.html#a488d9b33faf73b4d62cedab667777d3d">idg_view</a>
+</li>
+<li>reverse()
+: <a class="el" href="classidg__datasource__implementation.html#ad2bcbe4fb41ece3bc4683e4000fd344d">idg_datasource_implementation</a>
 </li>
 <li>rewind()
-: <a class="el" href="classidg__datasource__instance.html#a5049047772f13194a24e80fa064ef345">idg_datasource_instance</a>
+: <a class="el" href="classidg__datasource__implementation.html#a4f8d4e9395d3e503cf3c284c1cd8112a">idg_datasource_implementation</a>
 </li>
 </ul>
 
 
 <h3><a id="index_s"></a>- s -</h3><ul>
-<li>set_filter()
-: <a class="el" href="classidg__view.html#af7192afdf4e376b041d14a8af50900ab">idg_view</a>
-</li>
-<li>set_hook()
-: <a class="el" href="classidg__object.html#ad76781e060238447a7a83913e66375c7">idg_object</a>
-, <a class="el" href="classidg__object__type.html#ae0b2e2e2d97ba15b459ce1f7d39ac509">idg_object_type</a>
-</li>
-<li>set_idg_type()
-: <a class="el" href="classidg__object.html#a47e4cabf65a04eec586e2ab0279dcfbe">idg_object</a>
-</li>
-<li>set_invalid()
-: <a class="el" href="classidg__view__html__renderer__phpscript__obj.html#a0326f74cd1f1838ca34e120c84188569">idg_view_html_renderer_phpscript_obj</a>
-</li>
-<li>set_invalid_if_empty()
-: <a class="el" href="classidg__view__html__renderer__phpscript__obj.html#a7379dd1098638843faed2bb3000456ee">idg_view_html_renderer_phpscript_obj</a>
-</li>
-<li>set_known()
-: <a class="el" href="classidg__object__type.html#a0ad8c29d00d0adff82797e35d6fe5f39">idg_object_type</a>
-</li>
 <li>set_last_change()
-: <a class="el" href="classidg__document.html#ad8a783cff3240953eb73cb34bf95eaf5">idg_document</a>
+: <a class="el" href="classidg__document.html#a0e54d75f75f119d29ea8eea696f621c1">idg_document</a>
 </li>
-<li>set_mandatory()
-: <a class="el" href="classidg__object__type.html#a346c53688eedf770263fc4e85e4cf52e">idg_object_type</a>
+<li>set_namespace()
+: <a class="el" href="classidg__core.html#a86083856521e8cf26adb0035031e9ed7">idg_core</a>
 </li>
 <li>set_parameter()
-: <a class="el" href="classidg__param__instance.html#ae71881c1da1d8ba0c45178256da45543">idg_param_instance</a>
-, <a class="el" href="classidg__tree__node.html#a282d84fca6623fa36e068981a8d71fe7">idg_tree_node</a>
-</li>
-<li>set_parameters()
-: <a class="el" href="classidg__param__instance.html#a7dc5b99b73fd83174adeb2d17218bd37">idg_param_instance</a>
+: <a class="el" href="interfaceidg__parameterized.html#a249f75573a00d5a035ea22173692d069">idg_parameterized</a>
 </li>
 <li>set_parent()
-: <a class="el" href="classidg__tree__node.html#a27cbeb851e275fe1ad7837e3f8e086db">idg_tree_node</a>
+: <a class="el" href="classidg__leafnode.html#a69bead9c67af8414bc072edfe30d52e2">idg_leafnode</a>
 </li>
 <li>set_properties()
-: <a class="el" href="classidg__object.html#a3c88c9eb5649e9da2d51bb10cefc9b25">idg_object</a>
+: <a class="el" href="classidg__object.html#abee1247181aa19887ed6c77452db9d89">idg_object</a>
 </li>
 <li>set_property()
-: <a class="el" href="classidg__object.html#a45eb1a38df86f20d563bc48f4956380c">idg_object</a>
+: <a class="el" href="classidg__object.html#a663ed34313e192696eabda363b6043e1">idg_object</a>
+</li>
+<li>set_property_hook()
+: <a class="el" href="classidg__type.html#aa8ed11a49629c5dc74064400265460d1">idg_type</a>
+</li>
+<li>set_property_mandatory()
+: <a class="el" href="classidg__type.html#ab5d4ce497e00d120b942acb9372c214f">idg_type</a>
+</li>
+<li>set_reload_policy()
+: <a class="el" href="classidg__view.html#a0b0c622797e0a73310a99cd36c57a5b8">idg_view</a>
 </li>
 <li>set_text()
-: <a class="el" href="classidg__object.html#af5daa48c5e9234fdeaffecaa29a840b8">idg_object</a>
-</li>
-<li>set_variable()
-: <a class="el" href="classidg__document.html#ad021754b1bd87e71daa4084b82dc19bf">idg_document</a>
-, <a class="el" href="classidg__view__html__renderer__phpscript__obj.html#af7b8cd400530abe5529c6d19f53fa049">idg_view_html_renderer_phpscript_obj</a>
+: <a class="el" href="classidg__leafnode.html#acd51d75616a8843ef289d02a7fc67120">idg_leafnode</a>
 </li>
 <li>stream_append()
-: <a class="el" href="classidg__view.html#a1ddb1fb570a49b50e820ad45f8e5ee2f">idg_view</a>
+: <a class="el" href="classidg__view.html#ad55847cece039cda45daac1c6c4b3c2c">idg_view</a>
+, <a class="el" href="classidg__view__implementation.html#a1b5383fb618a17998af3c07795c4909e">idg_view_implementation</a>
 </li>
 </ul>
 
 
 <h3><a id="index_t"></a>- t -</h3><ul>
 <li>traverse()
-: <a class="el" href="classidg__tree__node.html#af7f19c48fd0bf55645ec510cb9beb182">idg_tree_node</a>
+: <a class="el" href="classidg__treenode.html#a30d2dc1275fc6202065e656770ae8842">idg_treenode</a>
+</li>
+<li>truncate()
+: <a class="el" href="classidg__datasource__implementation.html#a57a5ba37648e58f4b8303152f852ebc9">idg_datasource_implementation</a>
 </li>
 </ul>
 
 
-<h3><a id="index_u"></a>- u -</h3><ul>
-<li>unset_filter()
-: <a class="el" href="classidg__view.html#a665c7f790e21d2fe8395fdbff4ae90da">idg_view</a>
-</li>
-<li>uuid_v4()
-: <a class="el" href="classidg__view__html.html#afa39f37f96b158e9f62e05976981b206">idg_view_html</a>
+<h3><a id="index_v"></a>- v -</h3><ul>
+<li>valid()
+: <a class="el" href="classidg__datasource__implementation.html#a319a89ca1760f729ff3ffc75739ef412">idg_datasource_implementation</a>
 </li>
 </ul>
 
 
 <h3><a id="index_w"></a>- w -</h3><ul>
 <li>write_xml()
-: <a class="el" href="classidg__tree__node.html#af9f29c902c07cf504d904fc1a84a1bd7">idg_tree_node</a>
+: <a class="el" href="classidg__treenode.html#ad12622e3b2094e0c6a1b8982605de158">idg_treenode</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
 </body>
 </html>

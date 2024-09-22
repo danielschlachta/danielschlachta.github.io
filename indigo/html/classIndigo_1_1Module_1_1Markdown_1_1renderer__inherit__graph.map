@@ -1,0 +1,5 @@
+<map id="Indigo\Module\Markdown\renderer" name="Indigo\Module\Markdown\renderer">
+<area shape="rect" id="node1" title="Support for .md files via parsedown." alt="" coords="19,155,206,196"/>
+<area shape="rect" id="node2" href="$classidg__renderer__implementation.html" title="The actual renderer object." alt="" coords="5,80,220,107"/>
+<area shape="rect" id="node3" href="$classidg__object__implementation.html" title="Base class for ancillary objects that have no associated type information." alt="" coords="13,5,213,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="idg_treenode\add_child" name="idg_treenode\add_child">
+<area shape="rect" id="node1" title="Adds a child to the node." alt="" coords="5,31,179,57"/>
+<area shape="rect" id="node2" href="$diagnostics_8php.html#adb7dcc2469f04d5090cd68dc99cc5061" title="Prints as much information as possible and then terminates execution calling die()." alt="" coords="277,5,355,32"/>
+<area shape="rect" id="node3" href="$classidg__leafnode.html#a69bead9c67af8414bc072edfe30d52e2" title="Set the parent object." alt="" coords="227,56,405,83"/>
+</map>

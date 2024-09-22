@@ -1,0 +1,6 @@
+<map id="Indigo\Renderer\textfile\_render" name="Indigo\Renderer\textfile\_render">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,180,112"/>
+<area shape="rect" id="node2" href="$classidg__renderer__implementation.html#a0e05067c7abd70005790ab18b3477593" title="Gets the associated datasource object." alt="" coords="228,5,443,47"/>
+<area shape="rect" id="node3" href="$classidg__document.html#a0e54d75f75f119d29ea8eea696f621c1" title="Updates the document&#39;s last modification time." alt="" coords="251,71,420,112"/>
+<area shape="rect" id="node4" href="$classidg__view.html#ad55847cece039cda45daac1c6c4b3c2c" title="Write some content to a stream." alt="" coords="243,137,428,163"/>
+</map>

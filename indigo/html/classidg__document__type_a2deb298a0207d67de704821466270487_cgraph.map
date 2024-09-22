@@ -1,6 +1,6 @@
 <map id="idg_document_type\__construct" name="idg_document_type\__construct">
-<area shape="rect" id="node1" title=" " alt="" coords="5,27,160,69"/>
-<area shape="rect" id="node2" href="$classidg__object__type.html#ae0b2e2e2d97ba15b459ce1f7d39ac509" title=" " alt="" coords="208,5,396,32"/>
-<area shape="rect" id="node3" href="$classidg__object__type.html#a346c53688eedf770263fc4e85e4cf52e" title=" " alt="" coords="227,57,377,98"/>
-<area shape="rect" id="node4" href="$diagnostics_8php.html#ab33364bd97c64c5f346adb6581e200b2" title=" " alt="" coords="444,64,495,91"/>
+<area shape="rect" id="node1" title="The constructor." alt="" coords="5,49,160,90"/>
+<area shape="rect" id="node2" href="$classidg__type.html#af530414c3e87419b503a207f8bda9abb" title="Adds a name to the list of known properties." alt="" coords="212,5,407,32"/>
+<area shape="rect" id="node3" href="$classidg__type.html#aa8ed11a49629c5dc74064400265460d1" title="Attach a hook function to a property that is called when the property value is null." alt="" coords="208,56,411,83"/>
+<area shape="rect" id="node4" href="$classidg__type.html#ab5d4ce497e00d120b942acb9372c214f" title="Sets whether an existing property is mandatory." alt="" coords="227,107,391,149"/>
 </map>

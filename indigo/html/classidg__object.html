@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -23,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">indigo
-   &#160;<span id="projectnumber">1.2</span>
+   &#160;<span id="projectnumber">1.4</span>
    </div>
    <div id="projectbrief">class reference</div>
   </td>
@@ -48,6 +52,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('classidg__object.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -62,78 +83,63 @@ $(function() {
 </iframe>
 </div>
 
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classidg__object-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">idg_object Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Base class for all objects.  
+ <a href="classidg__object.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for idg_object:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object__inherit__graph.svg" width="746" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object__inherit__graph.svg" width="899" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1de5be36dd2da746ba5e79561f46f55e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a1de5be36dd2da746ba5e79561f46f55e">__construct</a> ()</td></tr>
-<tr class="memdesc:a1de5be36dd2da746ba5e79561f46f55e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an idg object and assigns the corresponding idg type.  <a href="classidg__object.html#a1de5be36dd2da746ba5e79561f46f55e">More...</a><br /></td></tr>
 <tr class="separator:a1de5be36dd2da746ba5e79561f46f55e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef47894584069f54e8abee91ed63a74f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#aef47894584069f54e8abee91ed63a74f">clear</a> ()</td></tr>
-<tr class="separator:aef47894584069f54e8abee91ed63a74f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf93470e265c48e006b1c573129a4988"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#adf93470e265c48e006b1c573129a4988">get_idg_id</a> ()</td></tr>
+<tr class="memdesc:adf93470e265c48e006b1c573129a4988"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a unique readable identifier for the object, based on the type and the number of the object instance.  <a href="classidg__object.html#adf93470e265c48e006b1c573129a4988">More...</a><br /></td></tr>
 <tr class="separator:adf93470e265c48e006b1c573129a4988"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2905493a606c1a2995372c44ba4a799"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#ac2905493a606c1a2995372c44ba4a799">get_text</a> ()</td></tr>
-<tr class="separator:ac2905493a606c1a2995372c44ba4a799"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5daa48c5e9234fdeaffecaa29a840b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#af5daa48c5e9234fdeaffecaa29a840b8">set_text</a> ($text)</td></tr>
-<tr class="separator:af5daa48c5e9234fdeaffecaa29a840b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3268b675f8de2b464007f30294c06fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#ad3268b675f8de2b464007f30294c06fc">get_idg_type</a> ()</td></tr>
-<tr class="separator:ad3268b675f8de2b464007f30294c06fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac54f91fd013c01d09e085472d6bdb6e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#ac54f91fd013c01d09e085472d6bdb6e8">get_property</a> ($name, $execute_hooks=true)</td></tr>
-<tr class="separator:ac54f91fd013c01d09e085472d6bdb6e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b6e078b8213be497949ec6dac1fbbe4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a2b6e078b8213be497949ec6dac1fbbe4">get_type_name</a> ()</td></tr>
+<tr class="memdesc:a2b6e078b8213be497949ec6dac1fbbe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of the corresponding type object.  <a href="classidg__object.html#a2b6e078b8213be497949ec6dac1fbbe4">More...</a><br /></td></tr>
+<tr class="separator:a2b6e078b8213be497949ec6dac1fbbe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2f929050f76dd8c0745fd58b8ec2282"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#aa2f929050f76dd8c0745fd58b8ec2282">get_type</a> ()</td></tr>
+<tr class="memdesc:aa2f929050f76dd8c0745fd58b8ec2282"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an instance of the corresponding type object.  <a href="classidg__object.html#aa2f929050f76dd8c0745fd58b8ec2282">More...</a><br /></td></tr>
+<tr class="separator:aa2f929050f76dd8c0745fd58b8ec2282"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc33fb720897df890e1f86282c4e9e9c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#abc33fb720897df890e1f86282c4e9e9c">get_property</a> (string $name, $execute_hooks=true)</td></tr>
+<tr class="memdesc:abc33fb720897df890e1f86282c4e9e9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of a property, possibly generated by a hook function if it is not explicitly set, or <code>null</code>.  <a href="classidg__object.html#abc33fb720897df890e1f86282c4e9e9c">More...</a><br /></td></tr>
+<tr class="separator:abc33fb720897df890e1f86282c4e9e9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79f6b30d257d77f65301811591874429"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a79f6b30d257d77f65301811591874429">get_properties</a> ()</td></tr>
+<tr class="memdesc:a79f6b30d257d77f65301811591874429"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an array of all properties without executing any hooks.  <a href="classidg__object.html#a79f6b30d257d77f65301811591874429">More...</a><br /></td></tr>
 <tr class="separator:a79f6b30d257d77f65301811591874429"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7d008607f7a1d343deae48977d568de"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#ab7d008607f7a1d343deae48977d568de">get_property_values</a> (&amp;$prop_array, $execute_hooks=false)</td></tr>
-<tr class="separator:ab7d008607f7a1d343deae48977d568de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45eb1a38df86f20d563bc48f4956380c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a45eb1a38df86f20d563bc48f4956380c">set_property</a> ($name, $value)</td></tr>
-<tr class="separator:a45eb1a38df86f20d563bc48f4956380c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c88c9eb5649e9da2d51bb10cefc9b25"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a3c88c9eb5649e9da2d51bb10cefc9b25">set_properties</a> ($prop_array)</td></tr>
-<tr class="separator:a3c88c9eb5649e9da2d51bb10cefc9b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35093e6cb6bcfc815778ed16cbc11e75"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a35093e6cb6bcfc815778ed16cbc11e75">get_hook</a> ($name)</td></tr>
-<tr class="separator:a35093e6cb6bcfc815778ed16cbc11e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad76781e060238447a7a83913e66375c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#ad76781e060238447a7a83913e66375c7">set_hook</a> ($name, $function_name)</td></tr>
-<tr class="separator:ad76781e060238447a7a83913e66375c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a583e265c2dbc95871ab08eb9820c3ee8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a583e265c2dbc95871ab08eb9820c3ee8">execute</a> ($function_name)</td></tr>
-<tr class="memdesc:a583e265c2dbc95871ab08eb9820c3ee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes members of this object and global functions.  <a href="classidg__object.html#a583e265c2dbc95871ab08eb9820c3ee8">More...</a><br /></td></tr>
-<tr class="separator:a583e265c2dbc95871ab08eb9820c3ee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac41f30824083065ee9430a74f7301116"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#ac41f30824083065ee9430a74f7301116">get_instance</a> ()</td></tr>
-<tr class="separator:ac41f30824083065ee9430a74f7301116"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a663ed34313e192696eabda363b6043e1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a663ed34313e192696eabda363b6043e1">set_property</a> (string $name, string $value)</td></tr>
+<tr class="memdesc:a663ed34313e192696eabda363b6043e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the property <code>$name</code> to <code>$value</code>.  <a href="classidg__object.html#a663ed34313e192696eabda363b6043e1">More...</a><br /></td></tr>
+<tr class="separator:a663ed34313e192696eabda363b6043e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abee1247181aa19887ed6c77452db9d89"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#abee1247181aa19887ed6c77452db9d89">set_properties</a> (array $properties)</td></tr>
+<tr class="memdesc:abee1247181aa19887ed6c77452db9d89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets properties based on the key/value pairs in an array.  <a href="classidg__object.html#abee1247181aa19887ed6c77452db9d89">More...</a><br /></td></tr>
+<tr class="separator:abee1247181aa19887ed6c77452db9d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cad019ba9b2604ec90e392d6e331bf7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a9cad019ba9b2604ec90e392d6e331bf7">execute</a> (string $function_name, &amp;$param_1, $param_2)</td></tr>
+<tr class="memdesc:a9cad019ba9b2604ec90e392d6e331bf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a function which can be global or a a member of this object, if <code>$function_name</code> starts with <code>$this-&gt;</code>.  <a href="classidg__object.html#a9cad019ba9b2604ec90e392d6e331bf7">More...</a><br /></td></tr>
+<tr class="separator:a9cad019ba9b2604ec90e392d6e331bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a47e4cabf65a04eec586e2ab0279dcfbe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a47e4cabf65a04eec586e2ab0279dcfbe">set_idg_type</a> ($idg_type)</td></tr>
-<tr class="separator:a47e4cabf65a04eec586e2ab0279dcfbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7575668c8250d7e67c2f94b199d7695"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#ab7575668c8250d7e67c2f94b199d7695">_check</a> ()</td></tr>
-<tr class="memdesc:ab7575668c8250d7e67c2f94b199d7695"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs consistency checks, dies when an error is encountered.  <a href="classidg__object.html#ab7575668c8250d7e67c2f94b199d7695">More...</a><br /></td></tr>
-<tr class="separator:ab7575668c8250d7e67c2f94b199d7695"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33ff3482311fcf1156473088d89f5fee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a33ff3482311fcf1156473088d89f5fee">_print_debug</a> ($indent='')</td></tr>
-<tr class="separator:a33ff3482311fcf1156473088d89f5fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c99064953fb5ec94398008a99bd9133"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a9c99064953fb5ec94398008a99bd9133">get_xml_tag</a> ($tag_type, $tag_id='')</td></tr>
-<tr class="separator:a9c99064953fb5ec94398008a99bd9133"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a24029b6f655a31b829d448514441f67b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a24029b6f655a31b829d448514441f67b">$type_obj</a></td></tr>
-<tr class="separator:a24029b6f655a31b829d448514441f67b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae83728e134b0023b32719d351f770ff8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#ae83728e134b0023b32719d351f770ff8">$text</a></td></tr>
-<tr class="separator:ae83728e134b0023b32719d351f770ff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a435f7d43bd2b82d47e4a2b84a7fb4b68"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classidg__object.html#a435f7d43bd2b82d47e4a2b84a7fb4b68">_check</a> (&amp;$parameter, $dummy)</td></tr>
+<tr class="memdesc:a435f7d43bd2b82d47e4a2b84a7fb4b68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a basic consistency check.  <a href="classidg__object.html#a435f7d43bd2b82d47e4a2b84a7fb4b68">More...</a><br /></td></tr>
+<tr class="separator:a435f7d43bd2b82d47e4a2b84a7fb4b68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Base class for all objects. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1de5be36dd2da746ba5e79561f46f55e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1de5be36dd2da746ba5e79561f46f55e">&#9670;&nbsp;</a></span>__construct()</h2>
 
@@ -149,22 +155,19 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructs an idg object and assigns the corresponding idg type. </p>
-<p>The <a class="el" href="classidg__object__type.html">idg_object_type</a> is created if necessary, otherwise taken from a list.</p>
-<p>$idg_id is assigned a unique id based on the (php) object type and the number of objects constructed so far. </p>
-
-<p>Reimplemented in <a class="el" href="classidg__view__html__slot.html#acd3c3a715b1e7b9d8a84c75608b5f3d7">idg_view_html_slot</a>, <a class="el" href="classidg__view__html__item.html#ae60e4fc6f140dbd5bef92434905c4f82">idg_view_html_item</a>, <a class="el" href="classidg__view__html__renderer.html#ac65cfec984782a1be6e02d8f732c1496">idg_view_html_renderer</a>, <a class="el" href="classidg__view__html__container.html#a4d51cacacd60dfe39278132be384b76a">idg_view_html_container</a>, <a class="el" href="classidg__view__html__template.html#a79d65473ed82503a9f82c2418e086149">idg_view_html_template</a>, <a class="el" href="classidg__view__html__element.html#aacfe62926cb9a0d0ffcaefd23cd7b1bf">idg_view_html_element</a>, <a class="el" href="classidg__view__html.html#aff8afda4cfa29671651119f11a6b81d1">idg_view_html</a>, <a class="el" href="classidg__document.html#a9133c3194bcf239db7303b4cf9cd6634">idg_document</a>, <a class="el" href="classidg__folder.html#ab70576b0e9fe6af00534babec2801fcf">idg_folder</a>, <a class="el" href="classidg__site.html#a7319dbf6edb027e67ef83125e64f3e61">idg_site</a>, <a class="el" href="classidg__site__element.html#ad61225b9c03135cc5cad609f45268dfc">idg_site_element</a>, <a class="el" href="classidg__renderer__declaration.html#a5016fb09dc39752512e1ca67424992e5">idg_renderer_declaration</a>, and <a class="el" href="classidg__datasource__declaration.html#a37c51859bdfc86d73601605fdedc03e9">idg_datasource_declaration</a>.</p>
+<p>Reimplemented in <a class="el" href="classidg__site.html#a7319dbf6edb027e67ef83125e64f3e61">idg_site</a>, <a class="el" href="classidg__slot.html#a9f10e1f734a729666f3702d0dfa90584">idg_slot</a>, <a class="el" href="classidg__renderer.html#a7c2937522b8bb9178208e10f341f5a99">idg_renderer</a>, <a class="el" href="classidg__fragment.html#ae666a22c02c8c479681735b320089404">idg_fragment</a>, <a class="el" href="classidg__folder.html#ab70576b0e9fe6af00534babec2801fcf">idg_folder</a>, <a class="el" href="classidg__filter.html#a280aa6539c9df4ffb6268a76ec959aea">idg_filter</a>, <a class="el" href="classidg__document.html#a9133c3194bcf239db7303b4cf9cd6634">idg_document</a>, <a class="el" href="classidg__datasource.html#a7a26d92264d38ad6eb54fcd603f926b9">idg_datasource</a>, and <a class="el" href="classidg__container.html#a653af803e1310280904bb93ebe09cb5f">idg_container</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_a1de5be36dd2da746ba5e79561f46f55e_cgraph.svg" width="276" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_a1de5be36dd2da746ba5e79561f46f55e_cgraph.svg" width="420" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab7575668c8250d7e67c2f94b199d7695"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7575668c8250d7e67c2f94b199d7695">&#9670;&nbsp;</a></span>_check()</h2>
+<a id="a435f7d43bd2b82d47e4a2b84a7fb4b68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a435f7d43bd2b82d47e4a2b84a7fb4b68">&#9670;&nbsp;</a></span>_check()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -175,42 +178,19 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">idg_object::_check </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="paramtype">&amp;&#160;</td>
+          <td class="paramname"><em>$parameter</em>, </td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Performs consistency checks, dies when an error is encountered. </p>
-<p>This currently only checks whether all mandatory properties have values. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_ab7575668c8250d7e67c2f94b199d7695_cgraph.svg" width="575" height="114"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a33ff3482311fcf1156473088d89f5fee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33ff3482311fcf1156473088d89f5fee">&#9670;&nbsp;</a></span>_print_debug()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
         <tr>
-          <td class="memname">idg_object::_print_debug </td>
-          <td>(</td>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$indent</em> = <code>''</code></td><td>)</td>
+          <td class="paramname"><em>$dummy</em>&#160;</td>
+        </tr>
+        <tr>
           <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -219,33 +199,27 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Performs a basic consistency check. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>This currently only checks whether all mandatory properties have values. Objects should implement their own checks. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">$parameter</td><td>Unused </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_a33ff3482311fcf1156473088d89f5fee_cgraph.svg" width="414" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_a435f7d43bd2b82d47e4a2b84a7fb4b68_cgraph.svg" width="275" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="aef47894584069f54e8abee91ed63a74f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef47894584069f54e8abee91ed63a74f">&#9670;&nbsp;</a></span>clear()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">idg_object::clear </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a583e265c2dbc95871ab08eb9820c3ee8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a583e265c2dbc95871ab08eb9820c3ee8">&#9670;&nbsp;</a></span>execute()</h2>
+<a id="a9cad019ba9b2604ec90e392d6e331bf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cad019ba9b2604ec90e392d6e331bf7">&#9670;&nbsp;</a></span>execute()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -253,41 +227,43 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">idg_object::execute </td>
           <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$function_name</em></td><td>)</td>
-          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$function_name</em>, </td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Executes members of this object and global functions. </p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_a583e265c2dbc95871ab08eb9820c3ee8_icgraph.svg" width="884" height="738"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a35093e6cb6bcfc815778ed16cbc11e75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35093e6cb6bcfc815778ed16cbc11e75">&#9670;&nbsp;</a></span>get_hook()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname">idg_object::get_hook </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$name</em></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">&amp;&#160;</td>
+          <td class="paramname"><em>$param_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$param_2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Executes a function which can be global or a a member of this object, if <code>$function_name</code> starts with <code>$this-&gt;</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$function_name</td><td>The name of the function or member </td></tr>
+    <tr><td class="paramtype"></td><td class="paramname">&amp;$param</td><td>An arbitrary parameter passed to the function </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The return value of the function </dd></dl>
 <div class="dynheader">
-Here is the caller graph for this function:</div>
+Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_a35093e6cb6bcfc815778ed16cbc11e75_icgraph.svg" width="894" height="738"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_a9cad019ba9b2604ec90e392d6e331bf7_cgraph.svg" width="280" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -306,60 +282,12 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_adf93470e265c48e006b1c573129a4988_icgraph.svg" width="404" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 
-</div>
-</div>
-<a id="ad3268b675f8de2b464007f30294c06fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3268b675f8de2b464007f30294c06fc">&#9670;&nbsp;</a></span>get_idg_type()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">idg_object::get_idg_type </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_ad3268b675f8de2b464007f30294c06fc_icgraph.svg" width="414" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="ac41f30824083065ee9430a74f7301116"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac41f30824083065ee9430a74f7301116">&#9670;&nbsp;</a></span>get_instance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">idg_object::get_instance </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_ac41f30824083065ee9430a74f7301116_cgraph.svg" width="612" height="114"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_ac41f30824083065ee9430a74f7301116_icgraph.svg" width="414" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<p>Returns a unique readable identifier for the object, based on the type and the number of the object instance. </p>
+<blockquote class="doxtable">
+<p>Note: This assumes that objects are never destroyed. </p>
+</blockquote>
+<dl class="section return"><dt>Returns</dt><dd>string The identifier </dd></dl>
 
 </div>
 </div>
@@ -377,16 +305,20 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns an array of all properties without executing any hooks. </p>
+<dl class="section return"><dt>Returns</dt><dd>array An array of the properties and their values as key/value pairs </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_a79f6b30d257d77f65301811591874429_icgraph.svg" width="431" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_a79f6b30d257d77f65301811591874429_icgraph.svg" width="404" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="ac54f91fd013c01d09e085472d6bdb6e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac54f91fd013c01d09e085472d6bdb6e8">&#9670;&nbsp;</a></span>get_property()</h2>
+<a id="abc33fb720897df890e1f86282c4e9e9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc33fb720897df890e1f86282c4e9e9c">&#9670;&nbsp;</a></span>get_property()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -394,7 +326,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">idg_object::get_property </td>
           <td>(</td>
-          <td class="paramtype">&#160;</td>
+          <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>$name</em>, </td>
         </tr>
         <tr>
@@ -410,60 +342,34 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_ac54f91fd013c01d09e085472d6bdb6e8_cgraph.svg" width="388" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+
+<p>Returns the value of a property, possibly generated by a hook function if it is not explicitly set, or <code>null</code>. </p>
+<p>If <code>$execute_hooks</code> is <code>true</code> and a hook function is set, the return value of the hook function is returned. If this fails, the same is tried with the associated <a class="el" href="classidg__type.html" title="Type information for idg_object.">idg_type</a>'s hook function.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$name</td><td>The name of the property </td></tr>
+    <tr><td class="paramtype">bool</td><td class="paramname">$execute_hooks</td><td>Whether to execute hooks at all </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>string|null The value of the property </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_ac54f91fd013c01d09e085472d6bdb6e8_icgraph.svg" width="692" height="738"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_abc33fb720897df890e1f86282c4e9e9c_icgraph.svg" width="406" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="ab7d008607f7a1d343deae48977d568de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7d008607f7a1d343deae48977d568de">&#9670;&nbsp;</a></span>get_property_values()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">idg_object::get_property_values </td>
-          <td>(</td>
-          <td class="paramtype">&amp;&#160;</td>
-          <td class="paramname"><em>$prop_array</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$execute_hooks</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_ab7d008607f7a1d343deae48977d568de_cgraph.svg" width="612" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="ac2905493a606c1a2995372c44ba4a799"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2905493a606c1a2995372c44ba4a799">&#9670;&nbsp;</a></span>get_text()</h2>
+<a id="aa2f929050f76dd8c0745fd58b8ec2282"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2f929050f76dd8c0745fd58b8ec2282">&#9670;&nbsp;</a></span>get_type()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">idg_object::get_text </td>
+          <td class="memname">idg_object::get_type </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -471,110 +377,39 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a9c99064953fb5ec94398008a99bd9133"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c99064953fb5ec94398008a99bd9133">&#9670;&nbsp;</a></span>get_xml_tag()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">idg_object::get_xml_tag </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$tag_type</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$tag_id</em> = <code>''</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_a9c99064953fb5ec94398008a99bd9133_cgraph.svg" width="411" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<p>Returns an instance of the corresponding type object. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classidg__type.html" title="Type information for idg_object.">idg_type</a> The type object </dd></dl>
 
 </div>
 </div>
-<a id="ad76781e060238447a7a83913e66375c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad76781e060238447a7a83913e66375c7">&#9670;&nbsp;</a></span>set_hook()</h2>
+<a id="a2b6e078b8213be497949ec6dac1fbbe4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b6e078b8213be497949ec6dac1fbbe4">&#9670;&nbsp;</a></span>get_type_name()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">idg_object::set_hook </td>
+          <td class="memname">idg_object::get_type_name </td>
           <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$function_name</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a47e4cabf65a04eec586e2ab0279dcfbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47e4cabf65a04eec586e2ab0279dcfbe">&#9670;&nbsp;</a></span>set_idg_type()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">idg_object::set_idg_type </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$idg_type</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Returns the name of the corresponding type object. </p>
+<dl class="section return"><dt>Returns</dt><dd>string The name of the object </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_a47e4cabf65a04eec586e2ab0279dcfbe_icgraph.svg" width="436" height="700"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_a2b6e078b8213be497949ec6dac1fbbe4_icgraph.svg" width="420" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a3c88c9eb5649e9da2d51bb10cefc9b25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c88c9eb5649e9da2d51bb10cefc9b25">&#9670;&nbsp;</a></span>set_properties()</h2>
+<a id="abee1247181aa19887ed6c77452db9d89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abee1247181aa19887ed6c77452db9d89">&#9670;&nbsp;</a></span>set_properties()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -582,22 +417,31 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">idg_object::set_properties </td>
           <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$prop_array</em></td><td>)</td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$properties</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets properties based on the key/value pairs in an array. </p>
+<p>Properties not contained in the array will remain unchanged. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">array</td><td class="paramname">$properties</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_a3c88c9eb5649e9da2d51bb10cefc9b25_cgraph.svg" width="296" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_abee1247181aa19887ed6c77452db9d89_cgraph.svg" width="323" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a45eb1a38df86f20d563bc48f4956380c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45eb1a38df86f20d563bc48f4956380c">&#9670;&nbsp;</a></span>set_property()</h2>
+<a id="a663ed34313e192696eabda363b6043e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a663ed34313e192696eabda363b6043e1">&#9670;&nbsp;</a></span>set_property()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -605,13 +449,13 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">idg_object::set_property </td>
           <td>(</td>
-          <td class="paramtype">&#160;</td>
+          <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>$name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">&#160;</td>
+          <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>$value</em>&#160;</td>
         </tr>
         <tr>
@@ -621,84 +465,29 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classidg__object_a45eb1a38df86f20d563bc48f4956380c_cgraph.svg" width="284" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 
-</div>
-</div>
-<a id="af5daa48c5e9234fdeaffecaa29a840b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5daa48c5e9234fdeaffecaa29a840b8">&#9670;&nbsp;</a></span>set_text()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">idg_object::set_text </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$text</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ae83728e134b0023b32719d351f770ff8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae83728e134b0023b32719d351f770ff8">&#9670;&nbsp;</a></span>$text</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">idg_object::$text</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a24029b6f655a31b829d448514441f67b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24029b6f655a31b829d448514441f67b">&#9670;&nbsp;</a></span>$type_obj</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">idg_object::$type_obj</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Sets the property <code>$name</code> to <code>$value</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$name</td><td>The name of the property </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$value</td><td>The new value </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>indigo/lib/<a class="el" href="object_8php.html">object.php</a></li>
+<li>indigo/library/<a class="el" href="object_8php.html">object.php</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="classidg__object.html">idg_object</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
 </body>
 </html>

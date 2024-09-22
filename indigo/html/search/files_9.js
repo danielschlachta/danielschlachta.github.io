@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['templates_2ephp_259',['templates.php',['../templates_8php.html',1,'']]],
-  ['tree_2ephp_260',['tree.php',['../tree_8php.html',1,'']]]
+  ['site_2ephp_278',['site.php',['../site_8php.html',1,'']]],
+  ['slot_2ephp_279',['slot.php',['../slot_8php.html',1,'']]],
+  ['startup_2ephp_280',['startup.php',['../startup_8php.html',1,'']]]
 ];

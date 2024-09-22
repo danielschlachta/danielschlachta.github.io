@@ -1,7 +1,6 @@
 <map id="idg_datasource" name="idg_datasource">
-<area shape="rect" id="node1" title="The source of all data." alt="" coords="252,80,373,107"/>
-<area shape="rect" id="node3" href="$classidg__datasource__phpscript.html" title=" " alt="" coords="5,155,193,181"/>
-<area shape="rect" id="node4" href="$classidg__datasource__sourcefile.html" title=" " alt="" coords="217,155,408,181"/>
-<area shape="rect" id="node5" href="$classidg__datasource__textfile.html" title="Returns the content of a (normally text) file." alt="" coords="432,155,607,181"/>
-<area shape="rect" id="node2" href="$classidg__parameterized__instance.html" title="Base class for idg entities with parameters." alt="" coords="209,5,416,32"/>
+<area shape="rect" id="node1" title="A data source." alt="" coords="73,155,194,181"/>
+<area shape="rect" id="node2" href="$classidg__leafnode.html" title="Base class for objects organized in a tree structure." alt="" coords="5,80,112,107"/>
+<area shape="rect" id="node3" href="$classidg__object.html" title="Base class for all objects." alt="" coords="14,5,103,32"/>
+<area shape="rect" id="node4" href="$interfaceidg__parameterized.html" title="Interface for entities that accept parameters." alt="" coords="136,80,280,107"/>
 </map>

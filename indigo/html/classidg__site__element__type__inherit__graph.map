@@ -1,8 +1,8 @@
 <map id="idg_site_element_type" name="idg_site_element_type">
-<area shape="rect" id="node1" title="Type class for idg_site_element" alt="" coords="157,155,327,181"/>
-<area shape="rect" id="node4" href="$classidg__document__type.html" title=" " alt="" coords="5,229,156,256"/>
-<area shape="rect" id="node5" href="$classidg__folder__type.html" title=" " alt="" coords="181,229,303,256"/>
-<area shape="rect" id="node6" href="$classidg__site__type.html" title=" " alt="" coords="327,229,437,256"/>
-<area shape="rect" id="node2" href="$classidg__tree__node__type.html" title=" " alt="" coords="167,80,317,107"/>
-<area shape="rect" id="node3" href="$classidg__object__type.html" title=" " alt="" coords="179,5,305,32"/>
+<area shape="rect" id="node1" title="Type information for idg_site_element." alt="" coords="157,155,327,181"/>
+<area shape="rect" id="node4" href="$classidg__document__type.html" title="Type information for idg_document." alt="" coords="5,229,156,256"/>
+<area shape="rect" id="node5" href="$classidg__folder__type.html" title="Type information for idg_folder." alt="" coords="181,229,303,256"/>
+<area shape="rect" id="node6" href="$classidg__site__type.html" title="Type information for idg_site." alt="" coords="327,229,437,256"/>
+<area shape="rect" id="node2" href="$classidg__treenode__type.html" title="Type information for idg_treenode." alt="" coords="171,80,313,107"/>
+<area shape="rect" id="node3" href="$classidg__type.html" title="Type information for idg_object." alt="" coords="203,5,281,32"/>
 </map>

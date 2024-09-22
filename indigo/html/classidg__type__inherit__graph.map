@@ -1,0 +1,16 @@
+<map id="idg_type" name="idg_type">
+<area shape="rect" id="node1" title="Type information for idg_object." alt="" coords="5,56,84,83"/>
+<area shape="rect" id="node2" href="$classidg__datasource__type.html" title="Type information for idg_datasource." alt="" coords="132,5,289,32"/>
+<area shape="rect" id="node3" href="$classidg__renderer__type.html" title="Type information for idg_renderer." alt="" coords="141,56,281,83"/>
+<area shape="rect" id="node4" href="$classidg__treenode__type.html" title="Type information for idg_treenode." alt="" coords="139,107,282,133"/>
+<area shape="rect" id="node5" href="$classidg__filter__type.html" title="Type information for idg_filter." alt="" coords="369,56,483,83"/>
+<area shape="rect" id="node6" href="$classidg__site__element__type.html" title="Type information for idg_site_element." alt="" coords="341,107,511,133"/>
+<area shape="rect" id="node10" href="$classidg__view__element__type.html" title="Type information for idg_view_element." alt="" coords="337,233,515,260"/>
+<area shape="rect" id="node7" href="$classidg__document__type.html" title="Type information for idg_document." alt="" coords="563,31,713,57"/>
+<area shape="rect" id="node8" href="$classidg__folder__type.html" title="Type information for idg_folder." alt="" coords="577,81,699,108"/>
+<area shape="rect" id="node9" href="$classidg__site__type.html" title="Type information for idg_site." alt="" coords="583,132,693,159"/>
+<area shape="rect" id="node11" href="$classidg__container__type.html" title="Type information for idg_container." alt="" coords="565,183,711,209"/>
+<area shape="rect" id="node12" href="$classidg__fragment__type.html" title="Type information for idg_fragment." alt="" coords="565,233,711,260"/>
+<area shape="rect" id="node13" href="$classidg__slot__type.html" title="Type information for idg_slot." alt="" coords="583,284,693,311"/>
+<area shape="rect" id="node14" href="$classidg__view__type.html" title="Type information for idg_view." alt="" coords="580,335,696,361"/>
+</map>

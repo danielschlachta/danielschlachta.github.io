@@ -1,0 +1,7 @@
+<map id="idg_renderer_implementation" name="idg_renderer_implementation">
+<area shape="rect" id="node1" title="The actual renderer object." alt="" coords="253,78,468,105"/>
+<area shape="rect" id="node3" href="$classIndigo_1_1Module_1_1Markdown_1_1renderer.html" title="Support for .md files via parsedown." alt="" coords="516,5,703,47"/>
+<area shape="rect" id="node4" href="$classIndigo_1_1Module_1_1Sourcefile_1_1renderer.html" title=" " alt="" coords="518,71,701,112"/>
+<area shape="rect" id="node5" href="$classIndigo_1_1Renderer_1_1textfile.html" title=" " alt="" coords="522,137,697,163"/>
+<area shape="rect" id="node2" href="$classidg__object__implementation.html" title="Base class for ancillary objects that have no associated type information." alt="" coords="5,78,205,105"/>
+</map>

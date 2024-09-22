@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['write_5fxml_345',['write_xml',['../classidg__tree__node.html#af9f29c902c07cf504d904fc1a84a1bd7',1,'idg_tree_node']]]
+  ['qualify_357',['qualify',['../classidg__core.html#a33500bdc1b3a31f487311c69f7a3a830',1,'idg_core']]]
 ];

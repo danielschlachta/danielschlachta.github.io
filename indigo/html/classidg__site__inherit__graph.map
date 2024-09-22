@@ -1,6 +1,7 @@
 <map id="idg_site" name="idg_site">
-<area shape="rect" id="node1" title=" " alt="" coords="36,229,109,256"/>
-<area shape="rect" id="node2" href="$classidg__site__element.html" title="Base class for elements of a site definition." alt="" coords="5,155,140,181"/>
-<area shape="rect" id="node3" href="$classidg__tree__node.html" title=" " alt="" coords="15,80,130,107"/>
-<area shape="rect" id="node4" href="$classidg__object.html" title=" " alt="" coords="28,5,117,32"/>
+<area shape="rect" id="node1" title="The object that defines a whole site, i.e." alt="" coords="36,304,109,331"/>
+<area shape="rect" id="node2" href="$classidg__site__element.html" title="Base class for elements of a site definition." alt="" coords="5,229,140,256"/>
+<area shape="rect" id="node3" href="$classidg__treenode.html" title="Base class for all tree nodes which are not leaf nodes." alt="" coords="19,155,126,181"/>
+<area shape="rect" id="node4" href="$classidg__leafnode.html" title="Base class for objects organized in a tree structure." alt="" coords="19,80,126,107"/>
+<area shape="rect" id="node5" href="$classidg__object.html" title="Base class for all objects." alt="" coords="28,5,117,32"/>
 </map>

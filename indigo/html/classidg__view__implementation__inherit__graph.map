@@ -1,0 +1,7 @@
+<map id="idg_view_implementation" name="idg_view_implementation">
+<area shape="rect" id="node1" title="An object instance of a view." alt="" coords="136,80,327,107"/>
+<area shape="rect" id="node3" href="$classIndigo_1_1View_1_1grid.html" title="A view using grid." alt="" coords="5,155,132,181"/>
+<area shape="rect" id="node4" href="$classIndigo_1_1View_1_1sidebar.html" title="A fixed div to the left or right." alt="" coords="156,155,307,181"/>
+<area shape="rect" id="node5" href="$classIndigo_1_1View_1_1simple.html" title="A simple one with the scroll bar always visible." alt="" coords="331,155,478,181"/>
+<area shape="rect" id="node2" href="$classidg__object__implementation.html" title="Base class for ancillary objects that have no associated type information." alt="" coords="131,5,331,32"/>
+</map>

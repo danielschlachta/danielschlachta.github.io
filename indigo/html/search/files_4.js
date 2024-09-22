@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['mod_5fmarkdown_2ephp_251',['mod_markdown.php',['../mod__markdown_8php.html',1,'']]],
-  ['mod_5fpagemap_2ephp_252',['mod_pagemap.php',['../mod__pagemap_8php.html',1,'']]],
-  ['mod_5fsrc_2ephp_253',['mod_src.php',['../mod__src_8php.html',1,'']]]
+  ['index_2ephp_269',['index.php',['../index_8php.html',1,'']]],
+  ['indigo_2emd_270',['indigo.md',['../indigo_8md.html',1,'']]]
 ];

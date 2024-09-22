@@ -1,0 +1,14 @@
+<map id="idg_diag" name="idg_diag">
+<area shape="rect" id="node1" title="Prints as much information as possible and then terminates execution calling die()." alt="" coords="259,326,336,353"/>
+<area shape="rect" id="node2" href="$classIndigo_1_1Module_1_1Sourcefile_1_1datasource.html#ab9169bfa5e5bb1c8d4326dbef4a231c4" title=" " alt="" coords="17,5,199,47"/>
+<area shape="rect" id="node3" href="$classidg__object.html#a1de5be36dd2da746ba5e79561f46f55e" title=" " alt="" coords="25,71,191,98"/>
+<area shape="rect" id="node4" href="$classIndigo_1_1Datasource_1_1php.html#a0488e18140adaa6027d467ef5d7dcc71" title=" " alt="" coords="24,123,192,164"/>
+<area shape="rect" id="node5" href="$classIndigo_1_1Datasource_1_1scanlinks.html#a0b175571586483f1ec5c1804fcfa8105" title=" " alt="" coords="5,188,211,229"/>
+<area shape="rect" id="node6" href="$classIndigo_1_1Datasource_1_1textfile.html#a650a4e3a582d22822ee99f7de5c6c358" title=" " alt="" coords="13,253,203,295"/>
+<area shape="rect" id="node7" href="$classIndigo_1_1Datasource_1_1rss.html#ad21a26a3d6304325903cb61aa2f9b154" title=" " alt="" coords="27,319,189,360"/>
+<area shape="rect" id="node8" href="$classidg__object.html#a435f7d43bd2b82d47e4a2b84a7fb4b68" title="Performs a basic consistency check." alt="" coords="39,385,177,411"/>
+<area shape="rect" id="node9" href="$classidg__treenode.html#a617cb2062aee5fdcd2b093ccaa47672e" title="Adds a child to the node." alt="" coords="21,435,195,462"/>
+<area shape="rect" id="node10" href="$classidg__object.html#a9cad019ba9b2604ec90e392d6e331bf7" title="Executes a function which can be global or a a member of this object, if $function_name starts with $..." alt="" coords="36,486,180,513"/>
+<area shape="rect" id="node11" href="$classidg__site__element.html#a06514b8d84f5ba62cf4e821884752c65" title=" " alt="" coords="13,537,203,563"/>
+<area shape="rect" id="node12" href="$classidg__object.html#abee1247181aa19887ed6c77452db9d89" title="Sets properties based on the key/value pairs in an array." alt="" coords="15,587,201,614"/>
+</map>

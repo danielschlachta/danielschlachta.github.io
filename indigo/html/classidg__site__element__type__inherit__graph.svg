@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="Type class for idg_site_element">
+<g id="a_node1"><a xlink:title="Type information for idg_site_element.">
 <polygon fill="#bfbfbf" stroke="black" points="113.5,-56.5 113.5,-75.5 241.5,-75.5 241.5,-56.5 113.5,-56.5"/>
 <text text-anchor="middle" x="177.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">idg_site_element_type</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="classidg__document__type.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classidg__document__type.html" target="_top" xlink:title="Type information for idg_document.">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 113,-19.5 113,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="56.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">idg_document_type</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classidg__folder__type.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classidg__folder__type.html" target="_top" xlink:title="Type information for idg_folder.">
 <polygon fill="white" stroke="black" points="131.5,-0.5 131.5,-19.5 223.5,-19.5 223.5,-0.5 131.5,-0.5"/>
 <text text-anchor="middle" x="177.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">idg_folder_type</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="classidg__site__type.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classidg__site__type.html" target="_top" xlink:title="Type information for idg_site.">
 <polygon fill="white" stroke="black" points="241.5,-0.5 241.5,-19.5 323.5,-19.5 323.5,-0.5 241.5,-0.5"/>
 <text text-anchor="middle" x="282.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">idg_site_type</text>
 </a>
@@ -66,9 +66,9 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classidg__tree__node__type.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="121,-112.5 121,-131.5 234,-131.5 234,-112.5 121,-112.5"/>
-<text text-anchor="middle" x="177.5" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">idg_tree_node_type</text>
+<g id="a_node2"><a xlink:href="classidg__treenode__type.html" target="_top" xlink:title="Type information for idg_treenode.">
+<polygon fill="white" stroke="black" points="124,-112.5 124,-131.5 231,-131.5 231,-112.5 124,-112.5"/>
+<text text-anchor="middle" x="177.5" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">idg_treenode_type</text>
 </a>
 </g>
 </g>
@@ -81,9 +81,9 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classidg__object__type.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="130.5,-168.5 130.5,-187.5 224.5,-187.5 224.5,-168.5 130.5,-168.5"/>
-<text text-anchor="middle" x="177.5" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">idg_object_type</text>
+<g id="a_node3"><a xlink:href="classidg__type.html" target="_top" xlink:title="Type information for idg_object.">
+<polygon fill="white" stroke="black" points="148,-168.5 148,-187.5 207,-187.5 207,-168.5 148,-168.5"/>
+<text text-anchor="middle" x="177.5" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">idg_type</text>
 </a>
 </g>
 </g>

@@ -1,0 +1,13 @@
+<map id="idg_parameterized" name="idg_parameterized">
+<area shape="rect" id="node1" title="Interface for entities that accept parameters." alt="" coords="5,107,149,133"/>
+<area shape="rect" id="node2" href="$classidg__attribute.html" title="Base class for idg entities with parameters." alt="" coords="261,31,366,57"/>
+<area shape="rect" id="node3" href="$classidg__datasource.html" title="A data source." alt="" coords="253,81,374,108"/>
+<area shape="rect" id="node4" href="$classidg__datasource__implementation.html" title="An object instance of a data source." alt="" coords="197,132,429,159"/>
+<area shape="rect" id="node11" href="$classidg__fragment.html" title="A fragment produces output, has access to attributes and can also have a data source." alt="" coords="259,183,368,209"/>
+<area shape="rect" id="node5" href="$classIndigo_1_1Datasource_1_1php.html" title="Executes a php function and returns the resulting array as tokens." alt="" coords="496,5,664,32"/>
+<area shape="rect" id="node6" href="$classIndigo_1_1Datasource_1_1rss.html" title="Retrieves an rss feed and returns the entries as tokens." alt="" coords="499,56,661,83"/>
+<area shape="rect" id="node7" href="$classIndigo_1_1Datasource_1_1scanlinks.html" title="Scans the html&#45;body stream for links and returns them as tokens." alt="" coords="477,107,683,133"/>
+<area shape="rect" id="node8" href="$classIndigo_1_1Datasource_1_1text.html" title="Simply quotes its text (set with set_text or per xml chacter data, respectively)." alt="" coords="495,157,665,184"/>
+<area shape="rect" id="node9" href="$classIndigo_1_1Datasource_1_1textfile.html" title="Returns the content of a (normally text) file." alt="" coords="485,208,675,235"/>
+<area shape="rect" id="node10" href="$classIndigo_1_1Module_1_1Sourcefile_1_1datasource.html" title=" " alt="" coords="489,259,671,301"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Indigo\Fragment\image\_render" name="Indigo\Fragment\image\_render">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,179,145"/>
+<area shape="rect" id="node2" href="$classidg__object__implementation.html#aa4f7cdab064551936664e98dad737285" title="Returns the idg_id of the object, as it was set in the parent." alt="" coords="237,5,437,47"/>
+<area shape="rect" id="node3" href="$classidg__fragment__implementation.html#abc699728edbb99dc6c12dd327742c155" title="Returns a parameter with the given name and scope, obtained from the parent." alt="" coords="227,71,447,112"/>
+<area shape="rect" id="node4" href="$classidg__object__implementation.html#a6a21a88b0ee0cc804533de1d7604974d" title="Returns the property with the given name of the object, as set in the parent." alt="" coords="237,136,437,177"/>
+<area shape="rect" id="node5" href="$classidg__view.html#ad55847cece039cda45daac1c6c4b3c2c" title="Write some content to a stream." alt="" coords="244,202,429,229"/>
+</map>

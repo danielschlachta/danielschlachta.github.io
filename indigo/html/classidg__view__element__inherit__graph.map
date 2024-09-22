@@ -1,0 +1,10 @@
+<map id="idg_view_element" name="idg_view_element">
+<area shape="rect" id="node1" title="The parent class for idg_view and every sibling thereof." alt="" coords="182,229,323,256"/>
+<area shape="rect" id="node5" href="$classidg__container.html" title="A container can contain containers as well as other elements." alt="" coords="5,304,116,331"/>
+<area shape="rect" id="node6" href="$classidg__fragment.html" title="A fragment produces output, has access to attributes and can also have a data source." alt="" coords="141,304,250,331"/>
+<area shape="rect" id="node7" href="$classidg__slot.html" title="A slot is where the output produced by a renderer has its place inside the view." alt="" coords="275,304,348,331"/>
+<area shape="rect" id="node8" href="$classidg__view.html" title="A view." alt="" coords="373,304,453,331"/>
+<area shape="rect" id="node2" href="$classidg__treenode.html" title="Base class for all tree nodes which are not leaf nodes." alt="" coords="199,155,306,181"/>
+<area shape="rect" id="node3" href="$classidg__leafnode.html" title="Base class for objects organized in a tree structure." alt="" coords="199,80,306,107"/>
+<area shape="rect" id="node4" href="$classidg__object.html" title="Base class for all objects." alt="" coords="208,5,297,32"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="idg_view_element_type" name="idg_view_element_type">
+<area shape="rect" id="node1" title="Type information for idg_view_element." alt="" coords="237,155,414,181"/>
+<area shape="rect" id="node4" href="$classidg__container__type.html" title="Type information for idg_container." alt="" coords="5,229,152,256"/>
+<area shape="rect" id="node5" href="$classidg__fragment__type.html" title="Type information for idg_fragment." alt="" coords="177,229,322,256"/>
+<area shape="rect" id="node6" href="$classidg__slot__type.html" title="Type information for idg_slot." alt="" coords="347,229,456,256"/>
+<area shape="rect" id="node7" href="$classidg__view__type.html" title="Type information for idg_view." alt="" coords="481,229,597,256"/>
+<area shape="rect" id="node2" href="$classidg__treenode__type.html" title="Type information for idg_treenode." alt="" coords="254,80,397,107"/>
+<area shape="rect" id="node3" href="$classidg__type.html" title="Type information for idg_object." alt="" coords="286,5,365,32"/>
+</map>
