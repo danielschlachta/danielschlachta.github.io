@@ -1,8 +1,0 @@
-<map id="idg_parameterized_implementation" name="idg_parameterized_implementation">
-<area shape="rect" id="node1" title="Base class for idg entities with parameters." alt="" coords="116,5,371,32"/>
-<area shape="rect" id="node2" href="$classidg__attribute.html" title=" " alt="" coords="123,80,228,107"/>
-<area shape="rect" id="node3" href="$classidg__datasource.html" title="The source of all data." alt="" coords="252,80,373,107"/>
-<area shape="rect" id="node4" href="$classidg__datasource__phpscript.html" title=" " alt="" coords="5,155,193,181"/>
-<area shape="rect" id="node5" href="$classidg__datasource__sourcefile.html" title=" " alt="" coords="217,155,408,181"/>
-<area shape="rect" id="node6" href="$classidg__datasource__textfile.html" title="Returns the content of a (normally text) file." alt="" coords="432,155,607,181"/>
-</map>

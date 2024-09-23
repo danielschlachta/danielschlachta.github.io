@@ -1,4 +1,0 @@
-<map id="idg_tree_node_instance\get_parent" name="idg_tree_node_instance\get_parent">
-<area shape="rect" id="node1" title="Returns the immediate parent, or if $class_name is given, the nearest ancestor of that class,..." alt="" coords="241,5,417,47"/>
-<area shape="rect" id="node2" href="$classidg__attribute.html#a28c5f49e21bfda8c1bb19be99cd1a6cf" title="Causes the attribute to inherit all instances in and above a given tree node." alt="" coords="5,13,193,39"/>
-</map>

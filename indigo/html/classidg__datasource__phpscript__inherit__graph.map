@@ -1,5 +1,0 @@
-<map id="idg_datasource_phpscript" name="idg_datasource_phpscript">
-<area shape="rect" id="node1" title=" " alt="" coords="5,155,193,181"/>
-<area shape="rect" id="node2" href="$classidg__datasource__instance.html" title="The source of all data." alt="" coords="8,80,191,107"/>
-<area shape="rect" id="node3" href="$classidg__param__instance.html" title="Base class for idg entities with parameters." alt="" coords="23,5,176,32"/>
-</map>

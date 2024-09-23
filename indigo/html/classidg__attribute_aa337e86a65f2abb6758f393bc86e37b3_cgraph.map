@@ -1,8 +1,0 @@
-<map id="idg_attribute\add_options" name="idg_attribute\add_options">
-<area shape="rect" id="node1" title="Causes the attribute to inherit all instances in and above a given tree node." alt="" coords="5,97,193,124"/>
-<area shape="rect" id="node2" href="$diagnostics_8php.html#ab33364bd97c64c5f346adb6581e200b2" title=" " alt="" coords="329,5,379,32"/>
-<area shape="rect" id="node3" href="$classidg__tree__node__implementation.html#a62c406a500a5c0634b9a3602579ddee0" title=" " alt="" coords="241,57,467,98"/>
-<area shape="rect" id="node4" href="$classidg__tree__node__implementation.html#a086f78d580d1ec27d6a83c9364b84f4c" title="Returns the immediate parent, or if $class_name is given, the nearest ancestor of that class,..." alt="" coords="241,122,467,163"/>
-<area shape="rect" id="node5" href="$classidg__parameterized__instance.html#a4c866c7eaf7b9f7f697fc7a87829519c" title=" " alt="" coords="251,187,457,229"/>
-<area shape="rect" id="node6" href="$classidg__parameterized__instance.html#a8e68063f7e73a5172ebec29868d8c56d" title=" " alt="" coords="515,187,721,229"/>
-</map>
